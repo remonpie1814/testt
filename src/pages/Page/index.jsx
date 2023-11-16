@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Img, List, Text } from "components";
-import Rowtwentysix from "components/Rowtwentysix";
+import Rowtwentyfive from "components/Rowtwentyfive";
 
 const Page = () => {
   return (
@@ -13,7 +13,7 @@ const Page = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="TwentyThree"
+                alt="TwentyTwo"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -55,8 +55,8 @@ const Page = () => {
             orientation="vertical"
           >
             {new Array(4).fill({}).map((props, index) => (
-              <React.Fragment key={`Rowtwentysix${index}`}>
-                <Rowtwentysix
+              <React.Fragment key={`Rowtwentyfive${index}`}>
+                <Rowtwentyfive
                   className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-center w-[576px] sm:w-full"
                   {...props}
                 />

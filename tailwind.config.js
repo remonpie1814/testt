@@ -9,16 +9,23 @@ module.exports = {
     screens: { md: { max: "1050px" }, sm: { max: "550px" } },
     extend: {
       colors: {
+        blue_gray: {
+          50: "#f1f1f2",
+          100: "#d9d9d9",
+          400: "#8e8e8e",
+          "50_01": "#eff1f4",
+        },
         gray: {
+          100: "#f5f5f5",
           300: "#e6e6e6",
           400: "#b3b3b3",
           600: "#757575",
           900: "#1e1e1e",
           "600_01": "#7e7d7d",
-          "400_01": "#c0bfbf",
-          "400_02": "#c0c0c0",
+          "400_01": "#bbb4bf",
+          "400_02": "#c0bfbf",
+          "400_03": "#c0c0c0",
         },
-        blue_gray: { 100: "#d9d9d9", 400: "#8e8e8e" },
         red: { A100: "#ff8c8c" },
         light_blue: { 50: "#d1ebff" },
         orange: { 50: "#fff6d6", 400: "#ffa629" },

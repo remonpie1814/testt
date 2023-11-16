@@ -12,7 +12,7 @@ const Page2 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="FortyEight"
+                alt="FortySeven"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -70,14 +70,14 @@ const Page2 = () => {
               <Img
                 className="h-[222px] w-[205px]"
                 src="images/img__blue_gray_100_222x205.svg"
-                alt="FiftyOne"
+                alt="Fifty"
               />
               <div className="flex flex-col items-center justify-start w-auto sm:w-full">
                 <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24"
+                      size="txtInterMedium24Gray900_1"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -89,14 +89,14 @@ const Page2 = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="FiftyThree"
+                      alt="FiftyTwo"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -104,24 +104,24 @@ const Page2 = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
+                        alt="FiftyThree"
+                      />
+                      <Text
+                        className="text-base text-gray-900 tracking-[-0.18px] w-auto"
+                        size="txtInterMedium16Gray900_1"
+                      >
+                        5
+                      </Text>
+                    </div>
+                    <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
+                      <Img
+                        className="h-6 md:h-auto object-cover w-[25px]"
+                        src="images/img__2.png"
                         alt="FiftyFour"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
-                      >
-                        5
-                      </Text>
-                    </div>
-                    <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
-                      <Img
-                        className="h-6 md:h-auto object-cover w-[25px]"
-                        src="images/img__2.png"
-                        alt="FiftyFive"
-                      />
-                      <Text
-                        className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
+                        size="txtInterMedium16Gray900_1"
                       >
                         5
                       </Text>
@@ -130,7 +130,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       유미엄마
                     </Text>
@@ -138,7 +138,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       2023. 10. 08
                     </Text>
@@ -150,14 +150,14 @@ const Page2 = () => {
               <Img
                 className="h-[222px] w-[205px]"
                 src="images/img__blue_gray_100_222x205.svg"
-                alt="FiftySeven"
+                alt="FiftySix"
               />
               <div className="flex flex-col items-center justify-start w-auto sm:w-full">
                 <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24"
+                      size="txtInterMedium24Gray900_1"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -169,14 +169,14 @@ const Page2 = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="FiftyNine"
+                      alt="FiftyEight"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -184,24 +184,24 @@ const Page2 = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
+                        alt="FiftyNine"
+                      />
+                      <Text
+                        className="text-base text-gray-900 tracking-[-0.18px] w-auto"
+                        size="txtInterMedium16Gray900_1"
+                      >
+                        5
+                      </Text>
+                    </div>
+                    <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
+                      <Img
+                        className="h-6 md:h-auto object-cover w-[25px]"
+                        src="images/img__2.png"
                         alt="Sixty"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
-                      >
-                        5
-                      </Text>
-                    </div>
-                    <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
-                      <Img
-                        className="h-6 md:h-auto object-cover w-[25px]"
-                        src="images/img__2.png"
-                        alt="SixtyOne"
-                      />
-                      <Text
-                        className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
+                        size="txtInterMedium16Gray900_1"
                       >
                         5
                       </Text>
@@ -210,7 +210,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       유미엄마
                     </Text>
@@ -218,7 +218,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       2023. 10. 08
                     </Text>
@@ -230,14 +230,14 @@ const Page2 = () => {
               <Img
                 className="h-[222px] w-[205px]"
                 src="images/img__blue_gray_100_222x205.svg"
-                alt="SixtyThree"
+                alt="SixtyTwo"
               />
               <div className="flex flex-col items-center justify-start w-auto sm:w-full">
                 <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24"
+                      size="txtInterMedium24Gray900_1"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -249,14 +249,14 @@ const Page2 = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="SixtyFive"
+                      alt="SixtyFour"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -264,11 +264,11 @@ const Page2 = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
-                        alt="SixtySix"
+                        alt="SixtyFive"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
+                        size="txtInterMedium16Gray900_1"
                       >
                         5
                       </Text>
@@ -277,11 +277,11 @@ const Page2 = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__2.png"
-                        alt="SixtySeven"
+                        alt="SixtySix"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900"
+                        size="txtInterMedium16Gray900_1"
                       >
                         5
                       </Text>
@@ -290,7 +290,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       유미엄마
                     </Text>
@@ -298,7 +298,7 @@ const Page2 = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       2023. 10. 08
                     </Text>

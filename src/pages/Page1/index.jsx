@@ -1,19 +1,19 @@
 import React from "react";
 
 import { Button, Img, Text } from "components";
-import FrameTwoColumnbell111 from "components/FrameTwoColumnbell111";
+import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page1 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter gap-8 items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoColumnbell111 className="bg-yellow-200 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <div className="flex flex-col gap-[35px] h-[992px] md:h-auto items-center justify-start max-w-[720px] md:px-5 w-full">
           <div className="flex flex-row gap-2 items-center justify-between max-w-[720px] w-full">
             <Img
               className="h-[120px] md:h-auto object-cover w-[120px]"
               src="images/img__120x120.png"
-              alt="FortyOne"
+              alt="Forty"
             />
             <Text
               className="text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-auto"
@@ -64,7 +64,7 @@ const Page1 = () => {
             <div className="absolute flex flex-col h-max inset-[0] items-start justify-center m-auto md:pr-10 pr-11 sm:pr-5 py-11">
               <Text
                 className="text-2xl md:text-[22px] text-black-900 text-center sm:text-xl tracking-[-0.46px]"
-                size="txtInterMedium24Black900"
+                size="txtInterMedium24"
               >
                 자기소개
               </Text>
@@ -80,7 +80,7 @@ const Page1 = () => {
             <div className="flex flex-row gap-[18px] items-start justify-between w-auto">
               <Text
                 className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16"
+                size="txtInterMedium16Gray900"
               >
                 전체 보기
               </Text>

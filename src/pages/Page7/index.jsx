@@ -12,7 +12,7 @@ const Page7 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredSixtyFive"
+                alt="OneHundredSixtyEight"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -55,7 +55,7 @@ const Page7 = () => {
               <div className="h-[51px] m-auto rounded-[3px] w-full"></div>
               <Text
                 className="absolute h-max inset-[0] m-auto text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-max"
-                size="txtInterMedium24"
+                size="txtInterMedium24Gray900_1"
               >
                 비밀번호 재설정 이메일 발송
               </Text>

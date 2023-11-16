@@ -2,11 +2,11 @@ import React from "react";
 
 import { Img, List, Text } from "components";
 
-const FrameTwoListthirteen = (props) => {
+const FrameTwoListtwelve = (props) => {
   return (
     <>
       <List className={props.className} orientation="horizontal">
-        <div className="flex sm:flex-col flex-row sm:gap-10 h-[200px] md:h-auto items-start justify-between w-full">
+        <div className="flex flex-1 sm:flex-col flex-row sm:gap-10 h-[200px] md:h-auto items-start justify-between w-full">
           <div className="border border-black-900 border-solid flex sm:flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-[27%] sm:w-full">
             <Img
               className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
@@ -29,7 +29,7 @@ const FrameTwoListthirteen = (props) => {
             />
           </div>
         </div>
-        <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between w-full">
+        <div className="flex flex-1 sm:flex-col flex-row sm:gap-10 items-start justify-between w-full">
           <div className="border border-black-900 border-solid flex sm:flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-[27%] sm:w-full">
             <Img
               className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
@@ -54,7 +54,7 @@ const FrameTwoListthirteen = (props) => {
               className="absolute h-max inset-y-[0] my-auto right-[0] text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.46px] w-auto"
               size="txtInterMedium24WhiteA700"
             >
-              {props?.thirteen}
+              {props?.twelve}
             </Text>
           </div>
         </div>
@@ -63,6 +63,6 @@ const FrameTwoListthirteen = (props) => {
   );
 };
 
-FrameTwoListthirteen.defaultProps = { thirteen: <>&gt;</> };
+FrameTwoListtwelve.defaultProps = { twelve: <>&gt;</> };
 
-export default FrameTwoListthirteen;
+export default FrameTwoListtwelve;
