@@ -35,6 +35,21 @@ const Home = () => {
           <Link to="/page6">Page6</Link>
         </li>
         <li>
+          <Link to="/page7">Page7</Link>
+        </li>
+        <li>
+          <Link to="/page8">Page8</Link>
+        </li>
+        <li>
+          <Link to="/page9">Page9</Link>
+        </li>
+        <li>
+          <Link to="/page10">Page10</Link>
+        </li>
+        <li>
+          <Link to="/page11">Page11</Link>
+        </li>
+        <li>
           <Link to="/frameone">FrameOne</Link>
         </li>
       </ul>
