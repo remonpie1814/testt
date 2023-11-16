@@ -1,13 +1,13 @@
 import React from "react";
 
 import { Img, Text } from "components";
-import FrameTwoColumnbell111 from "components/FrameTwoColumnbell111";
+import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page8 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter sm:gap-10 md:gap-10 gap-36 items-center justify-start mx-auto pb-[370px] md:px-10 sm:px-5 px-[370px] shadow-bs w-full">
-        <FrameTwoColumnbell111 className="bg-yellow-200 flex flex-col items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[26px] w-full" />
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[26px] w-full" />
         <div className="flex flex-col gap-[21px] items-center justify-start max-w-[1180px] mb-0.5 mx-auto w-full">
           <div className="flex flex-col items-center justify-start">
             <Text

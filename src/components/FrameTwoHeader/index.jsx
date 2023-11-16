@@ -2,7 +2,7 @@ import React from "react";
 
 import { Img } from "components";
 
-const FrameTwoColumnbell111 = (props) => {
+const FrameTwoHeader = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -37,6 +37,6 @@ const FrameTwoColumnbell111 = (props) => {
   );
 };
 
-FrameTwoColumnbell111.defaultProps = {};
+FrameTwoHeader.defaultProps = {};
 
-export default FrameTwoColumnbell111;
+export default FrameTwoHeader;

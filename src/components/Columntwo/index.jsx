@@ -13,27 +13,27 @@ const Columntwo = (props) => {
             alt="Two"
           />
           <Text
-            className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px] w-auto"
-            size="txtInterBold24"
+            className="text-gray-900 text-xl tracking-[-0.38px] w-auto"
+            size="txtInterBold20"
           >
             {props?.treatment}
           </Text>
         </div>
         <Text
-          className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px] w-full"
-          size="txtInterMedium24"
+          className="text-gray-900 text-xl tracking-[-0.38px] w-full"
+          size="txtInterMedium20"
         >
           {props?.comment}
         </Text>
         <Text
-          className="text-base text-gray-400 tracking-[-0.18px] w-full"
-          size="txtInterMedium16Gray400"
+          className="text-gray-400 text-sm tracking-[-0.15px] w-full"
+          size="txtInterMedium14Gray400"
         >
           {props?.date}
         </Text>
         <Text
           className="text-base text-gray-900 tracking-[-0.18px] w-full"
-          size="txtInterMedium16Gray900"
+          size="txtInterMedium16Gray900_1"
         >
           {props?.reply}
         </Text>

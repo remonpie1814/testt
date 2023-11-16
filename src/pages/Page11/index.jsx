@@ -12,7 +12,7 @@ const Page11 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredEightyFive"
+                alt="OneHundredEightyEight"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -47,7 +47,7 @@ const Page11 = () => {
           </Text>
           <Text
             className="leading-[150.00%] max-w-[287px] md:max-w-full text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px]"
-            size="txtInterMedium24"
+            size="txtInterMedium24Gray900_1"
           >
             이메일로 전송된 링크를 클릭하신 후에 가입한 이메일로 로그인하실 수
             있습니다.
@@ -56,7 +56,7 @@ const Page11 = () => {
             <div className="h-[49px] m-auto rounded-[3px] w-full"></div>
             <Text
               className="absolute h-max inset-y-[0] my-auto right-[30%] text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-[134px]"
-              size="txtInterMedium24"
+              size="txtInterMedium24Gray900_1"
             >
               둘러보러 가기
             </Text>

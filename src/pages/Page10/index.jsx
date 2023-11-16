@@ -12,7 +12,7 @@ const Page10 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredSeventyEight"
+                alt="OneHundredEightyOne"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -73,7 +73,7 @@ const Page10 = () => {
               <div className="h-[59px] m-auto rounded-md w-full"></div>
               <Text
                 className="absolute h-max inset-y-[0] left-[6%] my-auto text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px]"
-                size="txtInterMedium24"
+                size="txtInterMedium24Gray900_1"
               >
                 닉네임(12자)
               </Text>
@@ -83,7 +83,7 @@ const Page10 = () => {
               <div className="absolute flex flex-row h-max inset-[0] items-center justify-between m-auto w-[88%]">
                 <Text
                   className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px]"
-                  size="txtInterMedium24"
+                  size="txtInterMedium24Gray900_1"
                 >
                   개인정보 이용동의
                 </Text>
@@ -94,7 +94,7 @@ const Page10 = () => {
               <div className="h-[51px] m-auto rounded-[3px] w-full"></div>
               <Text
                 className="absolute bottom-[18%] inset-x-[0] mx-auto text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-max"
-                size="txtInterMedium24"
+                size="txtInterMedium24Gray900_1"
               >
                 회원가입
               </Text>

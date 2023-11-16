@@ -12,7 +12,7 @@ const Page3 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="SeventyOne"
+                alt="Seventy"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -39,7 +39,7 @@ const Page3 = () => {
             <Img
               className="h-[150px] md:h-auto object-cover w-[21%]"
               src="images/img__150x144.png"
-              alt="SeventyTwo"
+              alt="SeventyOne"
             />
           </div>
           <div className="flex flex-col items-center justify-start px-2.5 w-full">
@@ -48,7 +48,7 @@ const Page3 = () => {
                 <div className="bg-deep_orange-100 h-[45px] m-auto w-3/4"></div>
                 <Text
                   className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 text-center tracking-[-0.18px] w-max"
-                  size="txtInterMedium16Black900"
+                  size="txtInterMedium16"
                 >
                   사진 올리기
                 </Text>
@@ -57,7 +57,7 @@ const Page3 = () => {
                 <div className="bg-deep_orange-100 h-[45px] m-auto w-3/4"></div>
                 <Text
                   className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 text-center tracking-[-0.18px] w-max"
-                  size="txtInterMedium16Black900"
+                  size="txtInterMedium16"
                 >
                   이미지 선택
                 </Text>

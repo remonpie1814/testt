@@ -1,7 +1,8 @@
 import React from "react";
 
 import { Button, Img, List, Text } from "components";
-import Rowonehundredten from "components/Rowonehundredten";
+import Column1 from "components/Column1";
+import Rowonehundredthirteen from "components/Rowonehundredthirteen";
 
 const Page5 = () => {
   return (
@@ -13,7 +14,7 @@ const Page5 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredSix"
+                alt="OneHundredEight"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -36,43 +37,35 @@ const Page5 = () => {
           </div>
         </div>
         <div className="flex flex-col gap-[45px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
-          <div className="flex md:flex-col flex-row gap-8 items-start justify-center w-full">
-            <div className="flex flex-1 flex-col gap-8 items-start justify-center max-w-[1000px] w-full">
-              <div className="flex flex-col items-center justify-start w-auto">
+          <Column1 className="flex flex-col gap-8 items-center justify-start w-full" />
+          <div className="flex flex-col gap-8 items-start justify-center w-full">
+            <div className="flex flex-col items-center justify-start w-auto">
+              <Text
+                className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px] w-[244px]"
+                size="txtInterMedium24Gray900"
+              >
+                ‘호랑이’에 대한 검색 결과
+              </Text>
+            </div>
+            <div className="flex flex-row gap-8 items-start justify-center w-auto">
+              <div className="h-[31px] relative w-[38%]">
+                <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
                 <Text
-                  className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px] w-[244px]"
-                  size="txtInterMedium24Gray900"
+                  className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
+                  size="txtInterMedium16WhiteA700"
                 >
-                  ‘호랑이’에 대한 검색 결과
+                  그림만 X
                 </Text>
               </div>
-              <div className="flex flex-row gap-8 items-start justify-center w-auto">
-                <div className="h-[31px] relative w-[38%]">
-                  <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
-                  <Text
-                    className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
-                    size="txtInterMedium16WhiteA700"
-                  >
-                    그림만 X
-                  </Text>
-                </div>
-                <div className="h-[31px] relative w-[46%]">
-                  <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
-                  <Text
-                    className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
-                    size="txtInterMedium16WhiteA700"
-                  >
-                    전체공개 X
-                  </Text>
-                </div>
+              <div className="h-[31px] relative w-[46%]">
+                <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
+                <Text
+                  className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
+                  size="txtInterMedium16WhiteA700"
+                >
+                  전체공개 X
+                </Text>
               </div>
-            </div>
-            <div className="flex flex-col items-center justify-end w-auto">
-              <Img
-                className="h-[33px] md:h-auto object-cover w-[35px]"
-                src="images/img_image914.png"
-                alt="image925"
-              />
             </div>
           </div>
           <div className="flex flex-col items-end justify-start md:pl-10 sm:pl-5 pl-[1013px] w-full">
@@ -110,26 +103,26 @@ const Page5 = () => {
             <div className="flex flex-col items-start justify-between w-full">
               <div className="flex flex-col gap-1.5 items-start justify-start w-full">
                 <List
-                  className="sm:flex-col flex-row gap-5 grid md:grid-cols-1 grid-cols-2 justify-center w-full"
+                  className="sm:flex-col flex-row md:gap-10 gap-20 grid md:grid-cols-1 grid-cols-2 justify-center w-full"
                   orientation="horizontal"
                 >
-                  <Rowonehundredten className="flex sm:flex-1 sm:flex-col flex-row gap-[15px] items-start justify-between sm:ml-[0] w-[580px] sm:w-full" />
-                  <Rowonehundredten
-                    className="flex sm:flex-1 sm:flex-col flex-row gap-[15px] items-start justify-between sm:ml-[0] w-[580px] sm:w-full"
-                    title="제목3333"
-                    author="유미쓰"
-                    points="12p"
-                    text1="4"
-                    text2="10"
-                    date="2023. 10. 21"
+                  <Rowonehundredthirteen className="flex sm:flex-1 sm:flex-col flex-row gap-2.5 items-start justify-start sm:ml-[0] w-[550px] sm:w-full" />
+                  <Rowonehundredthirteen
+                    className="flex sm:flex-1 sm:flex-col flex-row gap-2.5 items-start justify-start sm:ml-[0] w-[550px] sm:w-full"
+                    posttitle="제목3333"
+                    authorname="유미쓰"
+                    postpoints="12p"
+                    postimage1points="4"
+                    postimage2points="10"
+                    postdate="2023. 10. 21"
                   />
                 </List>
-                <Rowonehundredten
-                  className="flex sm:flex-col flex-row gap-[15px] items-start justify-between w-[580px] sm:w-full"
-                  title="제목324"
-                  author="f"
-                  points="12030123p"
-                  text1="6"
+                <Rowonehundredthirteen
+                  className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-[550px] sm:w-full"
+                  posttitle="제목324"
+                  authorname="f"
+                  postpoints="12030123p"
+                  postimage1points="6"
                 />
               </div>
             </div>

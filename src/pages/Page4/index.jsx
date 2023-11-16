@@ -2,6 +2,7 @@ import React from "react";
 
 import { Img, Line, List, Text } from "components";
 import Columntwo from "components/Columntwo";
+import FrameTwoColumnlanguage from "components/FrameTwoColumnlanguage";
 
 const Page4 = () => {
   return (
@@ -13,7 +14,7 @@ const Page4 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="Eighty"
+                alt="SeventyNine"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -35,7 +36,8 @@ const Page4 = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-5 items-center justify-start max-w-[720px] md:px-5 py-5 w-full">
+        <FrameTwoColumnlanguage className="flex flex-col items-center justify-start max-w-[1180px] mx-auto p-2 md:px-5 w-full" />
+        <div className="flex flex-col gap-5 h-[1554px] md:h-auto items-center justify-start max-w-[720px] md:px-5 py-5 w-full">
           <div className="flex flex-col items-center justify-start w-full">
             <div className="flex md:flex-col flex-row gap-[17px] items-center justify-start sm:pr-5 pr-[38px] w-full">
               <div className="h-[248px] relative w-[29%] md:w-full">
@@ -61,7 +63,7 @@ const Page4 = () => {
                                       className="absolute bg-cover bg-no-repeat flex flex-row h-max inset-y-[0] items-end justify-center left-[31%] my-auto pb-0.5 px-0.5 w-1/4"
                                       style={{
                                         backgroundImage:
-                                          "url('images/img_group128.svg')",
+                                          "url('images/img_group185.svg')",
                                       }}
                                     >
                                       <div className="flex flex-col ml-3 relative w-[41%]">
@@ -141,7 +143,7 @@ const Page4 = () => {
                                 className="absolute bg-cover bg-no-repeat flex flex-col h-[11px] items-end justify-start p-[3px] right-[35%] top-[39%] w-[10%]"
                                 style={{
                                   backgroundImage:
-                                    "url('images/img_group130.svg')",
+                                    "url('images/img_group187.svg')",
                                 }}
                               >
                                 <Img
@@ -165,7 +167,7 @@ const Page4 = () => {
                               className="absolute bg-cover bg-no-repeat bottom-[29%] flex flex-col h-[13px] items-start justify-start left-[9%] p-0.5 w-[11%]"
                               style={{
                                 backgroundImage:
-                                  "url('images/img_group129.svg')",
+                                  "url('images/img_group186.svg')",
                               }}
                             >
                               <Img
@@ -310,7 +312,7 @@ const Page4 = () => {
                 <Line className="absolute bg-gray-900 h-[29px] left-[16%] top-[37%] w-[3px]" />
                 <div
                   className="absolute bg-cover bg-no-repeat flex flex-col h-16 items-start justify-start left-[12%] p-[7px] top-1/4 w-[26%]"
-                  style={{ backgroundImage: "url('images/img_group127.svg')" }}
+                  style={{ backgroundImage: "url('images/img_group184.svg')" }}
                 >
                   <Img
                     className="h-[25px] my-[11px]"
@@ -370,7 +372,7 @@ const Page4 = () => {
                     />
                     <Text
                       className="text-base text-center text-gray-900 tracking-[-0.18px]"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       20
                     </Text>
@@ -383,7 +385,7 @@ const Page4 = () => {
                     />
                     <Text
                       className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       1
                     </Text>
@@ -410,7 +412,7 @@ const Page4 = () => {
           <div className="flex flex-col gap-5 items-center justify-start w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.30px] w-full"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16Gray900_1"
             >
               이 동화를 녹음한 사람
             </Text>
@@ -423,7 +425,7 @@ const Page4 = () => {
                 />
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Gray900"
                 >
                   초록이
                 </Text>
@@ -436,7 +438,7 @@ const Page4 = () => {
                 />
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Gray900"
                 >
                   스파르탄
                 </Text>
@@ -455,7 +457,7 @@ const Page4 = () => {
                 </div>
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Gray900"
                 >
                   멈뭄미
                 </Text>
@@ -472,7 +474,7 @@ const Page4 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -485,7 +487,7 @@ const Page4 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -501,11 +503,11 @@ const Page4 = () => {
                     <Img
                       className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                       src="images/img__49x40.png"
-                      alt="NinetyOne"
+                      alt="NinetyThree"
                     />
                     <Text
                       className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       <span className="text-gray-900 font-inter font-medium">
                         <>
@@ -523,11 +525,11 @@ const Page4 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__3.png"
-                    alt="NinetyTwo"
+                    alt="NinetyFour"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -548,11 +550,11 @@ const Page4 = () => {
                     <Img
                       className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                       src="images/img__4.png"
-                      alt="NinetyThree"
+                      alt="NinetyFive"
                     />
                     <Text
                       className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       <span className="text-gray-900 font-inter font-medium">
                         <>
@@ -569,11 +571,11 @@ const Page4 = () => {
                     <Img
                       className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                       src="images/img__5.png"
-                      alt="NinetyFour"
+                      alt="NinetySix"
                     />
                     <Text
                       className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                      size="txtInterMedium16"
+                      size="txtInterMedium16Gray900"
                     >
                       <span className="text-gray-900 font-inter font-medium">
                         <>
@@ -616,7 +618,7 @@ const Page4 = () => {
               <div className="flex flex-col items-start justify-start pr-0.5 py-0.5">
                 <Text
                   className="mb-[85px] text-base text-black-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Black900_1"
+                  size="txtInterMedium16Black900"
                 >
                   댓글입력
                 </Text>
@@ -626,17 +628,17 @@ const Page4 = () => {
               <div className="bg-light_blue-50 h-[135px] m-auto w-4/5"></div>
               <Text
                 className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 tracking-[-0.18px] w-max"
-                size="txtInterMedium16Black900_1"
+                size="txtInterMedium16Black900"
               >
                 등록
               </Text>
             </div>
           </div>
-          <div className="h-[100px] md:h-[75px] py-3 relative w-full">
-            <div className="bg-light_blue-50 h-[75px] m-auto w-full"></div>
+          <div className="flex h-20 md:h-[67px] justify-end pt-[13px] relative w-full">
+            <div className="bg-light_blue-50 h-[67px] mt-auto mx-auto w-full"></div>
             <Text
-              className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 text-center tracking-[-0.18px] w-max"
-              size="txtInterMedium16Black900_1"
+              className="absolute bottom-[24%] inset-x-[0] mx-auto text-base text-black-900 text-center tracking-[-0.18px] w-max"
+              size="txtInterMedium16Black900"
             >
               맨 위로
             </Text>

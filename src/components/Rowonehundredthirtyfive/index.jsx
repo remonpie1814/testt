@@ -2,28 +2,28 @@ import React from "react";
 
 import { Button, Img, Text } from "components";
 
-const Rowonehundredthirtytwo = (props) => {
+const Rowonehundredthirtyfive = (props) => {
   return (
     <>
       <div className={props.className}>
         <Img
-          className="h-[180px] rounded-[30px]"
+          className="h-[180px] rounded-[30px] w-[140px]"
           src="images/img__gray_600.svg"
-          alt="OneHundredThirtyTwo"
+          alt="OneHundredThirtyFive"
         />
-        <div className="flex flex-col gap-0.5 h-[196px] md:h-auto items-start justify-center sm:mt-0 my-[5px] w-auto">
-          <div className="flex flex-col items-center justify-start w-full">
+        <div className="flex flex-col gap-0.5 h-[196px] md:h-auto items-start justify-center w-auto">
+          <div className="flex flex-col items-start justify-center w-[360px]">
             <Text
-              className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px] w-full"
-              size="txtInterMedium24"
+              className="leading-[150.00%] max-w-[360px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px]"
+              size="txtInterMedium22Gray900"
             >
               {props?.username}
             </Text>
           </div>
           <div className="flex flex-row gap-0.5 items-center justify-start w-auto">
             <Text
-              className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16"
+              className="text-gray-900 text-sm w-auto"
+              size="txtInterMedium14Gray900"
             >
               {props?.userpoints}
             </Text>
@@ -40,8 +40,8 @@ const Rowonehundredthirtytwo = (props) => {
               alt="image922"
             />
             <Text
-              className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
+              size="txtInterMedium14Gray900_1"
             >
               {props?.userlevelnumber}
             </Text>
@@ -51,25 +51,25 @@ const Rowonehundredthirtytwo = (props) => {
               alt="image921"
             />
             <Text
-              className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
+              size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumber2}
+              {props?.userlevelnumberplusplus}
             </Text>
           </div>
-          <div className="flex flex-row items-end justify-between w-full">
-            <div className="flex flex-col gap-0.5 items-start justify-start w-auto">
+          <div className="flex flex-row items-start justify-between pl-0.5 w-full">
+            <div className="flex flex-col gap-0.5 items-start justify-start mb-[9px] w-auto">
               <Text
-                className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900"
+                className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
+                size="txtInterMedium14Gray900_1"
               >
-                {props?.usernickname}
+                {props?.usermothername}
               </Text>
               <Text
-                className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16"
+                className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
+                size="txtInterMedium12"
               >
-                {props?.userjoindate}
+                {props?.userdate}
               </Text>
             </div>
             <Button
@@ -88,7 +88,7 @@ const Rowonehundredthirtytwo = (props) => {
   );
 };
 
-Rowonehundredthirtytwo.defaultProps = {
+Rowonehundredthirtyfive.defaultProps = {
   username: (
     <>
       신데렐라는 어려서 부모님을 발로 차<br />
@@ -97,10 +97,10 @@ Rowonehundredthirtytwo.defaultProps = {
   ),
   userpoints: "10p",
   userlevelnumber: "5",
-  userlevelnumber2: "5",
-  usernickname: "유미엄마",
-  userjoindate: "2023. 10. 08",
+  userlevelnumberplusplus: "5",
+  usermothername: "유미엄마",
+  userdate: "2023. 10. 08",
   prop: "삭제",
 };
 
-export default Rowonehundredthirtytwo;
+export default Rowonehundredthirtyfive;
