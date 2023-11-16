@@ -1,21 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const shapes = { round: "rounded-[20px]" };
+const shapes = { round: "rounded-[20px]", square: "rounded-none" };
 const variants = {
-  fill: { deep_orange_100: "bg-deep_orange-100 text-black-900" },
+  fill: {
+    deep_orange_100: "bg-deep_orange-100 text-black-900",
+    blue_gray_100: "bg-blue_gray-100 text-black-900",
+    gray_300: "bg-gray-300",
+  },
 };
-const sizes = { xs: "p-[15px]" };
+const sizes = { xs: "p-1", sm: "p-[11px]", md: "p-[15px]" };
 
 const Button = ({
   children,
   className = "",
   leftIcon,
   rightIcon,
-  shape = "round",
-  size = "xs",
-  variant = "fill",
-  color = "deep_orange_100",
+  shape = "",
+  size = "",
+  variant = "",
+  color = "",
   ...restProps
 }) => {
   return (
@@ -35,10 +39,10 @@ const Button = ({
 Button.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
-  shape: PropTypes.oneOf(["round"]),
-  size: PropTypes.oneOf(["xs"]),
+  shape: PropTypes.oneOf(["round", "square"]),
+  size: PropTypes.oneOf(["xs", "sm", "md"]),
   variant: PropTypes.oneOf(["fill"]),
-  color: PropTypes.oneOf(["deep_orange_100"]),
+  color: PropTypes.oneOf(["deep_orange_100", "blue_gray_100", "gray_300"]),
 };
 
 export { Button };

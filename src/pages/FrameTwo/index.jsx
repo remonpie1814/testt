@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
-import FrameTwoColumnThree from "components/FrameTwoColumnThree";
+import Footer from "components/Footer";
 import FrameTwoColumnbell111 from "components/FrameTwoColumnbell111";
 import FrameTwoListthirteen from "components/FrameTwoListthirteen";
 
@@ -9,7 +9,7 @@ const FrameTwoPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoColumnbell111 className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <FrameTwoColumnbell111 className="bg-yellow-200 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <div className="flex flex-col items-center justify-start py-5 w-full">
           <div className="flex flex-col items-center justify-start pb-1 px-1 w-full">
             <div className="flex flex-row sm:gap-10 gap-[100px] items-start justify-start md:px-5 px-[30px] w-auto sm:w-full">
@@ -156,7 +156,7 @@ const FrameTwoPage = () => {
           </div>
           <FrameTwoListthirteen className="sm:flex-col flex-row md:gap-10 gap-[60px] grid md:grid-cols-1 grid-cols-2 justify-start max-w-[1180px] w-full" />
         </div>
-        <FrameTwoColumnThree className="flex flex-col items-center justify-start pb-[167px] w-full" />
+        <Footer className="flex items-center justify-center md:px-5 w-full" />
       </div>
     </>
   );
