@@ -1,60 +1,90 @@
 import React from "react";
 
-import { Img, Text } from "components";
+import { CheckBox, Img, Input, Text } from "components";
+import Footer1 from "components/Footer1";
 import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page8 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter sm:gap-10 md:gap-10 gap-36 items-center justify-start mx-auto pb-[370px] md:px-10 sm:px-5 px-[370px] shadow-bs w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[26px] w-full" />
-        <div className="flex flex-col gap-[21px] items-center justify-start max-w-[1180px] mb-0.5 mx-auto w-full">
-          <div className="flex flex-col items-center justify-start">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <div className="flex flex-col gap-5 h-[720px] md:h-auto items-center justify-start md:px-5 py-[120px] w-[720px] md:w-full">
+          <div className="bg-amber-100 flex flex-col gap-[18px] items-center justify-start px-10 sm:px-5 py-[30px] rounded-[20px] w-auto sm:w-full">
             <Text
-              className="md:text-5xl text-[64px] text-black-900"
-              size="txtInterRegular64"
+              className="sm:text-2xl md:text-[26px] text-[28px] text-black-900 text-center w-full"
+              size="txtInterRegular28"
             >
-              소리갈피
+              로그인
             </Text>
-          </div>
-          <div className="md:h-[235px] h-[255px] p-2.5 relative w-[39%] sm:w-full">
-            <div className="bg-orange-50 h-[235px] m-auto rounded-[29px] w-[96%]"></div>
-            <div className="absolute bottom-[9%] flex flex-col gap-5 inset-x-[0] items-end justify-start mx-auto w-[83%]">
-              <Img
-                className="h-[120px]"
-                src="images/img_frame19.svg"
-                alt="frameNineteen"
-              />
-              <div className="flex flex-row gap-[5px] items-center justify-start w-auto">
-                <div className="h-4 rounded-[3px] w-[11%]"></div>
-                <Text
-                  className="text-[15px] text-gray-900 tracking-[-0.17px] w-auto"
-                  size="txtInterMedium15"
-                >
-                  아이디 저장
-                </Text>
-                <div className="h-4 rounded-[3px] w-[11%]"></div>
-                <Text
-                  className="text-[15px] text-gray-900 tracking-[-0.17px] w-auto"
-                  size="txtInterMedium15Gray900"
-                >
-                  자동로그인
-                </Text>
+            <div className="flex flex-col gap-[18px] items-center justify-start w-full">
+              <Input
+                name="input"
+                placeholder="이메일"
+                className="font-medium md:text-xl p-0 placeholder:text-black-900 sm:text-lg text-[22px] text-left tracking-[-0.42px] w-full"
+                wrapClassName="border-[5px] border-gray-300 border-solid w-full"
+                color="white_A700"
+                variant="fill"
+              ></Input>
+              <Input
+                name="input_One"
+                placeholder="비밀번호"
+                className="font-medium md:text-xl p-0 placeholder:text-black-900 sm:text-lg text-[22px] text-left tracking-[-0.42px] w-full"
+                wrapClassName="border-[5px] border-gray-300 border-solid w-full"
+                color="white_A700"
+                variant="fill"
+              ></Input>
+              <div className="flex relative w-[230px]">
+                <div className="h-5 my-auto w-[61%] sm:w-full">
+                  <CheckBox
+                    className="font-medium my-auto text-[15px] text-left tracking-[-0.17px]"
+                    inputClassName="absolute h-5 mr-[5px] outline outline-[2px] outline-gray-300 w-5"
+                    name="TwoHundredFiftySix"
+                    id="TwoHundredFiftySix"
+                    label="아이디 저장"
+                  ></CheckBox>
+                  <CheckBox
+                    className="font-medium my-auto sm:pr-5 text-[15px] text-left tracking-[-0.17px]"
+                    inputClassName="absolute h-5 mr-[5px] outline outline-[2px] outline-gray-300 w-5"
+                    name="TwoHundredFiftySeven"
+                    id="TwoHundredFiftySeven"
+                    label="아이디 저장"
+                  ></CheckBox>
+                </div>
+                <CheckBox
+                  className="font-medium ml-[-20px] my-auto text-[15px] text-left tracking-[-0.17px] z-[1]"
+                  inputClassName="h-5 mr-[5px] outline outline-[2px] outline-gray-300 w-5 z-[1]"
+                  name="TwoHundredFiftyEight"
+                  id="TwoHundredFiftyEight"
+                  label="자동로그인"
+                ></CheckBox>
               </div>
             </div>
           </div>
-          <Img
-            className="h-[50px] sm:h-auto object-cover w-[430px] md:w-full"
-            src="images/img_image55.png"
-            alt="imageFiftyFive"
-          />
-          <Text
-            className="text-[15px] text-gray-900 tracking-[-0.17px] w-auto"
-            size="txtInterMedium15"
-          >
-            비밀번호 찾기 | 회원가입
-          </Text>
+          <div className="flex flex-col items-center justify-start md:px-10 sm:px-5 px-[272px] w-full">
+            <div className="flex flex-row gap-2.5 items-center justify-center w-auto">
+              <Text
+                className="text-[15px] text-center text-gray-900 tracking-[-0.17px] w-auto"
+                size="txtInterMedium15"
+              >
+                비밀번호 찾기
+              </Text>
+              <Text
+                className="text-[15px] text-center text-gray-900 tracking-[-0.17px] w-auto"
+                size="txtInterMedium15"
+              >
+                |
+              </Text>
+              <Text
+                className="text-[15px] text-center text-gray-900 tracking-[-0.17px] w-auto"
+                size="txtInterMedium15"
+              >
+                회원가입
+              </Text>
+            </div>
+          </div>
         </div>
+        <Footer1 className="bg-blue_gray-50 flex gap-2.5 items-center justify-center md:px-5 w-full" />
       </div>
     </>
   );

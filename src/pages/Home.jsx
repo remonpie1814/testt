@@ -14,10 +14,25 @@ const Home = () => {
           <Link to="/">FrameTwo</Link>
         </li>
         <li>
+          <Link to="/follow">Follow</Link>
+        </li>
+        <li>
           <Link to="/page">Page</Link>
         </li>
         <li>
+          <Link to="/profile">Profile</Link>
+        </li>
+        <li>
+          <Link to="/like">Like</Link>
+        </li>
+        <li>
+          <Link to="/profilemod">ProfileMod</Link>
+        </li>
+        <li>
           <Link to="/page1">Page1</Link>
+        </li>
+        <li>
+          <Link to="/sanse">Sanse</Link>
         </li>
         <li>
           <Link to="/page2">Page2</Link>
@@ -35,10 +50,16 @@ const Home = () => {
           <Link to="/page6">Page6</Link>
         </li>
         <li>
+          <Link to="/temporarystorage">TemporaryStorage</Link>
+        </li>
+        <li>
           <Link to="/page7">Page7</Link>
         </li>
         <li>
           <Link to="/page8">Page8</Link>
+        </li>
+        <li>
+          <Link to="/fairytalesetting">FairytaleSetting</Link>
         </li>
         <li>
           <Link to="/page9">Page9</Link>

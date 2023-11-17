@@ -2,14 +2,14 @@ import React from "react";
 
 import { Button, Img, Text } from "components";
 
-const Rowonehundredthirtyfive = (props) => {
+const Rowonehundredeightytwo = (props) => {
   return (
     <>
       <div className={props.className}>
         <Img
           className="h-[180px] rounded-[30px] w-[140px]"
           src="images/img__gray_600.svg"
-          alt="OneHundredThirtyFive"
+          alt="OneHundredEightyTwo"
         />
         <div className="flex flex-col gap-0.5 h-[196px] md:h-auto items-start justify-center w-auto">
           <div className="flex flex-col items-start justify-center w-[360px]">
@@ -43,7 +43,7 @@ const Rowonehundredthirtyfive = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumber}
+              {props?.five}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -54,7 +54,7 @@ const Rowonehundredthirtyfive = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumberplusplus}
+              {props?.fiveOne}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -63,13 +63,13 @@ const Rowonehundredthirtyfive = (props) => {
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.usermothername}
+                {props?.usernickname}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
-                size="txtInterMedium12"
+                size="txtInterMedium12Gray900"
               >
-                {props?.userdate}
+                {props?.userjoindate}
               </Text>
             </div>
             <Button
@@ -88,7 +88,7 @@ const Rowonehundredthirtyfive = (props) => {
   );
 };
 
-Rowonehundredthirtyfive.defaultProps = {
+Rowonehundredeightytwo.defaultProps = {
   username: (
     <>
       신데렐라는 어려서 부모님을 발로 차<br />
@@ -96,11 +96,11 @@ Rowonehundredthirtyfive.defaultProps = {
     </>
   ),
   userpoints: "10p",
-  userlevelnumber: "5",
-  userlevelnumberplusplus: "5",
-  usermothername: "유미엄마",
-  userdate: "2023. 10. 08",
+  five: "5",
+  fiveOne: "5",
+  usernickname: "유미엄마",
+  userjoindate: "2023. 10. 08",
   prop: "삭제",
 };
 
-export default Rowonehundredthirtyfive;
+export default Rowonehundredeightytwo;

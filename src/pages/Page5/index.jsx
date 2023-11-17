@@ -1,41 +1,26 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
+import { Button, Img, Text } from "components";
 import Column1 from "components/Column1";
-import Rowonehundredthirteen from "components/Rowonehundredthirteen";
+import FrameTwoColumnlanguage from "components/FrameTwoColumnlanguage";
+import FrameTwoHeader from "components/FrameTwoHeader";
+import Rowonehundredfiftynine from "components/Rowonehundredfiftynine";
 
 const Page5 = () => {
+  const rowonehundredfiftyninePropList = [
+    {},
+    {},
+    {},
+    {},
+    { username: "호랑이와 토끼가 살았는데 결국 나중에 멸종함" },
+    {},
+  ];
+
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter gap-8 items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <div className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full">
-          <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1180px] mx-auto md:px-5 w-full">
-            <div className="flex flex-col items-center justify-center px-4 w-auto">
-              <Img
-                className="h-[51px] md:h-auto object-cover w-[170px]"
-                src="images/img_.png"
-                alt="OneHundredEight"
-              />
-            </div>
-            <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_bell111.png"
-                alt="bell111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_search111.png"
-                alt="search111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_menu11.png"
-                alt="menuEleven"
-              />
-            </div>
-          </div>
-        </div>
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <FrameTwoColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-[45px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
           <Column1 className="flex flex-col gap-8 items-center justify-start w-full" />
           <div className="flex flex-col gap-8 items-start justify-center w-full">
@@ -101,29 +86,17 @@ const Page5 = () => {
               </div>
             </div>
             <div className="flex flex-col items-start justify-between w-full">
-              <div className="flex flex-col gap-1.5 items-start justify-start w-full">
-                <List
-                  className="sm:flex-col flex-row md:gap-10 gap-20 grid md:grid-cols-1 grid-cols-2 justify-center w-full"
-                  orientation="horizontal"
-                >
-                  <Rowonehundredthirteen className="flex sm:flex-1 sm:flex-col flex-row gap-2.5 items-start justify-start sm:ml-[0] w-[550px] sm:w-full" />
-                  <Rowonehundredthirteen
-                    className="flex sm:flex-1 sm:flex-col flex-row gap-2.5 items-start justify-start sm:ml-[0] w-[550px] sm:w-full"
-                    posttitle="제목3333"
-                    authorname="유미쓰"
-                    postpoints="12p"
-                    postimage1points="4"
-                    postimage2points="10"
-                    postdate="2023. 10. 21"
-                  />
-                </List>
-                <Rowonehundredthirteen
-                  className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-[550px] sm:w-full"
-                  posttitle="제목324"
-                  authorname="f"
-                  postpoints="12030123p"
-                  postimage1points="6"
-                />
+              <div className="flex flex-col items-center justify-start w-full">
+                <div className="gap-20 md:gap-5 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                  {rowonehundredfiftyninePropList.map((props, index) => (
+                    <React.Fragment key={`Rowonehundredfiftynine${index}`}>
+                      <Rowonehundredfiftynine
+                        className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
+                        {...props}
+                      />
+                    </React.Fragment>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

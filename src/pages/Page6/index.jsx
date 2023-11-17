@@ -2,10 +2,10 @@ import React from "react";
 
 import { Button, Img, Line, List, Text } from "components";
 import FrameTwoHeader from "components/FrameTwoHeader";
-import Rowonehundredthirtyfive from "components/Rowonehundredthirtyfive";
+import Rowonehundredeightytwo from "components/Rowonehundredeightytwo";
 
 const Page6 = () => {
-  const rowonehundredthirtyfivePropList = [
+  const rowonehundredeightytwoPropList = [
     {},
     { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
     { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
@@ -16,7 +16,7 @@ const Page6 = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <div className="flex flex-col gap-2.5 items-start justify-start max-w-[1180px] mx-auto md:px-5 py-5 w-full">
+        <div className="flex flex-col gap-2.5 items-start justify-start max-w-[1180px] mx-auto pb-[100px] pt-5 md:px-5 w-full">
           <div className="flex flex-col gap-2.5 items-start justify-start p-2.5 w-full">
             <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-auto sm:w-full">
               <Text
@@ -57,24 +57,24 @@ const Page6 = () => {
               <div className="flex flex-col items-start justify-between w-full">
                 <div className="flex flex-col items-start justify-start w-full">
                   <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                    <Rowonehundredthirtyfive className="bg-white-A700 flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full" />
-                    <Rowonehundredthirtyfive
-                      className="bg-white-A700 flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
+                    <Rowonehundredeightytwo className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full" />
+                    <Rowonehundredeightytwo
+                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
                       username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
                   <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                    <Rowonehundredthirtyfive
-                      className="bg-white-A700 flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
+                    <Rowonehundredeightytwo
+                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
                       username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
-                    <Rowonehundredthirtyfive
-                      className="bg-white-A700 flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
+                    <Rowonehundredeightytwo
+                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
                       username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
-                  <Rowonehundredthirtyfive
-                    className="bg-white-A700 flex sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
+                  <Rowonehundredeightytwo
+                    className="flex sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
                     username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                   />
                 </div>
@@ -94,10 +94,10 @@ const Page6 = () => {
               <div className="flex flex-col items-start justify-between w-full">
                 <div className="flex flex-col items-center justify-start w-full">
                   <div className="gap-20 md:gap-5 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                    {rowonehundredthirtyfivePropList.map((props, index) => (
-                      <React.Fragment key={`Rowonehundredthirtyfive${index}`}>
-                        <Rowonehundredthirtyfive
-                          className="bg-white-A700 flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
+                    {rowonehundredeightytwoPropList.map((props, index) => (
+                      <React.Fragment key={`Rowonehundredeightytwo${index}`}>
+                        <Rowonehundredeightytwo
+                          className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
                           {...props}
                         />
                       </React.Fragment>
@@ -154,7 +154,7 @@ const Page6 = () => {
               <Img
                 className="h-[92px] w-full"
                 src="images/img__blue_gray_100.svg"
-                alt="OneHundredSixtySeven"
+                alt="TwoHundredFourteen"
               />
             </div>
           </div>

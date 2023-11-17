@@ -13,7 +13,7 @@ const Column1 = (props) => {
                 className="text-base text-gray-400_01 tracking-[-0.30px]"
                 size="txtInterMedium16Gray40001"
               >
-                {props?.onehundrednine}
+                {props?.onehundredfiftyfive}
               </Text>
               <Img
                 className="h-[35px] md:h-auto object-cover"
@@ -28,6 +28,6 @@ const Column1 = (props) => {
   );
 };
 
-Column1.defaultProps = { onehundrednine: "작품명 검색" };
+Column1.defaultProps = { onehundredfiftyfive: "작품명 검색" };
 
 export default Column1;

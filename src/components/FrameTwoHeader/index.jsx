@@ -7,7 +7,7 @@ const FrameTwoHeader = (props) => {
     <>
       <div className={props.className}>
         <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between w-[64%] md:w-full">
-          <div className="flex flex-col items-center justify-center px-4 w-auto">
+          <div className="flex flex-col items-center justify-center w-auto">
             <Img
               className="h-[51px] md:h-auto object-cover w-[170px]"
               src="images/img_.png"
