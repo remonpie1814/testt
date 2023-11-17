@@ -8,7 +8,7 @@ const Rowonehundredthirteen = (props) => {
       <div className={props.className}>
         <Img
           className="flex-1 h-full w-full"
-          src="images/img__blue_gray_100_200x180.svg"
+          src="defaultNoData.png"
           alt="OneHundredThirteen"
         />
         <div className="flex flex-col gap-2.5 h-[212px] md:h-auto items-center justify-start w-[380px] sm:w-full">

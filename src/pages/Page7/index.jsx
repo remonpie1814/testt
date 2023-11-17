@@ -1,67 +1,41 @@
 import React from "react";
 
-import { Img, Text } from "components";
+import { Img, Input, Text } from "components";
+import Footer1 from "components/Footer1";
+import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page7 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter sm:gap-10 md:gap-10 gap-44 items-center justify-start mx-auto pb-[523px] shadow-bs w-full">
-        <div className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full">
-          <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1180px] mx-auto md:px-5 w-full">
-            <div className="flex flex-col items-center justify-center px-4 w-auto">
-              <Img
-                className="h-[51px] md:h-auto object-cover w-[170px]"
-                src="images/img_.png"
-                alt="OneHundredSixtyEight"
-              />
-            </div>
-            <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_bell111.png"
-                alt="bell111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_search111.png"
-                alt="search111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_menu11.png"
-                alt="menuEleven"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-[50px] items-center justify-start md:px-5 w-auto sm:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <div className="flex flex-col gap-[50px] h-[720px] md:h-auto items-center justify-start md:px-5 py-[121px] w-[720px] md:w-full">
           <Text
-            className="sm:text-[31px] md:text-[33px] text-[35px] text-center text-gray-900 tracking-[-0.66px] w-auto"
-            size="txtInterMedium35"
+            className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900 tracking-[-0.53px] w-auto"
+            size="txtInterMedium28Gray900"
           >
             비밀번호찾기
           </Text>
-          <div className="flex flex-col gap-[50px] items-center justify-start w-full">
-            <div className="h-[57px] relative w-full">
-              <div className="h-[57px] m-auto rounded-md w-full"></div>
-              <Text
-                className="absolute h-max inset-y-[0] left-[6%] my-auto text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px]"
-                size="txtInterMedium24Gray900"
-              >
-                이메일
-              </Text>
-            </div>
-            <div className="relative w-[400px] sm:w-full">
-              <div className="h-[51px] m-auto rounded-[3px] w-full"></div>
-              <Text
-                className="absolute h-max inset-[0] m-auto text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-max"
-                size="txtInterMedium24Gray900_1"
-              >
-                비밀번호 재설정 이메일 발송
-              </Text>
+          <div className="flex flex-col gap-[50px] items-center justify-start w-[56%] md:w-full">
+            <Input
+              name="input"
+              placeholder="이메일"
+              className="font-medium md:text-xl p-0 placeholder:text-black-900 sm:text-lg text-[22px] text-left tracking-[-0.42px] w-full"
+              wrapClassName="w-full"
+            ></Input>
+            <div className="bg-amber-A100 border-[5px] border-orange-200 border-solid flex flex-col items-center justify-end p-2.5 rounded-[10px] w-full">
+              <div className="flex flex-col items-start justify-end p-[3px]">
+                <Text
+                  className="md:ml-[0] ml-[91px] text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px]"
+                  size="txtInterMedium22"
+                >
+                  인증 이메일 발송
+                </Text>
+              </div>
             </div>
           </div>
         </div>
+        <Footer1 className="bg-blue_gray-50 flex gap-2.5 items-center justify-center md:px-5 w-full" />
       </div>
     </>
   );

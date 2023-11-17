@@ -2,7 +2,7 @@ import React from "react";
 
 import { Img, Line, Text } from "components";
 
-const Columntwo = (props) => {
+const SanseColumntwo = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -43,11 +43,11 @@ const Columntwo = (props) => {
   );
 };
 
-Columntwo.defaultProps = {
+SanseColumntwo.defaultProps = {
   treatment: "봐로완치",
   comment: "댓글댓글",
   date: "2023.11.15",
   reply: "답글",
 };
 
-export default Columntwo;
+export default SanseColumntwo;
