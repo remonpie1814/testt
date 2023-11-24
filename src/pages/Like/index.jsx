@@ -1,18 +1,19 @@
 import React from "react";
 
 import { Img, List, Text } from "components";
+import FrameTwoColumn from "components/FrameTwoColumn";
 
 const LikePage = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter gap-8 items-center justify-start mx-auto w-auto sm:w-full md:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full">
           <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1180px] mx-auto md:px-5 w-full">
             <div className="flex flex-col items-center justify-center px-4 w-auto">
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="FiftyNine"
+                alt="OneHundredThirtyThree"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -34,13 +35,14 @@ const LikePage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-[35px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
+        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-[35px] h-[1054px] md:h-auto items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[60px] w-full">
           <div className="flex flex-row md:gap-10 gap-[1000px] items-center justify-center max-w-[1180px] w-full">
             <div className="flex flex-row items-center justify-start w-auto">
               <div className="flex flex-col items-center justify-center w-auto">
                 <Text
                   className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.46px] w-auto"
-                  size="txtInterMedium24Gray900"
+                  size="txtInterMedium24Gray900_1"
                 >
                   최신순
                 </Text>
@@ -63,21 +65,21 @@ const LikePage = () => {
             </div>
           </div>
           <List
-            className="flex flex-col gap-5 items-center p-5 rounded-[5px] w-full"
+            className="flex flex-col gap-2 items-center pt-[19px] px-[19px] rounded-[5px] w-full"
             orientation="vertical"
           >
-            <div className="flex md:flex-1 md:flex-col flex-row gap-8 items-start justify-center w-auto md:w-full">
+            <div className="border-gray-400_01 border-solid border-y flex flex-1 md:flex-col flex-row gap-8 items-start justify-center max-w-[1126px] py-[25px] w-full">
               <Img
                 className="h-[222px] w-[205px]"
-                src="images/img__blue_gray_100_222x205.svg"
-                alt="SixtyTwo"
+                src="images/img__blue_gray_100_1.svg"
+                alt="OneHundredThirtyNine"
               />
-              <div className="flex flex-col items-center justify-start w-auto sm:w-full">
-                <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
+              <div className="flex flex-1 flex-col items-center justify-start w-full">
+                <div className="flex flex-col gap-[15px] items-start justify-center w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24Gray900_1"
+                      size="txtInterMedium24Gray900"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -89,14 +91,14 @@ const LikePage = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="SixtyFour"
+                      alt="OneHundredFortyOne"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -104,11 +106,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
-                        alt="SixtyFive"
+                        alt="OneHundredFortyTwo"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -117,11 +119,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__2.png"
-                        alt="SixtySix"
+                        alt="OneHundredFortyThree"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -130,7 +132,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900_1"
+                      size="txtInterMedium16Gray900"
                     >
                       유미엄마
                     </Text>
@@ -138,7 +140,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       2023. 10. 08
                     </Text>
@@ -146,18 +148,18 @@ const LikePage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex md:flex-1 md:flex-col flex-row gap-8 items-start justify-center w-auto md:w-full">
+            <div className="border-b border-gray-400_01 border-solid flex flex-1 md:flex-col flex-row gap-8 items-start justify-center max-w-[1126px] py-[25px] w-full">
               <Img
                 className="h-[222px] w-[205px]"
-                src="images/img__blue_gray_100_222x205.svg"
-                alt="SixtyEight"
+                src="images/img__blue_gray_100_1.svg"
+                alt="OneHundredFortyFive"
               />
-              <div className="flex flex-col items-center justify-start w-auto sm:w-full">
-                <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
+              <div className="flex flex-1 flex-col items-center justify-start w-full">
+                <div className="flex flex-col gap-[15px] items-start justify-center w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24Gray900_1"
+                      size="txtInterMedium24Gray900"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -169,14 +171,14 @@ const LikePage = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="Seventy"
+                      alt="OneHundredFortySeven"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -184,11 +186,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
-                        alt="SeventyOne"
+                        alt="OneHundredFortyEight"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -197,11 +199,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__2.png"
-                        alt="SeventyTwo"
+                        alt="OneHundredFortyNine"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -210,7 +212,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900_1"
+                      size="txtInterMedium16Gray900"
                     >
                       유미엄마
                     </Text>
@@ -218,7 +220,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       2023. 10. 08
                     </Text>
@@ -226,18 +228,18 @@ const LikePage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex md:flex-1 md:flex-col flex-row gap-8 items-start justify-center w-auto md:w-full">
+            <div className="border-b border-gray-400_01 border-solid flex flex-1 md:flex-col flex-row gap-8 items-start justify-center max-w-[1126px] py-[25px] w-full">
               <Img
                 className="h-[222px] w-[205px]"
-                src="images/img__blue_gray_100_222x205.svg"
-                alt="SeventyFour"
+                src="images/img__blue_gray_100_1.svg"
+                alt="OneHundredFiftyOne"
               />
-              <div className="flex flex-col items-center justify-start w-auto sm:w-full">
-                <div className="flex flex-col gap-[15px] items-start justify-start w-auto sm:w-full">
+              <div className="flex flex-1 flex-col items-center justify-start w-full">
+                <div className="flex flex-col gap-[15px] items-start justify-center w-full">
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <Text
                       className="leading-[150.00%] text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px]"
-                      size="txtInterMedium24Gray900_1"
+                      size="txtInterMedium24Gray900"
                     >
                       <>
                         신데렐라는 어려서 부모님을 발로 차 싸커
@@ -249,14 +251,14 @@ const LikePage = () => {
                   <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       10p
                     </Text>
                     <Img
                       className="h-6 md:h-auto object-cover w-[25px]"
                       src="images/img__24x25.png"
-                      alt="SeventySix"
+                      alt="OneHundredFiftyThree"
                     />
                   </div>
                   <div className="flex flex-row gap-5 items-start justify-start w-auto">
@@ -264,11 +266,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__1.png"
-                        alt="SeventySeven"
+                        alt="OneHundredFiftyFour"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -277,11 +279,11 @@ const LikePage = () => {
                       <Img
                         className="h-6 md:h-auto object-cover w-[25px]"
                         src="images/img__2.png"
-                        alt="SeventyEight"
+                        alt="OneHundredFiftyFive"
                       />
                       <Text
                         className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                        size="txtInterMedium16Gray900_1"
+                        size="txtInterMedium16Gray900"
                       >
                         5
                       </Text>
@@ -290,7 +292,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start w-[65px]">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900_1"
+                      size="txtInterMedium16Gray900"
                     >
                       유미엄마
                     </Text>
@@ -298,7 +300,7 @@ const LikePage = () => {
                   <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                      size="txtInterMedium16Gray900"
+                      size="txtInterMedium16Gray900_1"
                     >
                       2023. 10. 08
                     </Text>

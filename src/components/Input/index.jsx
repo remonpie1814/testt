@@ -4,12 +4,10 @@ import { ErrorMessage } from "../../components/ErrorMessage";
 
 const variants = {
   fill: { white_A700: "bg-white-A700 text-black-900" },
-  outline: {
-    gray_300: "border-[5px] border-gray-300 border-solid text-black-900",
-  },
+  outline: { gray_300: "border border-gray-300 border-solid text-black-900" },
 };
 const shapes = { round: "rounded-[10px]" };
-const sizes = { xs: "pb-[13px] pt-4 px-[13px]" };
+const sizes = { xs: "pb-3.5 pt-[15px] px-3.5" };
 
 const Input = React.forwardRef(
   (

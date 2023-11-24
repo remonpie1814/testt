@@ -7,13 +7,13 @@ const Column1 = (props) => {
     <>
       <div className={props.className}>
         <div className="flex flex-col items-start justify-start w-full">
-          <div className="bg-blue_gray-50_01 flex flex-col items-center justify-start p-[5px] rounded-[5px] w-[27%] md:w-full">
+          <div className="bg-blue_gray-50_02 flex flex-col items-center justify-start p-[5px] rounded-[5px] w-[27%] md:w-full">
             <div className="flex flex-row items-center justify-between w-[96%] md:w-full">
               <Text
-                className="text-base text-gray-400_01 tracking-[-0.30px]"
-                size="txtInterMedium16Gray40001"
+                className="text-base text-gray-400_04 tracking-[-0.30px]"
+                size="txtInterMedium16Gray40004"
               >
-                {props?.onehundredfiftyfive}
+                {props?.searchtext}
               </Text>
               <Img
                 className="h-[35px] md:h-auto object-cover"
@@ -28,6 +28,6 @@ const Column1 = (props) => {
   );
 };
 
-Column1.defaultProps = { onehundredfiftyfive: "작품명 검색" };
+Column1.defaultProps = { searchtext: "작품명 검색" };
 
 export default Column1;

@@ -1,48 +1,89 @@
 import React from "react";
 
-import { Img, List, Text } from "components";
-import Columnonehundredthirty from "components/Columnonehundredthirty";
-import Columnonehundredthirtyone from "components/Columnonehundredthirtyone";
-import Columnonehundredtwentynine from "components/Columnonehundredtwentynine";
-import Columntype from "components/Columntype";
+import { useNavigate } from "react-router-dom";
+
+import { Button, Img, Text } from "components";
+import FrameTwoColumn from "components/FrameTwoColumn";
 import FrameTwoHeader from "components/FrameTwoHeader";
+import Scrollbar from "components/Scrollbar";
 
 const Page2 = () => {
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter sm:gap-10 md:gap-10 gap-[219px] items-center justify-start mx-auto pb-[338px] w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <div className="flex sm:flex-col flex-row md:gap-10 gap-[184px] items-center justify-center max-w-[1180px] mx-auto md:px-5 w-full">
-          <div className="flex flex-col items-center justify-start w-[174px]">
-            <div className="flex flex-col gap-1 items-center justify-start w-auto">
-              <Img
-                className="h-[120px] md:h-auto object-cover w-[120px]"
-                src="images/img__120x120.png"
-                alt="OneHundredTwentySeven"
-              />
-              <Text
-                className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[63px]"
-                size="txtInterMedium22"
-              >
-                내 계정
-              </Text>
-              <Text
-                className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[150px]"
-                size="txtInterMedium22"
-              >
-                test@test.com
-              </Text>
-            </div>
-          </div>
-          <List
-            className="flex flex-col gap-[61px] items-start w-auto"
-            orientation="vertical"
+        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-[30px] h-[875px] md:h-auto items-center justify-start max-w-[1180px] mx-auto pb-5 pt-[30px] md:px-5 w-full">
+          <Text
+            className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
+            size="txtInterMedium28"
           >
-            <Columntype className="border border-black-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnonehundredtwentynine className="border border-black-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnonehundredthirty className="border border-black-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnonehundredthirtyone className="border border-black-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-          </List>
+            내 프로필 사진 수정
+          </Text>
+          <div className="flex flex-col gap-2.5 items-center justify-center w-full">
+            <div className="flex sm:flex-col flex-row gap-2.5 h-[500px] md:h-auto items-center justify-center px-5 w-[500px] sm:w-full">
+              <div className="bg-white-A700 gap-2.5 grid sm:grid-cols-1 grid-cols-3 items-center min-h-[auto] w-[470px] sm:w-full">
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+                <Img
+                  className="h-[150px] md:h-auto object-cover w-full"
+                  src="images/img__150x150.png"
+                  alt="profile"
+                />
+              </div>
+              <Scrollbar className="bg-blue_gray-50_01 flex flex-col items-center justify-start p-0.5 w-[4%] sm:w-full" />
+            </div>
+            <Button
+              className="common-pointer cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
+              onClick={() => navigate("/profilemod")}
+              shape="round"
+              color="amber_A100"
+              size="sm"
+              variant="fill"
+            >
+              취소
+            </Button>
+          </div>
         </div>
       </div>
     </>

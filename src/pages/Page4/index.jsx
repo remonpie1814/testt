@@ -1,172 +1,120 @@
 import React from "react";
 
-import { Img, Line, List, Text } from "components";
+import { Img, List, Text } from "components";
+import Columncommenteleven from "components/Columncommenteleven";
+import Columnconfusedone from "components/Columnconfusedone";
+import Columnonehundredninetyone from "components/Columnonehundredninetyone";
+import Columnreloadone from "components/Columnreloadone";
+import FrameTwoColumn from "components/FrameTwoColumn";
 import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page4 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-44 w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <div className="flex flex-col md:gap-10 gap-[94px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
-          <div className="flex flex-col gap-[19px] items-center justify-start w-auto md:w-full">
+        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-10 items-center justify-start max-w-[1182px] mx-auto pt-[30px] md:px-5 w-full">
+          <div className="bg-white-A700 flex flex-col gap-2 items-center justify-center max-w-[1182px] sm:px-5 px-[30px] py-[15px] w-full">
             <Text
-              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[139px]"
-              size="txtInterBold28"
+              className="sm:text-2xl md:text-[26px] text-[28px] text-black-900 text-center w-auto"
+              size="txtInterMedium28Black900"
             >
-              내가 쓴 댓글
+              내 계정
             </Text>
-            <div className="bg-gray-300 flex flex-col items-start justify-start rounded-[16px] w-auto sm:w-full">
-              <div className="flex sm:flex-col flex-row gap-[49px] items-center justify-start w-auto sm:w-full">
-                <div className="flex flex-col items-start justify-start w-auto">
-                  <Text
-                    className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[91px]"
-                    size="txtInterMedium22"
-                  >
-                    총 댓글 수
-                  </Text>
-                  <Text
-                    className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-3.5"
-                    size="txtInterMedium22"
-                  >
-                    8
-                  </Text>
-                </div>
-                <div className="flex flex-col items-start justify-start w-auto">
-                  <Text
-                    className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[91px]"
-                    size="txtInterMedium22"
-                  >
-                    총 답글 수
-                  </Text>
-                  <Text
-                    className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[9px]"
-                    size="txtInterMedium22"
-                  >
-                    1
-                  </Text>
-                </div>
-              </div>
-            </div>
+            <Text
+              className="text-base text-black-900 text-center tracking-[-0.30px] w-auto"
+              size="txtInterMedium16Black900"
+            >
+              test@test.com
+            </Text>
           </div>
-          <div className="flex flex-col gap-5 items-end justify-start w-auto md:w-full">
-            <Text
-              className="text-black-900 text-center text-xs w-[33px]"
-              size="txtInterRegular12"
-            >
-              최신순
-            </Text>
+          <div className="bg-orange-50 flex md:flex-col flex-row md:gap-5 h-[100px] md:h-auto items-center justify-center max-w-[1179px] px-5 w-full">
             <List
-              className="flex flex-col gap-5 items-center w-full"
-              orientation="vertical"
+              className="md:flex-1 sm:flex-col flex-row gap-px grid sm:grid-cols-1 grid-cols-3 w-[53%] md:w-full"
+              orientation="horizontal"
             >
-              <div className="flex flex-1 flex-col gap-[3px] items-start justify-start max-w-[825px] w-full">
-                <Text
-                  className="text-base text-black-900 tracking-[-0.30px] w-[174px]"
-                  size="txtInterMedium16Black900"
-                >
-                  ㅋㅋㅋㅋㅋㅋㅋㅋ아 웃기네
-                </Text>
-                <Text
-                  className="text-black-900 text-xs tracking-[-0.23px] w-[91px]"
-                  size="txtInterMedium12"
-                >
-                  2023.11.02 11:04
-                </Text>
-                <Text
-                  className="text-gray-500 text-xs tracking-[-0.23px] w-[67px]"
-                  size="txtInterMedium12Gray500"
-                >
-                  토끼와 호랑이
-                </Text>
-                <Line className="bg-gray-500_01 h-px w-full" />
+              <div className="h-12 md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
+                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
+                <div className="absolute flex flex-col gap-3.5 h-full inset-[0] items-center justify-center m-auto">
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterMedium14Black900"
+                  >
+                    가입일자
+                  </Text>
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterBold14"
+                  >
+                    2023. 01. 02
+                  </Text>
+                </div>
               </div>
-              <div className="flex flex-1 flex-col gap-[3px] items-start justify-start max-w-[825px] w-full">
-                <Text
-                  className="text-base text-black-900 tracking-[-0.30px] w-[91px]"
-                  size="txtInterMedium16Black900"
-                >
-                  우와 잘그렸다
-                </Text>
-                <Text
-                  className="text-black-900 text-xs tracking-[-0.23px] w-[91px]"
-                  size="txtInterMedium12"
-                >
-                  2023.11.02 11:04
-                </Text>
-                <Text
-                  className="text-gray-500 text-xs tracking-[-0.23px] w-[67px]"
-                  size="txtInterMedium12Gray500"
-                >
-                  토끼와 호랑이
-                </Text>
-                <Line className="bg-gray-500_01 h-px w-full" />
+              <div className="h-12 md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
+                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
+                <div className="absolute flex flex-col gap-3.5 h-full inset-[0] items-center justify-center m-auto">
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterMedium14Black900"
+                  >
+                    만든 동화 수
+                  </Text>
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterBold14"
+                  >
+                    4개
+                  </Text>
+                </div>
               </div>
-              <div className="flex flex-1 flex-col gap-[3px] items-start justify-start max-w-[825px] w-full">
-                <Text
-                  className="text-base text-black-900 tracking-[-0.30px] w-[91px]"
-                  size="txtInterMedium16Black900"
-                >
-                  우와 잘그렸다
-                </Text>
-                <Text
-                  className="text-black-900 text-xs tracking-[-0.23px] w-[91px]"
-                  size="txtInterMedium12"
-                >
-                  2023.11.02 11:04
-                </Text>
-                <Text
-                  className="text-gray-500 text-xs tracking-[-0.23px] w-[67px]"
-                  size="txtInterMedium12Gray500"
-                >
-                  토끼와 호랑이
-                </Text>
-                <Line className="bg-gray-500_01 h-px w-full" />
-              </div>
-              <div className="flex flex-1 flex-col gap-[3px] items-start justify-start max-w-[825px] w-full">
-                <Text
-                  className="text-base text-black-900 tracking-[-0.30px] w-[91px]"
-                  size="txtInterMedium16Black900"
-                >
-                  우와 잘그렸다
-                </Text>
-                <Text
-                  className="text-black-900 text-xs tracking-[-0.23px] w-[91px]"
-                  size="txtInterMedium12"
-                >
-                  2023.11.02 11:04
-                </Text>
-                <Text
-                  className="text-gray-500 text-xs tracking-[-0.23px] w-[67px]"
-                  size="txtInterMedium12Gray500"
-                >
-                  토끼와 호랑이
-                </Text>
-                <Line className="bg-gray-500_01 h-px w-full" />
-              </div>
-              <div className="flex flex-1 flex-col gap-[3px] items-start justify-start max-w-[825px] w-full">
-                <Text
-                  className="text-base text-black-900 tracking-[-0.30px] w-[91px]"
-                  size="txtInterMedium16Black900"
-                >
-                  우와 잘그렸다
-                </Text>
-                <Text
-                  className="text-black-900 text-xs tracking-[-0.23px] w-[91px]"
-                  size="txtInterMedium12"
-                >
-                  2023.11.02 11:04
-                </Text>
-                <Text
-                  className="text-gray-500 text-xs tracking-[-0.23px] w-[67px]"
-                  size="txtInterMedium12Gray500"
-                >
-                  토끼와 호랑이
-                </Text>
-                <Line className="bg-gray-500_01 h-px w-full" />
+              <div className="h-[47px] md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
+                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
+                <div className="absolute flex flex-col gap-[13px] h-full inset-[0] items-center justify-center m-auto">
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterMedium14Black900"
+                  >
+                    녹음한 동화 수
+                  </Text>
+                  <Text
+                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                    size="txtInterBold14"
+                  >
+                    3개
+                  </Text>
+                </div>
               </div>
             </List>
+            <div className="flex flex-col gap-2.5 h-[47px] md:h-auto items-center justify-center md:px-10 sm:px-5 px-[50px] py-5 w-[200px]">
+              <Text
+                className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                size="txtInterMedium14Black900"
+              >
+                받은 좋아요 수
+              </Text>
+              <Text
+                className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
+                size="txtInterBold14"
+              >
+                55개
+              </Text>
+            </div>
+            <Img
+              className="h-[50px] w-[49px]"
+              src="images/img__black_900_1.svg"
+              alt="OneHundredEightyEight"
+            />
           </div>
+          <List
+            className="flex flex-col gap-[30px] items-start w-auto"
+            orientation="vertical"
+          >
+            <Columncommenteleven className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+            <Columnreloadone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+            <Columnconfusedone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+            <Columnonehundredninetyone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+          </List>
         </div>
       </div>
     </>

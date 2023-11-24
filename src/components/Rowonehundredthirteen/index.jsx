@@ -15,7 +15,7 @@ const Rowonehundredthirteen = (props) => {
           <div className="flex flex-col items-start justify-start w-full">
             <Text
               className="text-2xl md:text-[22px] text-gray-900 sm:text-xl tracking-[-0.26px] w-auto"
-              size="txtInterMedium24Gray900_1"
+              size="txtInterMedium24Gray900"
             >
               {props?.posttitle}
             </Text>
@@ -23,7 +23,7 @@ const Rowonehundredthirteen = (props) => {
           <div className="flex flex-col items-start justify-start w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900_1"
+              size="txtInterMedium16Gray900"
             >
               {props?.authorname}
             </Text>
@@ -31,7 +31,7 @@ const Rowonehundredthirteen = (props) => {
           <div className="flex flex-col items-start justify-start w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16Gray900_1"
             >
               {props?.postpoints}
             </Text>
@@ -45,7 +45,7 @@ const Rowonehundredthirteen = (props) => {
               />
               <Text
                 className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900_1"
+                size="txtInterMedium16Gray900"
               >
                 {props?.postimage1points}
               </Text>
@@ -58,7 +58,7 @@ const Rowonehundredthirteen = (props) => {
               />
               <Text
                 className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900_1"
+                size="txtInterMedium16Gray900"
               >
                 {props?.postimage2points}
               </Text>
@@ -67,7 +67,7 @@ const Rowonehundredthirteen = (props) => {
           <div className="flex flex-col items-start justify-start sm:pr-5 pr-[25px] w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16Gray900_1"
             >
               {props?.postdate}
             </Text>
@@ -78,7 +78,7 @@ const Rowonehundredthirteen = (props) => {
                 <div className="absolute bg-gray-300 h-[30px] inset-[0] justify-center m-auto w-full"></div>
                 <Text
                   className="absolute inset-x-[0] mx-auto text-black-900 text-center text-xl top-[6%] tracking-[-0.22px] w-max"
-                  size="txtInterMedium20Black900"
+                  size="txtInterMedium20"
                 >
                   {props?.copybuttontext}
                 </Text>
@@ -87,7 +87,7 @@ const Rowonehundredthirteen = (props) => {
                 <div className="absolute bg-gray-300 h-[30px] inset-[0] justify-center m-auto w-full"></div>
                 <Text
                   className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-xl tracking-[-0.22px] w-max"
-                  size="txtInterMedium20Black900"
+                  size="txtInterMedium20"
                 >
                   {props?.deletebuttontext}
                 </Text>
