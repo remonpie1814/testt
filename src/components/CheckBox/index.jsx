@@ -2,9 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { ErrorMessage } from "../../components/ErrorMessage";
 
-const variants = { fill: { white_A700: "bg-white-A700 text-gray-900" } };
-const shapes = { round: "rounded-sm" };
-const sizes = { xs: "pl-px py-px", sm: "pb-[9px] pr-[9px] pt-2.5" };
+const variants = {
+  fill: { white_A700: "bg-white-A700 text-gray-900" },
+  outline: { gray_600_01: "border-2 border-gray-600_01 border-solid" },
+};
+const shapes = { round: "rounded-[5px]" };
+const sizes = { xs: "pb-px pt-0.5 px-px", sm: "pb-3.5 pr-3.5 pt-[15px]" };
 
 const CheckBox = React.forwardRef(
   (
@@ -15,10 +18,10 @@ const CheckBox = React.forwardRef(
       children,
       label = "",
       errors = [],
-      shape = "round",
-      size = "xs",
-      variant = "fill",
-      color = "white_A700",
+      shape = "",
+      size = "",
+      variant = "",
+      color = "",
       id = "checkbox_id",
       onChange,
       ...restProps
@@ -59,8 +62,8 @@ CheckBox.propTypes = {
   label: PropTypes.string,
   shape: PropTypes.oneOf(["round"]),
   size: PropTypes.oneOf(["xs", "sm"]),
-  variant: PropTypes.oneOf(["fill"]),
-  color: PropTypes.oneOf(["white_A700"]),
+  variant: PropTypes.oneOf(["fill", "outline"]),
+  color: PropTypes.oneOf(["white_A700", "gray_600_01"]),
 };
 
 export { CheckBox };

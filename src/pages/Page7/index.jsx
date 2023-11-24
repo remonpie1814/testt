@@ -1,41 +1,61 @@
 import React from "react";
 
-import { Img, Input, Text } from "components";
-import Footer1 from "components/Footer1";
+import { Img, Text } from "components";
+import Columntwohundredtwentyfour from "components/Columntwohundredtwentyfour";
+import FrameTwoColumn from "components/FrameTwoColumn";
 import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page7 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[166px] w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <div className="flex flex-col gap-[50px] h-[720px] md:h-auto items-center justify-start md:px-5 py-[121px] w-[720px] md:w-full">
-          <Text
-            className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900 tracking-[-0.53px] w-auto"
-            size="txtInterMedium28Gray900"
-          >
-            비밀번호찾기
-          </Text>
-          <div className="flex flex-col gap-[50px] items-center justify-start w-[56%] md:w-full">
-            <Input
-              name="input"
-              placeholder="이메일"
-              className="font-medium md:text-xl p-0 placeholder:text-black-900 sm:text-lg text-[22px] text-left tracking-[-0.42px] w-full"
-              wrapClassName="w-full"
-            ></Input>
-            <div className="bg-amber-A100 border-[5px] border-orange-200 border-solid flex flex-col items-center justify-end p-2.5 rounded-[10px] w-full">
-              <div className="flex flex-col items-start justify-end p-[3px]">
-                <Text
-                  className="md:ml-[0] ml-[91px] text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px]"
-                  size="txtInterMedium22"
-                >
-                  인증 이메일 발송
-                </Text>
-              </div>
-            </div>
+        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-[30px] h-[748px] md:h-auto items-center justify-start max-w-[1180px] mt-1.5 mx-auto md:px-5 py-[30px] w-full">
+          <div className="flex flex-col items-center justify-start w-full">
+            <Text
+              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[140px]"
+              size="txtInterMedium28Gray900"
+            >
+              내가 쓴 댓글
+            </Text>
+          </div>
+          <div className="bg-orange-50 flex flex-col gap-2.5 h-[100px] md:h-auto items-center justify-center px-10 sm:px-5 py-[15px] rounded-[10px] w-[200px]">
+            <Text
+              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
+              size="txtInterMedium22Black900"
+            >
+              총 댓글 수
+            </Text>
+            <Text
+              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
+              size="txtInterMedium22Black900"
+            >
+              5
+            </Text>
+          </div>
+          <div className="flex flex-col gap-5 items-end justify-start max-w-[1180px] outline outline-gray-600_01 p-2.5 w-full">
+            <Columntwohundredtwentyfour className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full" />
+            <Columntwohundredtwentyfour
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="작가 초심 잃었네ㅡㅡ"
+              texttwo="2023.11.02 11:03"
+              textthree="호랑이와 토끼"
+            />
+            <Columntwohundredtwentyfour
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="뇌절 ㄴ"
+              texttwo="2023.11.22 11:04"
+              textthree="토끼와 호랑이2"
+            />
+            <Columntwohundredtwentyfour
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="이제 안 봄 ㅅㄱ"
+              texttwo="2023.12.02 13:22"
+              textthree="토끼와 호랑이 파이널"
+            />
           </div>
         </div>
-        <Footer1 className="bg-blue_gray-50 flex gap-2.5 items-center justify-center md:px-5 w-full" />
       </div>
     </>
   );

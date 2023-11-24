@@ -14,10 +14,16 @@ const Home = () => {
           <Link to="/">FrameTwo</Link>
         </li>
         <li>
-          <Link to="/follow">Follow</Link>
+          <Link to="/sanse">Sanse</Link>
         </li>
         <li>
           <Link to="/page">Page</Link>
+        </li>
+        <li>
+          <Link to="/follow">Follow</Link>
+        </li>
+        <li>
+          <Link to="/page1">Page1</Link>
         </li>
         <li>
           <Link to="/profile">Profile</Link>
@@ -27,12 +33,6 @@ const Home = () => {
         </li>
         <li>
           <Link to="/profilemod">ProfileMod</Link>
-        </li>
-        <li>
-          <Link to="/page1">Page1</Link>
-        </li>
-        <li>
-          <Link to="/sanse">Sanse</Link>
         </li>
         <li>
           <Link to="/page2">Page2</Link>
@@ -50,19 +50,16 @@ const Home = () => {
           <Link to="/page6">Page6</Link>
         </li>
         <li>
-          <Link to="/temporarystorage">TemporaryStorage</Link>
-        </li>
-        <li>
           <Link to="/page7">Page7</Link>
         </li>
         <li>
           <Link to="/page8">Page8</Link>
         </li>
         <li>
-          <Link to="/fairytalesetting">FairytaleSetting</Link>
+          <Link to="/page9">Page9</Link>
         </li>
         <li>
-          <Link to="/page9">Page9</Link>
+          <Link to="/temporarystorage">TemporaryStorage</Link>
         </li>
         <li>
           <Link to="/page10">Page10</Link>
@@ -71,7 +68,19 @@ const Home = () => {
           <Link to="/page11">Page11</Link>
         </li>
         <li>
-          <Link to="/frameone">FrameOne</Link>
+          <Link to="/page12">Page12</Link>
+        </li>
+        <li>
+          <Link to="/page13">Page13</Link>
+        </li>
+        <li>
+          <Link to="/page14">Page14</Link>
+        </li>
+        <li>
+          <Link to="/fairytalesettingone">FairytaleSettingOne</Link>
+        </li>
+        <li>
+          <Link to="/canvas">Canvas</Link>
         </li>
       </ul>
     </div>
