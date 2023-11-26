@@ -7,18 +7,26 @@ const variants = {
     yellow_200_b2: "bg-yellow-200_b2 text-black-900",
     orange_100_b2: "bg-orange-100_b2 text-black-900",
     black_900_60: "bg-black-900_60",
+    blue_gray_50_02: "bg-blue_gray-50_02 text-black-900",
     yellow_200: "bg-yellow-200",
     blue_gray_100_01: "bg-blue_gray-100_01 text-black-900",
+    amber_200: "bg-amber-200",
     gray_300: "bg-gray-300 text-black-900",
-    blue_gray_100: "bg-blue_gray-100 text-black-900",
     gray_600: "bg-gray-600",
+    blue_gray_100: "bg-blue_gray-100 text-black-900",
     amber_A100: "bg-amber-A100 text-black-900",
   },
   outline: {
-    amber_A100: "border-amber-A100 border-b-[3px] border-solid text-gray-900",
+    amber_A100: "border-amber-A100 border-b-[5px] border-solid text-gray-900",
   },
 };
-const sizes = { xs: "p-2", sm: "p-3.5", md: "p-5", lg: "p-[23px] sm:px-5" };
+const sizes = {
+  xs: "p-2",
+  sm: "p-[11px]",
+  md: "p-3.5",
+  lg: "p-5",
+  xl: "p-[23px] sm:px-5",
+};
 
 const Button = ({
   children,
@@ -49,17 +57,19 @@ Button.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
   shape: PropTypes.oneOf(["round", "square"]),
-  size: PropTypes.oneOf(["xs", "sm", "md", "lg"]),
+  size: PropTypes.oneOf(["xs", "sm", "md", "lg", "xl"]),
   variant: PropTypes.oneOf(["fill", "outline"]),
   color: PropTypes.oneOf([
     "yellow_200_b2",
     "orange_100_b2",
     "black_900_60",
+    "blue_gray_50_02",
     "yellow_200",
     "blue_gray_100_01",
+    "amber_200",
     "gray_300",
-    "blue_gray_100",
     "gray_600",
+    "blue_gray_100",
     "amber_A100",
   ]),
 };

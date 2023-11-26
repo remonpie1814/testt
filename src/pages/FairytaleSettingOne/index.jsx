@@ -14,7 +14,7 @@ const FairytaleSettingOnePage = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="ThreeHundredEightySix"
+                alt="FourHundredFour"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -57,7 +57,7 @@ const FairytaleSettingOnePage = () => {
                 <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-center w-full">
                   <Text
                     className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-                    size="txtInterMedium22Black900"
+                    size="txtInterMedium22Black900_1"
                   >
                     제목
                   </Text>
@@ -66,7 +66,7 @@ const FairytaleSettingOnePage = () => {
                 <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-center px-4 py-[19px] w-full">
                   <Text
                     className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-                    size="txtInterMedium22Black900"
+                    size="txtInterMedium22Black900_1"
                   >
                     설명
                   </Text>

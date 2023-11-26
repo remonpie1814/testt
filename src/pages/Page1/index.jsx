@@ -15,7 +15,7 @@ const Page1 = () => {
             <Img
               className="h-[120px] md:h-auto object-cover w-[120px]"
               src="images/img__120x120.png"
-              alt="OneHundredThirteen"
+              alt="OneHundredFifteen"
             />
             <Text
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
@@ -60,7 +60,7 @@ const Page1 = () => {
           <Button
             className="cursor-pointer font-medium min-w-[104px] rounded-[10px] text-base text-center tracking-[-0.30px]"
             color="amber_A100"
-            size="sm"
+            size="md"
             variant="fill"
           >
             팔로우

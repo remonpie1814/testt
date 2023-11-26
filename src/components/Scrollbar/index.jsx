@@ -11,7 +11,7 @@ const Scrollbar = (props) => {
           src="images/img_arrow.svg"
           alt="bag"
         />
-        <div className="bg-gray-400_02 h-[25px] w-full"></div>
+        <div className="bg-gray-400_01 h-[25px] w-full"></div>
         <Img
           className="h-[7px] mb-1 mt-[448px] w-[7px]"
           src="images/img_arrow.svg"

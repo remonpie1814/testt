@@ -7,9 +7,9 @@ import FollowRowellipsefour from "components/FollowRowellipsefour";
 const FollowPage = () => {
   const followRowellipsefourPropList = [
     {},
-    { followtext: "팔로우2" },
-    { followtext: "콩림이" },
-    { followtext: "콩솔이" },
+    { followerscount: "팔로우2" },
+    { followerscount: "콩림이" },
+    { followerscount: "콩솔이" },
   ];
 
   return (
@@ -44,7 +44,7 @@ const FollowPage = () => {
           </div>
         </div>
         <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
-        <div className="border-b border-gray-300 border-solid border-x flex flex-col gap-5 items-center justify-start max-w-[720px] pt-[30px] md:px-5 w-full">
+        <div className="border-b border-gray-300 border-solid flex flex-col gap-5 h-[603px] md:h-auto items-center justify-start max-w-[720px] pt-[30px] md:px-5 w-full">
           <div className="flex flex-row sm:gap-10 gap-20 items-start justify-center outline outline-gray-300 w-full">
             <div className="flex flex-col items-center justify-center pb-2.5 w-auto">
               <Text
@@ -65,7 +65,7 @@ const FollowPage = () => {
             </Button>
           </div>
           <List
-            className="flex flex-col gap-5 items-center w-full"
+            className="flex flex-col gap-5 items-center pb-5 w-full"
             orientation="vertical"
           >
             {followRowellipsefourPropList.map((props, index) => (

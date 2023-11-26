@@ -71,7 +71,7 @@ const Page = () => {
                                     className="absolute bg-cover bg-no-repeat flex flex-row h-max inset-y-[0] items-end justify-center left-[31%] my-auto pb-0.5 px-0.5 w-1/4"
                                     style={{
                                       backgroundImage:
-                                        "url('images/img_group673.svg')",
+                                        "url('images/img_group1253.svg')",
                                     }}
                                   >
                                     <div className="flex flex-col ml-3 relative w-[41%]">
@@ -151,7 +151,7 @@ const Page = () => {
                               className="absolute bg-cover bg-no-repeat flex flex-col h-[11px] items-end justify-start p-[3px] right-[35%] top-[39%] w-[10%]"
                               style={{
                                 backgroundImage:
-                                  "url('images/img_group675.svg')",
+                                  "url('images/img_group1255.svg')",
                               }}
                             >
                               <Img
@@ -174,7 +174,8 @@ const Page = () => {
                           <div
                             className="absolute bg-cover bg-no-repeat bottom-[29%] flex flex-col h-[13px] items-start justify-start left-[9%] p-0.5 w-[11%]"
                             style={{
-                              backgroundImage: "url('images/img_group674.svg')",
+                              backgroundImage:
+                                "url('images/img_group1254.svg')",
                             }}
                           >
                             <Img
@@ -322,7 +323,7 @@ const Page = () => {
                 <Line className="absolute bg-gray-900 h-[29px] left-[16%] top-[37%] w-[3px]" />
                 <div
                   className="absolute bg-cover bg-no-repeat flex flex-col h-16 items-start justify-start left-[12%] p-[7px] top-1/4 w-[26%]"
-                  style={{ backgroundImage: "url('images/img_group672.svg')" }}
+                  style={{ backgroundImage: "url('images/img_group1252.svg')" }}
                 >
                   <Img
                     className="h-[25px] my-[11px]"
@@ -411,7 +412,7 @@ const Page = () => {
               className="cursor-pointer font-medium h-12 text-base text-center tracking-[-0.18px] w-[195px]"
               shape="round"
               color="amber_A100"
-              size="sm"
+              size="md"
               variant="fill"
             >
               내 목소리로 녹음하기

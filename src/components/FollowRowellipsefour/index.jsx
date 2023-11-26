@@ -18,14 +18,14 @@ const FollowRowellipsefour = (props) => {
             className="mb-[11px] text-base text-gray-900 tracking-[-0.30px]"
             size="txtInterMedium16Gray900"
           >
-            {props?.followtext}
+            {props?.followerscount}
           </Text>
         </div>
         <div className="flex flex-col items-center justify-start px-[9px] w-[7%] sm:w-full">
           <Img
             className="h-[30px] md:h-auto object-cover w-[30px]"
             src="images/img_image916.png"
-            alt="NinetyNine"
+            alt="OneHundred"
           />
         </div>
         <div className="h-[103px] md:h-[35px] py-[34px] relative w-[17%] sm:w-full">
@@ -34,7 +34,7 @@ const FollowRowellipsefour = (props) => {
             className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 text-center tracking-[-0.30px] w-max"
             size="txtInterMedium16Black900"
           >
-            {props?.deletetext}
+            {props?.deletebuttontext}
           </Text>
         </div>
       </div>
@@ -43,8 +43,8 @@ const FollowRowellipsefour = (props) => {
 };
 
 FollowRowellipsefour.defaultProps = {
-  followtext: "팔로우1",
-  deletetext: "삭제",
+  followerscount: "팔로우1",
+  deletebuttontext: "삭제",
 };
 
 export default FollowRowellipsefour;

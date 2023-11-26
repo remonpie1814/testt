@@ -29,7 +29,7 @@ const FrameTwoPage = () => {
                 />
                 <div className="absolute bottom-[31%] flex flex-row md:gap-10 inset-x-[0] items-start justify-between mx-auto pl-[5px] pt-[5px] w-full">
                   <Text
-                    className="ml-[3px] rotate-[180deg] text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.46px]"
+                    className="ml-[30px] rotate-[180deg] text-2xl md:text-[22px] text-white-A700 sm:text-xl tracking-[-0.46px]"
                     size="txtInterMedium24WhiteA700"
                   >
                     <>&gt;</>

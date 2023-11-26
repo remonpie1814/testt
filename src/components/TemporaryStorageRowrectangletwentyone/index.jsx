@@ -1,20 +1,20 @@
 import React from "react";
 
-import { Img, Text } from "components";
+import { Button, Img, Text } from "components";
 
 const TemporaryStorageRowrectangletwentyone = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="bg-blue_gray-100 h-[232px] w-[33%]"></div>
-        <div className="flex flex-col items-start justify-center w-[360px]">
-          <div className="flex flex-col items-start justify-start w-[360px]">
-            <div className="flex flex-row h-9 md:h-auto items-start justify-between w-[351px]">
+        <div className="bg-blue_gray-100 h-[180px] w-[27%]"></div>
+        <div className="flex flex-col gap-0.5 h-[180px] md:h-auto items-start justify-start w-[360px]">
+          <div className="flex flex-col h-[138px] md:h-auto items-start justify-start w-[360px]">
+            <div className="flex flex-row items-start justify-between pb-1 w-full">
               <Text
-                className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
+                className="mt-[3px] text-[22px] text-gray-900 sm:text-lg md:text-xl"
                 size="txtInterMedium22Gray900_1"
               >
-                {props?.title}
+                {props?.usertitle}
               </Text>
               <Img
                 className="h-[31px] md:h-auto object-cover w-[31px]"
@@ -22,53 +22,47 @@ const TemporaryStorageRowrectangletwentyone = (props) => {
                 alt="seticon"
               />
             </div>
-            <div className="flex flex-col items-center justify-center pt-[35px] w-auto">
-              <Text
-                className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900_1"
-              >
-                {props?.pagenumber}
-              </Text>
-            </div>
-            <div className="flex flex-col items-center justify-center w-auto">
-              <Text
-                className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900"
-              >
-                {props?.lasteditdate}
-              </Text>
-            </div>
+            <Text
+              className="text-base text-gray-900"
+              size="txtInterMedium16Gray900_1"
+            >
+              {props?.userpoints}
+            </Text>
+            <Text
+              className="text-base text-gray-900 w-full"
+              size="txtInterMedium16Gray900"
+            >
+              {props?.userlasteditdate}
+            </Text>
           </div>
-          <div className="flex flex-col items-end justify-start md:pl-10 sm:pl-5 pl-[100px] w-full">
-            <div className="flex flex-row gap-2.5 items-start justify-start w-auto">
-              <div className="md:h-[38px] h-[50px] py-[5px] relative w-[31%]">
-                <div className="absolute bg-amber-400_7f h-[38px] inset-[0] justify-center m-auto w-full"></div>
-                <Text
-                  className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-sm tracking-[-0.15px] w-max"
-                  size="txtInterMedium14Black900_1"
-                >
-                  {props?.editimagetext}
-                </Text>
-              </div>
-              <div className="md:h-[38px] h-[50px] py-[5px] relative w-[31%]">
-                <div className="absolute bg-amber-400_7f h-[38px] inset-[0] justify-center m-auto w-full"></div>
-                <Text
-                  className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-sm tracking-[-0.15px] w-max"
-                  size="txtInterMedium14Black900_1"
-                >
-                  {props?.editrecordingtext}
-                </Text>
-              </div>
-              <div className="md:h-[38px] h-[50px] py-[5px] relative w-[31%]">
-                <div className="absolute bg-blue_gray-100 h-[38px] inset-[0] justify-center m-auto w-full"></div>
-                <Text
-                  className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-sm tracking-[-0.15px] w-max"
-                  size="txtInterMedium14Black900_1"
-                >
-                  {props?.deletetext}
-                </Text>
-              </div>
-            </div>
+          <div className="flex flex-row gap-2.5 items-end justify-end px-[5px] w-full">
+            <Button
+              className="!text-black-900 cursor-pointer font-inter font-medium min-w-[80px] text-center text-sm tracking-[-0.15px]"
+              shape="square"
+              color="amber_200"
+              size="sm"
+              variant="fill"
+            >
+              {props?.usereditpicture}
+            </Button>
+            <Button
+              className="!text-black-900 cursor-pointer font-inter font-medium min-w-[80px] text-center text-sm tracking-[-0.15px]"
+              shape="square"
+              color="amber_200"
+              size="sm"
+              variant="fill"
+            >
+              {props?.usereditrecording}
+            </Button>
+            <Button
+              className="cursor-pointer font-inter font-medium min-w-[80px] text-center text-sm tracking-[-0.15px]"
+              shape="square"
+              color="blue_gray_100"
+              size="sm"
+              variant="fill"
+            >
+              {props?.userdelete}
+            </Button>
           </div>
         </div>
       </div>
@@ -77,12 +71,12 @@ const TemporaryStorageRowrectangletwentyone = (props) => {
 };
 
 TemporaryStorageRowrectangletwentyone.defaultProps = {
-  title: "제목제목제목",
-  pagenumber: "10p",
-  lasteditdate: "마지막으로 수정한 날짜: 2023. 11. 17",
-  editimagetext: "그림 수정",
-  editrecordingtext: "녹음 수정",
-  deletetext: "삭제",
+  usertitle: "제목제목제목",
+  userpoints: "10p",
+  userlasteditdate: "마지막으로 수정한 날짜: 2023. 11. 17",
+  usereditpicture: "그림 수정",
+  usereditrecording: "녹음 수정",
+  userdelete: "삭제",
 };
 
 export default TemporaryStorageRowrectangletwentyone;

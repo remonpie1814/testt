@@ -36,13 +36,13 @@ const ProfileModPage = () => {
                   <Button
                     className="flex h-[69px] items-center justify-center rounded-[34px] w-[69px]"
                     color="black_900_60"
-                    size="sm"
+                    size="md"
                     variant="fill"
                   >
                     <Img
                       className="h-9"
                       src="images/img_group241.png"
-                      alt="group663"
+                      alt="group1239"
                     />
                   </Button>
                 </div>
@@ -93,7 +93,7 @@ const ProfileModPage = () => {
                 className="cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
                 shape="round"
                 color="blue_gray_100_01"
-                size="sm"
+                size="md"
                 variant="fill"
               >
                 취소
@@ -102,7 +102,7 @@ const ProfileModPage = () => {
                 className="cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
                 shape="round"
                 color="amber_A100"
-                size="sm"
+                size="md"
                 variant="fill"
               >
                 적용
