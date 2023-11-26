@@ -12,7 +12,10 @@ const Page18Modal = (props) => {
       {...props}
     >
       <div className="max-h-[97vh] overflow-y-auto sm:w-full md:w-full">
-        <div className="bg-white-A700 flex flex-col items-center justify-end p-[178px] md:px-5 w-full">
+        <div
+          className="common-pointer bg-white-A700 flex flex-col items-center justify-end p-[178px] md:px-5 w-full"
+          onClick={props.onRequestClose}
+        >
           <Text
             className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl"
             size="txtInterMedium22Black900_1"
