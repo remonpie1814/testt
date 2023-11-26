@@ -11,7 +11,7 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
             className="text-base text-black-900 tracking-[-0.30px] w-auto"
             size="txtInterBold16Black900"
           >
-            {props?.fourhundredeleven}
+            {props?.fourhundredfiftysix}
           </Text>
           <div className="h-6 relative w-full">
             <div className="absolute flex flex-row h-full inset-y-[0] items-center justify-evenly left-[0] my-auto w-[252px]">
@@ -21,7 +21,7 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
                   className="text-base text-black-900 w-auto"
                   size="txtInterMedium16Black900"
                 >
-                  {props?.fourhundredtwelve}
+                  {props?.fourhundredfiftyseven}
                 </Text>
               </div>
             </div>
@@ -29,7 +29,7 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
               className="absolute h-max inset-y-[0] left-[10%] my-auto text-green-500 text-sm tracking-[-0.27px] w-auto"
               size="txtInterMedium14Green500"
             >
-              {props?.fourhundredthirteen}
+              {props?.fourhundredfiftyeight}
             </Text>
           </div>
           <div className="flex flex-col gap-2 items-start justify-center sm:px-5 px-[30px] w-full">
@@ -38,13 +38,13 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
                 className="text-base text-black-900 tracking-[-0.30px] w-[255px]"
                 size="txtInterMedium16Black900"
               >
-                {props?.fourhundredfourteen}
+                {props?.fourhundredfiftynine}
               </Text>
               <CheckBox
                 className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
                 inputClassName="h-[22px] mr-[5px] w-[22px]"
-                name="FourHundredFifteen"
-                id="FourHundredFifteen"
+                name="FourHundredSixty"
+                id="FourHundredSixty"
                 label="녹음 공개하기"
                 shape="round"
                 color="gray_600_01"
@@ -57,13 +57,13 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
                 className="text-base text-black-900 tracking-[-0.30px] w-[400px]"
                 size="txtInterMedium16Black900"
               >
-                {props?.fourhundredsixteen}
+                {props?.fourhundredsixtyone}
               </Text>
               <CheckBox
                 className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
                 inputClassName="h-[22px] mr-[5px] w-[22px]"
-                name="FourHundredSeventeen"
-                id="FourHundredSeventeen"
+                name="FourHundredSixtyTwo"
+                id="FourHundredSixtyTwo"
                 label="다른 사람 녹음 허용하기"
                 shape="round"
                 color="gray_600_01"
@@ -78,8 +78,8 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
             <CheckBox
               className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
               inputClassName="h-[22px] mr-[5px] w-[22px]"
-              name="FourHundredEighteen"
-              id="FourHundredEighteen"
+              name="FourHundredSixtyThree"
+              id="FourHundredSixtyThree"
               label="비공개로 출판하기"
               shape="round"
               color="gray_600_01"
@@ -90,14 +90,14 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
               className="text-green-500_01 text-sm tracking-[-0.27px] w-auto"
               size="txtInterMedium14Green50001"
             >
-              {props?.fourhundrednineteen}
+              {props?.fourhundredsixtyfour}
             </Text>
           </div>
           <CheckBox
             className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
             inputClassName="h-[22px] mr-[5px] w-[22px]"
-            name="FourHundredTwenty"
-            id="FourHundredTwenty"
+            name="FourHundredSixtyFive"
+            id="FourHundredSixtyFive"
             label="임시저장하기"
             shape="round"
             color="gray_600_01"
@@ -110,7 +110,7 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
             className="!text-black-900 cursor-pointer font-inter font-medium h-[60px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.24px] w-60"
             shape="round"
             color="yellow_200"
-            size="md"
+            size="lg"
             variant="fill"
           >
             {props?.prop}
@@ -122,13 +122,13 @@ const FairytaleSettingOneTemporarysave1 = (props) => {
 };
 
 FairytaleSettingOneTemporarysave1.defaultProps = {
-  fourhundredeleven: "출판 후에는 수정이 불가능합니다.",
-  fourhundredtwelve: "출판하기",
-  fourhundredthirteen: "모든 사람이 볼 수 있습니다.",
-  fourhundredfourteen: "녹음이 저장된 동화입니다. 공개할까요?",
-  fourhundredsixteen:
+  fourhundredfiftysix: "출판 후에는 수정이 불가능합니다.",
+  fourhundredfiftyseven: "출판하기",
+  fourhundredfiftyeight: "모든 사람이 볼 수 있습니다.",
+  fourhundredfiftynine: "녹음이 저장된 동화입니다. 공개할까요?",
+  fourhundredsixtyone:
     "내 동화에 다른 사람이 목소리를 녹음할 수 있도록 허용할까요?",
-  fourhundrednineteen: "나만 볼 수 있습니다.",
+  fourhundredsixtyfour: "나만 볼 수 있습니다.",
   prop: "완료",
 };
 

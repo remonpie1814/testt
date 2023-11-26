@@ -32,7 +32,7 @@ const Rowonehundredtwentythree = (props) => {
 Rowonehundredtwentythree.defaultProps = {
   userid: "123",
   username: "ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ...",
-  userdate: "2023. 11. 17",
+  userdate: "2023. 07. 11",
 };
 
 export default Rowonehundredtwentythree;

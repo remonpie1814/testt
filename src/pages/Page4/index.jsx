@@ -1,11 +1,8 @@
 import React from "react";
 
-import { Img, List, Text } from "components";
-import Columncommenteleven from "components/Columncommenteleven";
-import Columnconfusedone from "components/Columnconfusedone";
-import Columnonehundredninetyone from "components/Columnonehundredninetyone";
-import Columnreloadone from "components/Columnreloadone";
-import FrameTwoColumn from "components/FrameTwoColumn";
+import { Button, Img, List, Text } from "components";
+import Column1 from "components/Column1";
+import FollowColumnlanguage from "components/FollowColumnlanguage";
 import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page4 = () => {
@@ -13,108 +10,40 @@ const Page4 = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-10 items-center justify-start max-w-[1182px] mx-auto pt-[30px] md:px-5 w-full">
-          <div className="bg-white-A700 flex flex-col gap-2 items-center justify-center max-w-[1182px] sm:px-5 px-[30px] py-[15px] w-full">
-            <Text
-              className="sm:text-2xl md:text-[26px] text-[28px] text-black-900 text-center w-auto"
-              size="txtInterMedium28Black900"
-            >
-              내 계정
-            </Text>
-            <Text
-              className="text-base text-black-900 text-center tracking-[-0.30px] w-auto"
-              size="txtInterMedium16Black900"
-            >
-              test@test.com
-            </Text>
-          </div>
-          <div className="bg-orange-50 flex md:flex-col flex-row md:gap-5 h-[100px] md:h-auto items-center justify-center max-w-[1179px] px-5 w-full">
-            <List
-              className="md:flex-1 sm:flex-col flex-row gap-px grid sm:grid-cols-1 grid-cols-3 w-[53%] md:w-full"
-              orientation="horizontal"
-            >
-              <div className="h-12 md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
-                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
-                <div className="absolute flex flex-col gap-3.5 h-full inset-[0] items-center justify-center m-auto">
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterMedium14Black900"
-                  >
-                    가입일자
-                  </Text>
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterBold14"
-                  >
-                    2023. 01. 02
-                  </Text>
-                </div>
-              </div>
-              <div className="h-12 md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
-                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
-                <div className="absolute flex flex-col gap-3.5 h-full inset-[0] items-center justify-center m-auto">
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterMedium14Black900"
-                  >
-                    만든 동화 수
-                  </Text>
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterBold14"
-                  >
-                    4개
-                  </Text>
-                </div>
-              </div>
-              <div className="h-[47px] md:px-10 sm:px-5 px-[50px] py-5 relative w-[200px]">
-                <div className="absolute h-[45px] inset-[0] m-auto outline outline-blue_gray-900 w-full"></div>
-                <div className="absolute flex flex-col gap-[13px] h-full inset-[0] items-center justify-center m-auto">
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterMedium14Black900"
-                  >
-                    녹음한 동화 수
-                  </Text>
-                  <Text
-                    className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                    size="txtInterBold14"
-                  >
-                    3개
-                  </Text>
-                </div>
-              </div>
-            </List>
-            <div className="flex flex-col gap-2.5 h-[47px] md:h-auto items-center justify-center md:px-10 sm:px-5 px-[50px] py-5 w-[200px]">
+        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <div className="flex flex-col gap-[27px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
+          <div className="flex flex-col items-center justify-center max-w-[1180px] pb-2.5 pt-[30px] px-2.5 w-full">
+            <div className="flex flex-col gap-[19px] items-center justify-start max-w-[1180px] w-full">
               <Text
-                className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                size="txtInterMedium14Black900"
+                className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[163px]"
+                size="txtInterMedium28Gray900"
               >
-                받은 좋아요 수
+                제재 내역 보기
               </Text>
               <Text
-                className="text-black-900 text-center text-sm tracking-[-0.27px] w-auto"
-                size="txtInterBold14"
+                className="text-base text-center text-red-A700 tracking-[-0.30px] w-auto"
+                size="txtInterMedium16RedA700"
               >
-                55개
+                경고 3회가 누적되면 로그인이 차단됩니다.
               </Text>
             </div>
-            <Img
-              className="h-[50px] w-[49px]"
-              src="images/img__black_900_1.svg"
-              alt="OneHundredEightyEight"
-            />
           </div>
           <List
-            className="flex flex-col gap-[30px] items-start w-auto"
+            className="flex flex-col gap-[27px] items-center w-full"
             orientation="vertical"
           >
-            <Columncommenteleven className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnreloadone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnconfusedone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columnonehundredninetyone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+            <Column1 className="bg-white-A700 border border-gray-400_02 border-solid flex flex-1 flex-col items-start justify-start max-w-[1180px] rounded w-full" />
+            <Column1 className="bg-white-A700 border border-gray-400_02 border-solid flex flex-1 flex-col items-start justify-start max-w-[1180px] rounded w-full" />
           </List>
+          <Button
+            className="cursor-pointer font-medium h-[74px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.24px] w-[308px]"
+            shape="round"
+            color="blue_gray_100_01"
+            size="2xl"
+            variant="fill"
+          >
+            이메일 문의하기
+          </Button>
         </div>
       </div>
     </>

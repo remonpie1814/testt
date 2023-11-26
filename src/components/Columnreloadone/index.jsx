@@ -16,7 +16,7 @@ const Columnreloadone = (props) => {
             className="text-base text-black-900 tracking-[-0.30px] w-[118px]"
             size="txtInterMedium16"
           >
-            {props?.onehundredeightynine}
+            {props?.twohundredtwelve}
           </Text>
         </div>
       </div>
@@ -24,6 +24,6 @@ const Columnreloadone = (props) => {
   );
 };
 
-Columnreloadone.defaultProps = { onehundredeightynine: "비밀번호 변경하기" };
+Columnreloadone.defaultProps = { twohundredtwelve: "비밀번호 변경하기" };
 
 export default Columnreloadone;
