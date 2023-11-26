@@ -2,7 +2,7 @@ import React from "react";
 
 import { Text } from "components";
 
-const Columntwohundredtwentyfour = (props) => {
+const Columntwohundredfifty = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -29,10 +29,10 @@ const Columntwohundredtwentyfour = (props) => {
   );
 };
 
-Columntwohundredtwentyfour.defaultProps = {
+Columntwohundredfifty.defaultProps = {
   textone: "ㅋㅋㅋㅋㅋㅋㅋㅋ아 웃기네",
   texttwo: "2023.11.02 11:04",
   textthree: "토끼와 호랑이",
 };
 
-export default Columntwohundredtwentyfour;
+export default Columntwohundredfifty;

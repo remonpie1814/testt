@@ -82,7 +82,7 @@ const Rowrectangleten = (props) => {
                 size="xs"
                 variant="fill"
               >
-                {props?.copybutton}
+                {props?.prop}
               </Button>
               <Button
                 className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
@@ -91,7 +91,7 @@ const Rowrectangleten = (props) => {
                 size="xs"
                 variant="fill"
               >
-                {props?.deletebutton}
+                {props?.prop1}
               </Button>
             </div>
           </div>
@@ -108,8 +108,8 @@ Rowrectangleten.defaultProps = {
   userlevelprogress: "5",
   usernickname: "유미네",
   userjoindate: "2023. 10. 08",
-  copybutton: "복사",
-  deletebutton: "삭제",
+  prop: "복사",
+  prop1: "삭제",
 };
 
 export default Rowrectangleten;

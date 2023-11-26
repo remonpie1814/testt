@@ -6,12 +6,15 @@ const Canvas = React.lazy(() => import("pages/Canvas"));
 const FairytaleSettingOne = React.lazy(
   () => import("pages/FairytaleSettingOne"),
 );
+const Page17 = React.lazy(() => import("pages/Page17"));
+const Page16 = React.lazy(() => import("pages/Page16"));
+const Page15 = React.lazy(() => import("pages/Page15"));
 const Page14 = React.lazy(() => import("pages/Page14"));
 const Page13 = React.lazy(() => import("pages/Page13"));
 const Page12 = React.lazy(() => import("pages/Page12"));
+const TemporaryStorage = React.lazy(() => import("pages/TemporaryStorage"));
 const Page11 = React.lazy(() => import("pages/Page11"));
 const Page10 = React.lazy(() => import("pages/Page10"));
-const TemporaryStorage = React.lazy(() => import("pages/TemporaryStorage"));
 const Page9 = React.lazy(() => import("pages/Page9"));
 const Page8 = React.lazy(() => import("pages/Page8"));
 const Page7 = React.lazy(() => import("pages/Page7"));
@@ -50,12 +53,15 @@ const ProjectRoutes = () => {
           <Route path="/page7" element={<Page7 />} />
           <Route path="/page8" element={<Page8 />} />
           <Route path="/page9" element={<Page9 />} />
-          <Route path="/temporarystorage" element={<TemporaryStorage />} />
           <Route path="/page10" element={<Page10 />} />
           <Route path="/page11" element={<Page11 />} />
+          <Route path="/temporarystorage" element={<TemporaryStorage />} />
           <Route path="/page12" element={<Page12 />} />
           <Route path="/page13" element={<Page13 />} />
           <Route path="/page14" element={<Page14 />} />
+          <Route path="/page15" element={<Page15 />} />
+          <Route path="/page16" element={<Page16 />} />
+          <Route path="/page17" element={<Page17 />} />
           <Route
             path="/fairytalesettingone"
             element={<FairytaleSettingOne />}

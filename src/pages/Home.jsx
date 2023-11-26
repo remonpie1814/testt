@@ -59,13 +59,13 @@ const Home = () => {
           <Link to="/page9">Page9</Link>
         </li>
         <li>
-          <Link to="/temporarystorage">TemporaryStorage</Link>
-        </li>
-        <li>
           <Link to="/page10">Page10</Link>
         </li>
         <li>
           <Link to="/page11">Page11</Link>
+        </li>
+        <li>
+          <Link to="/temporarystorage">TemporaryStorage</Link>
         </li>
         <li>
           <Link to="/page12">Page12</Link>
@@ -75,6 +75,15 @@ const Home = () => {
         </li>
         <li>
           <Link to="/page14">Page14</Link>
+        </li>
+        <li>
+          <Link to="/page15">Page15</Link>
+        </li>
+        <li>
+          <Link to="/page16">Page16</Link>
+        </li>
+        <li>
+          <Link to="/page17">Page17</Link>
         </li>
         <li>
           <Link to="/fairytalesettingone">FairytaleSettingOne</Link>

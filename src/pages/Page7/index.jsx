@@ -1,61 +1,121 @@
 import React from "react";
 
-import { Img, Text } from "components";
-import Columntwohundredtwentyfour from "components/Columntwohundredtwentyfour";
-import FrameTwoColumn from "components/FrameTwoColumn";
+import { Img, Input, Text } from "components";
+import FollowColumnlanguage from "components/FollowColumnlanguage";
 import FrameTwoHeader from "components/FrameTwoHeader";
 
 const Page7 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[166px] w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[30px] h-[748px] md:h-auto items-center justify-start max-w-[1180px] mt-1.5 mx-auto md:px-5 py-[30px] w-full">
-          <div className="flex flex-col items-center justify-start w-full">
-            <Text
-              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[140px]"
-              size="txtInterMedium28Gray900"
-            >
-              내가 쓴 댓글
-            </Text>
+        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <div className="flex flex-col gap-[50px] md:h-auto items-center justify-start md:px-5 py-[120px] w-[720px] md:w-full">
+          <Text
+            className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900 tracking-[-0.53px] w-auto"
+            size="txtInterMedium28Gray900"
+          >
+            비밀번호 수정
+          </Text>
+          <div className="flex flex-col gap-[33px] items-center justify-start w-full">
+            <Input
+              name="input"
+              placeholder="현재 비밀번호"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <Input
+              name="input_One"
+              placeholder="새 비밀번호"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <div className="flex flex-col h-[33px] md:h-auto items-center justify-start px-5 w-[400px] sm:w-full">
+              <Text
+                className="text-deep_orange-600 text-sm tracking-[-0.27px] w-full"
+                size="txtInterMedium14Deeporange600"
+              >
+                비밀번호는 8자 이상으로 입력해주세요
+              </Text>
+            </div>
+            <Input
+              name="input_Two"
+              placeholder="비밀번호 확인"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <div className="flex flex-col h-[33px] md:h-auto items-center justify-start px-5 w-[400px] sm:w-full">
+              <Text
+                className="text-deep_orange-600 text-sm tracking-[-0.27px] w-full"
+                size="txtInterMedium14Deeporange600"
+              >
+                비밀번호가 불일치합니다
+              </Text>
+            </div>
           </div>
-          <div className="bg-orange-50 flex flex-col gap-2.5 h-[100px] md:h-auto items-center justify-center px-10 sm:px-5 py-[15px] rounded-[10px] w-[200px]">
-            <Text
-              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-              size="txtInterMedium22Black900"
-            >
-              총 댓글 수
-            </Text>
-            <Text
-              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-              size="txtInterMedium22Black900"
-            >
-              5
-            </Text>
-          </div>
-          <div className="flex flex-col gap-5 items-end justify-start max-w-[1180px] outline outline-gray-600_01 p-2.5 w-full">
-            <Columntwohundredtwentyfour className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full" />
-            <Columntwohundredtwentyfour
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="작가 초심 잃었네ㅡㅡ"
-              texttwo="2023.11.02 11:03"
-              textthree="호랑이와 토끼"
-            />
-            <Columntwohundredtwentyfour
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="뇌절 ㄴ"
-              texttwo="2023.11.22 11:04"
-              textthree="토끼와 호랑이2"
-            />
-            <Columntwohundredtwentyfour
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="이제 안 봄 ㅅㄱ"
-              texttwo="2023.12.02 13:22"
-              textthree="토끼와 호랑이 파이널"
-            />
+          <div className="h-[57px] relative w-1/2">
+            <div className="absolute bg-amber-A100 h-[57px] inset-[0] justify-center m-auto rounded-[10px] w-[64%]"></div>
+            <div className="absolute flex flex-col h-max inset-[0] items-center justify-center m-auto p-[3px] w-full">
+              <Text
+                className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px]"
+                size="txtInterMedium22Black900"
+              >
+                비밀번호 재설정
+              </Text>
+            </div>
           </div>
         </div>
+        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
+          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
+            <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
+              <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center max-w-[1180px] md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
+                <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
+                  <Text
+                    className="text-base text-black-900 tracking-[-0.30px]"
+                    size="txtInterMedium16"
+                  >
+                    고객센터
+                  </Text>
+                </div>
+                <div className="flex flex-col items-start justify-start p-[5px]">
+                  <Text
+                    className="md:ml-[0] ml-[5px] text-base text-black-900 text-center tracking-[-0.30px]"
+                    size="txtInterMedium16"
+                  >
+                    공지사항
+                  </Text>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2.5 items-start justify-center md:px-10 sm:px-5 px-[60px] py-2.5 w-full">
+                <Text
+                  className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
+                  size="txtInterMedium16Bluegray900"
+                >
+                  사업자 정보
+                </Text>
+                <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
+                  <Text
+                    className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
+                    size="txtInterMedium16Bluegray900"
+                  >
+                    이용약관
+                  </Text>
+                  <Text
+                    className="text-base text-blue_gray-400_01 tracking-[-0.30px] w-auto"
+                    size="txtInterMedium16Bluegray40001"
+                  >
+                    개인정보 처리방침
+                  </Text>
+                </div>
+              </div>
+              <Img
+                className="h-[92px] w-full"
+                src="images/img__blue_gray_100.svg"
+                alt="TwoHundredFortyThree"
+              />
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

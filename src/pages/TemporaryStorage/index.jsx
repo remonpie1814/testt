@@ -2,40 +2,14 @@ import React from "react";
 
 import { Button, Img, Text } from "components";
 import FollowColumnlanguage from "components/FollowColumnlanguage";
+import FrameTwoHeader from "components/FrameTwoHeader";
 import TemporaryStorageRowrectangletwentyone from "components/TemporaryStorageRowrectangletwentyone";
 
 const TemporaryStoragePage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <div className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full">
-          <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1180px] mx-auto md:px-5 w-full">
-            <div className="flex flex-col items-center justify-center px-4 w-auto">
-              <Img
-                className="h-[51px] md:h-auto object-cover w-[170px]"
-                src="images/img_.png"
-                alt="TwoHundredEightyEight"
-              />
-            </div>
-            <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_bell111.png"
-                alt="bell111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_search111.png"
-                alt="search111"
-              />
-              <Img
-                className="h-12 md:h-auto object-cover w-12"
-                src="images/img_menu11.png"
-                alt="menuEleven"
-              />
-            </div>
-          </div>
-        </div>
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-5 items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[30px] w-full">
           <Text
@@ -71,20 +45,20 @@ const TemporaryStoragePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
-          <div className="flex flex-col items-center justify-start w-[99%]">
-            <div className="md:gap-5 gap-[41px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-              {new Array(8).fill({}).map((props, index) => (
-                <React.Fragment
-                  key={`TemporaryStorageRowrectangletwentyone${index}`}
-                >
-                  <TemporaryStorageRowrectangletwentyone
-                    className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start w-full"
-                    {...props}
-                  />
-                </React.Fragment>
-              ))}
+          <div className="flex flex-col items-start justify-between w-full">
+            <div className="flex flex-col items-center justify-start w-full">
+              <div className="md:gap-5 gap-[60px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                {new Array(8).fill({}).map((props, index) => (
+                  <React.Fragment
+                    key={`TemporaryStorageRowrectangletwentyone${index}`}
+                  >
+                    <TemporaryStorageRowrectangletwentyone
+                      className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
+                      {...props}
+                    />
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
           </div>
         </div>

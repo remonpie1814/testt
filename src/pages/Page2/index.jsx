@@ -78,7 +78,7 @@ const Page2 = () => {
               onClick={() => navigate("/profilemod")}
               shape="round"
               color="amber_A100"
-              size="sm"
+              size="md"
               variant="fill"
             >
               취소
