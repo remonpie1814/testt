@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, Text } from "components";
+import { Img, Text } from "components";
 
 const Rowrectangleten = (props) => {
   return (
@@ -27,7 +27,7 @@ const Rowrectangleten = (props) => {
               className="text-gray-900 text-sm w-auto"
               size="txtInterMedium14Gray900"
             >
-              {props?.userpoints}
+              {props?.userage}
             </Text>
             <Img
               className="h-5 md:h-auto object-cover w-5"
@@ -45,7 +45,7 @@ const Rowrectangleten = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevel}
+              {props?.usergendervalue}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -56,43 +56,23 @@ const Rowrectangleten = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelprogress}
+              {props?.usermaritalstatusvalue}
             </Text>
           </div>
-          <div className="flex flex-row items-start justify-between pl-0.5 w-full">
-            <div className="flex flex-col gap-0.5 items-start justify-start mb-[9px] w-auto">
+          <div className="flex flex-col items-start justify-start pb-0.5 px-0.5 w-full">
+            <div className="flex flex-col gap-0.5 items-start justify-start mb-[7px] w-auto">
               <Text
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.usernickname}
+                {props?.usermothername}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
                 size="txtInterMedium12"
               >
-                {props?.userjoindate}
+                {props?.userbirthdate}
               </Text>
-            </div>
-            <div className="flex flex-row gap-2.5 items-start justify-start mt-[15px] w-auto">
-              <Button
-                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
-                shape="square"
-                color="gray_300"
-                size="xs"
-                variant="fill"
-              >
-                {props?.prop}
-              </Button>
-              <Button
-                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
-                shape="square"
-                color="gray_300"
-                size="xs"
-                variant="fill"
-              >
-                {props?.prop1}
-              </Button>
             </div>
           </div>
         </div>
@@ -103,13 +83,11 @@ const Rowrectangleten = (props) => {
 
 Rowrectangleten.defaultProps = {
   username: "신데렐라는 어려서 부모님을 잃고요",
-  userpoints: "10p",
-  userlevel: "5",
-  userlevelprogress: "5",
-  usernickname: "유미네",
-  userjoindate: "2023. 10. 08",
-  prop: "복사",
-  prop1: "삭제",
+  userage: "10p",
+  usergendervalue: "5",
+  usermaritalstatusvalue: "5",
+  usermothername: "유미엄마",
+  userbirthdate: "2023. 10. 08",
 };
 
 export default Rowrectangleten;

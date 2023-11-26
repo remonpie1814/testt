@@ -16,7 +16,7 @@ const Rowrectangleten1 = (props) => {
         <div className="flex flex-col gap-0.5 h-[196px] md:h-auto items-start justify-center w-[360px]">
           <div className="flex flex-col items-start justify-center w-[360px]">
             <Text
-              className="leading-[150.00%] max-w-[360px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px]"
+              className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
               {props?.username}
@@ -45,7 +45,7 @@ const Rowrectangleten1 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumber}
+              {props?.userlevel}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -56,7 +56,7 @@ const Rowrectangleten1 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumberplusonenumber}
+              {props?.userlevelprogress}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -65,24 +65,35 @@ const Rowrectangleten1 = (props) => {
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.usermothername}
+                {props?.usernickname}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
                 size="txtInterMedium12"
               >
-                {props?.userdate}
+                {props?.userjoindate}
               </Text>
             </div>
-            <Button
-              className="cursor-pointer font-inter font-medium min-w-[100px] mt-[15px] text-center text-sm tracking-[-0.15px]"
-              shape="square"
-              color="gray_300"
-              size="xs"
-              variant="fill"
-            >
-              {props?.prop}
-            </Button>
+            <div className="flex flex-row gap-2.5 items-start justify-start mt-[15px] w-auto">
+              <Button
+                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
+                shape="square"
+                color="gray_300"
+                size="sm"
+                variant="fill"
+              >
+                {props?.prop}
+              </Button>
+              <Button
+                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
+                shape="square"
+                color="gray_300"
+                size="sm"
+                variant="fill"
+              >
+                {props?.prop1}
+              </Button>
+            </div>
           </div>
         </div>
       </div>
@@ -91,18 +102,14 @@ const Rowrectangleten1 = (props) => {
 };
 
 Rowrectangleten1.defaultProps = {
-  username: (
-    <>
-      신데렐라는 어려서 부모님을 발로 차<br />
-      싸커 발로 차 싸커
-    </>
-  ),
+  username: "신데렐라는 어려서 부모님을 잃고요",
   userpoints: "10p",
-  userlevelnumber: "5",
-  userlevelnumberplusonenumber: "5",
-  usermothername: "유미엄마",
-  userdate: "2023. 10. 08",
-  prop: "삭제",
+  userlevel: "5",
+  userlevelprogress: "5",
+  usernickname: "유미네",
+  userjoindate: "2023. 10. 08",
+  prop: "복사",
+  prop1: "삭제",
 };
 
 export default Rowrectangleten1;

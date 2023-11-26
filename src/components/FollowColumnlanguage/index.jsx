@@ -17,19 +17,19 @@ const FollowColumnlanguage = (props) => {
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
             size="txtInterMedium16Gray900"
           >
-            {props?.ninetyfive}
+            {props?.onehundredseventeen}
           </Text>
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
             size="txtInterMedium16Gray900"
           >
-            {props?.ninetysix}
+            {props?.onehundredeighteen}
           </Text>
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
             size="txtInterMedium16Gray900"
           >
-            {props?.ninetyseven}
+            {props?.onehundrednineteen}
           </Text>
         </div>
       </div>
@@ -39,9 +39,9 @@ const FollowColumnlanguage = (props) => {
 
 FollowColumnlanguage.defaultProps = {
   language: "전체 ",
-  ninetyfive: "인기",
-  ninetysix: "신작",
-  ninetyseven: "팔로우",
+  onehundredseventeen: "인기",
+  onehundredeighteen: "신작",
+  onehundrednineteen: "팔로우",
 };
 
 export default FollowColumnlanguage;

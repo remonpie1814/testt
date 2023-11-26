@@ -30,7 +30,7 @@ const FrameTwoColumn = (props) => {
               className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
               size="txtInterMedium16Gray900"
             >
-              {props?.following}
+              {props?.follow}
             </Text>
           </div>
         </div>
@@ -43,7 +43,7 @@ FrameTwoColumn.defaultProps = {
   language: "전체 ",
   popular: "인기",
   newrelease: "신작",
-  following: "팔로우",
+  follow: "팔로우",
 };
 
 export default FrameTwoColumn;

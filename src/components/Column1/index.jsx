@@ -11,7 +11,7 @@ const Column1 = (props) => {
             className="!text-white-A700 border-gray-400_02 border-l border-solid border-t cursor-pointer flex-1 font-bold font-inter h-[67px] text-[22px] text-center sm:text-lg md:text-xl w-full"
             shape="square"
             color="gray_600"
-            size="lg"
+            size="xl"
             variant="fill"
           >
             {props?.itemname}
@@ -32,7 +32,7 @@ const Column1 = (props) => {
             className="!text-white-A700 border-gray-400_02 border-l border-solid border-t cursor-pointer flex-1 font-bold font-inter h-[67px] text-[22px] text-center sm:text-lg md:text-xl w-full"
             shape="square"
             color="gray_600"
-            size="lg"
+            size="xl"
             variant="fill"
           >
             {props?.contentname}
@@ -74,7 +74,7 @@ const Column1 = (props) => {
             className="!text-white-A700 border-gray-400_02 border-l border-solid border-t cursor-pointer flex-1 font-bold font-inter h-[67px] text-[22px] text-center sm:text-lg md:text-xl w-full"
             shape="square"
             color="gray_600"
-            size="lg"
+            size="xl"
             variant="fill"
           >
             {props?.reasonname}

@@ -1,155 +1,77 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import { Img, Line, Text } from "components";
 
 const Page1 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[35px] items-center justify-start max-w-[720px] md:px-5 py-[30px] w-full">
-          <div className="flex sm:flex-col flex-row gap-2 items-center justify-between max-w-[720px] sm:px-5 px-[30px] w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-center mx-auto shadow-bs w-auto sm:w-full md:w-full">
+        <Img
+          className="h-[486px] sm:h-auto object-cover w-[455px] md:w-full"
+          src="images/img_rectangle59.png"
+          alt="rectangleFiftyNine"
+        />
+        <div className="h-[62px] md:px-5 relative w-[41%] sm:w-full">
+          <div className="h-[62px] m-auto w-full">
+            <div className="h-[62px] m-auto rounded-md w-full"></div>
+            <div className="absolute flex sm:flex-col flex-row sm:gap-5 h-max inset-[0] items-center justify-center m-auto w-[98%]">
+              <Line className="bg-yellow-200 h-[3px] w-[86%]" />
+              <Line className="bg-white-A700 h-[3px] w-[14%]" />
+            </div>
+          </div>
+          <div className="absolute bottom-[15%] h-[34px] right-[14%] w-[4%]"></div>
+        </div>
+        <div className="flex flex-row gap-[25px] items-end justify-center md:px-5 w-[29%] md:w-full">
+          <div className="flex flex-col items-center justify-start w-1/4">
             <Img
-              className="h-[120px] md:h-auto object-cover w-[120px]"
-              src="images/img__120x120.png"
-              alt="OneHundredFifteen"
+              className="h-[81px] md:h-auto object-cover w-[81px]"
+              src="images/img_image589.png"
+              alt="image589"
             />
             <Text
-              className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-              size="txtInterMedium22Gray900"
+              className="text-base text-gray-900 tracking-[-0.30px]"
+              size="txtInterMedium16Gray900_1"
             >
-              현진
+              정지
             </Text>
-            <List
-              className="sm:flex-col flex-row md:gap-10 gap-[137px] grid grid-cols-2"
-              orientation="horizontal"
-            >
-              <div className="flex flex-col gap-2 items-center justify-center w-auto">
-                <Text
-                  className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  팔로워
-                </Text>
-                <Text
-                  className="text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  40
-                </Text>
-              </div>
-              <div className="flex flex-col gap-2 items-center justify-center w-auto">
-                <Text
-                  className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  팔로잉
-                </Text>
-                <Text
-                  className="text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  40
-                </Text>
-              </div>
-            </List>
           </div>
-          <Button
-            className="cursor-pointer font-medium min-w-[104px] rounded-[10px] text-base text-center tracking-[-0.30px]"
-            color="amber_A100"
-            size="md"
-            variant="fill"
-          >
-            팔로우
-          </Button>
-          <div className="py-[23px] relative w-full">
-            <div className="bg-gray-300 h-[150px] m-auto w-full"></div>
-            <div className="absolute flex flex-col h-max inset-[0] items-start justify-center m-auto p-3.5">
-              <Text
-                className="mb-[41px] mt-[30px] text-base text-black-900 text-center tracking-[-0.30px]"
-                size="txtInterMedium16"
-              >
-                자기소개
-              </Text>
-            </div>
-          </div>
-          <div className="flex flex-row sm:gap-10 gap-[538px] items-center justify-start w-full">
-            <Text
-              className="md:text-2xl sm:text-[22px] text-[26px] text-gray-900 tracking-[-0.29px] w-auto"
-              size="txtInterMedium26"
-            >
-              내 책장
-            </Text>
-            <div className="flex flex-row items-center justify-start w-auto">
-              <Text
-                className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900_1"
-              >
-                전체 보기
-              </Text>
-              <Img
-                className="h-8 md:h-auto object-cover w-8"
-                src="images/img_down11.png"
-                alt="downEleven"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col items-start justify-start md:px-10 sm:px-5 px-[75px] w-auto md:w-full">
-            <div className="sm:gap-5 gap-[60px] grid sm:grid-cols-1 grid-cols-3 justify-center min-h-[auto] w-full">
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
+          <div className="flex flex-col items-center justify-start mt-[5px] w-[69%]">
+            <div className="flex flex-col gap-2 items-center justify-start w-full">
+              <div className="flex flex-row items-center justify-between w-full">
                 <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
+                  className="h-16 md:h-auto object-cover w-16"
+                  src="images/img_image689_30x30.png"
+                  alt="image655"
+                />
+                <Text
+                  className="text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px]"
+                  size="txtInterBold24"
+                >
+                  25 / 30
+                </Text>
+                <Img
+                  className="h-16 md:h-auto object-cover w-16"
+                  src="images/img_image690_30x30.png"
+                  alt="image656"
                 />
               </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
-                <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
-                />
-              </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
-                <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
-                />
-              </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
-                <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
-                />
-              </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
-                <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
-                />
-              </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
-                <Img
-                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
-                  src="images/img_image917_194x150.png"
-                  alt="image917"
-                />
+              <div className="flex flex-row items-center justify-between w-[54%] md:w-full">
+                <Text
+                  className="text-base text-gray-900 tracking-[-0.30px]"
+                  size="txtInterMedium16Gray900"
+                >
+                  이전
+                </Text>
+                <Text
+                  className="text-base text-gray-900 tracking-[-0.30px]"
+                  size="txtInterMedium16Gray900"
+                >
+                  다음
+                </Text>
               </div>
             </div>
           </div>
         </div>
-        <Text
-          className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
-          size="txtInterMedium28"
-        >
-          내 프로필 수정
-        </Text>
       </div>
     </>
   );

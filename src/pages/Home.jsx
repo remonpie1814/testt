@@ -14,28 +14,31 @@ const Home = () => {
           <Link to="/">FrameTwo</Link>
         </li>
         <li>
-          <Link to="/sanse">Sanse</Link>
+          <Link to="/page29">Page29</Link>
+        </li>
+        <li>
+          <Link to="/page30">Page30</Link>
         </li>
         <li>
           <Link to="/page">Page</Link>
         </li>
         <li>
-          <Link to="/follow">Follow</Link>
+          <Link to="/page28">Page28</Link>
         </li>
         <li>
           <Link to="/page1">Page1</Link>
         </li>
         <li>
-          <Link to="/profile">Profile</Link>
-        </li>
-        <li>
-          <Link to="/like">Like</Link>
-        </li>
-        <li>
-          <Link to="/profilemod">ProfileMod</Link>
-        </li>
-        <li>
           <Link to="/page2">Page2</Link>
+        </li>
+        <li>
+          <Link to="/page27">Page27</Link>
+        </li>
+        <li>
+          <Link to="/page26">Page26</Link>
+        </li>
+        <li>
+          <Link to="/page25">Page25</Link>
         </li>
         <li>
           <Link to="/page3">Page3</Link>
@@ -65,13 +68,13 @@ const Home = () => {
           <Link to="/page11">Page11</Link>
         </li>
         <li>
-          <Link to="/temporarystorage">TemporaryStorage</Link>
-        </li>
-        <li>
           <Link to="/page12">Page12</Link>
         </li>
         <li>
           <Link to="/page13">Page13</Link>
+        </li>
+        <li>
+          <Link to="/page24">Page24</Link>
         </li>
         <li>
           <Link to="/page14">Page14</Link>
@@ -86,10 +89,16 @@ const Home = () => {
           <Link to="/page17">Page17</Link>
         </li>
         <li>
-          <Link to="/fairytalesettingone">FairytaleSettingOne</Link>
+          <Link to="/page18">Page18</Link>
         </li>
         <li>
-          <Link to="/canvas">Canvas</Link>
+          <Link to="/page19">Page19</Link>
+        </li>
+        <li>
+          <Link to="/page22">Page22</Link>
+        </li>
+        <li>
+          <Link to="/page23">Page23</Link>
         </li>
       </ul>
     </div>
