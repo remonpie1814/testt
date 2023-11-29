@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Button, CheckBox, Img, Text } from "components";
-import FairytaleSettingOneTemporarysave1 from "components/FairytaleSettingOneTemporarysave1";
-import FollowColumnlanguage from "components/FollowColumnlanguage";
+import Page22Temporarysave1 from "components/Page22Temporarysave1";
+import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page22 = () => {
   return (
@@ -14,7 +14,7 @@ const Page22 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="FourHundredFortyNine"
+                alt="FourHundredSeventyOne"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -36,7 +36,7 @@ const Page22 = () => {
             </div>
           </div>
         </div>
-        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col md:gap-10 gap-[65px] h-[1214px] md:h-auto items-center justify-start max-w-[1180px] mx-auto pt-[30px] md:px-5 w-full">
           <div className="border-b border-gray-600 border-solid flex flex-col gap-5 items-center justify-start px-5 w-full">
             <div className="flex flex-col items-center justify-start w-full">
@@ -57,7 +57,7 @@ const Page22 = () => {
                 <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-center w-full">
                   <Text
                     className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-                    size="txtInterMedium22Black900_1"
+                    size="txtInterMedium22Black900"
                   >
                     제목
                   </Text>
@@ -66,7 +66,7 @@ const Page22 = () => {
                 <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-center px-4 py-[19px] w-full">
                   <Text
                     className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-                    size="txtInterMedium22Black900_1"
+                    size="txtInterMedium22Black900"
                   >
                     설명
                   </Text>
@@ -75,7 +75,7 @@ const Page22 = () => {
               </div>
             </div>
           </div>
-          <FairytaleSettingOneTemporarysave1 className="border border-blue_gray-100_01 border-solid flex flex-col gap-2 items-center justify-start max-w-[1180px] p-5 shadow-bs w-full" />
+          <Page22Temporarysave1 className="border border-blue_gray-100_01 border-solid flex flex-col gap-2 items-center justify-start max-w-[1180px] p-5 shadow-bs w-full" />
         </div>
       </div>
     </>

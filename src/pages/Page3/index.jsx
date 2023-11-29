@@ -1,88 +1,75 @@
 import React from "react";
 
-import { useNavigate } from "react-router-dom";
-
-import { Button, Img, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
-import Scrollbar from "components/Scrollbar";
+import { Img, Line, Text } from "components";
 
 const Page3 = () => {
-  const navigate = useNavigate();
-
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[30px] h-[875px] md:h-auto items-center justify-start max-w-[1180px] mx-auto pb-5 pt-[30px] md:px-5 w-full">
-          <Text
-            className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
-            size="txtInterMedium28"
-          >
-            내 프로필 사진 수정
-          </Text>
-          <div className="flex flex-col gap-2.5 items-center justify-center w-full">
-            <div className="flex sm:flex-col flex-row gap-2.5 h-[500px] md:h-auto items-center justify-center px-5 w-[500px] sm:w-full">
-              <div className="bg-white-A700 gap-2.5 grid sm:grid-cols-1 grid-cols-3 items-center min-h-[auto] w-[470px] sm:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-center mx-auto shadow-bs w-auto sm:w-full md:w-full">
+        <Img
+          className="h-[486px] sm:h-auto object-cover w-[455px] md:w-full"
+          src="images/img_rectangle59.png"
+          alt="rectangleFiftyNine"
+        />
+        <div className="h-[62px] md:px-5 relative w-[41%] sm:w-full">
+          <div className="h-[62px] m-auto w-full">
+            <div className="h-[62px] m-auto rounded-md w-full"></div>
+            <div className="absolute flex sm:flex-col flex-row sm:gap-5 h-max inset-[0] items-center justify-center m-auto w-[98%]">
+              <Line className="bg-yellow-200 h-[3px] w-[86%]" />
+              <Line className="bg-white-A700 h-[3px] w-[14%]" />
+            </div>
+          </div>
+          <div className="absolute bottom-[15%] h-[34px] right-[14%] w-[4%]"></div>
+        </div>
+        <div className="flex flex-row gap-[25px] items-end justify-center md:px-5 w-[29%] md:w-full">
+          <div className="flex flex-col items-center justify-start w-1/4">
+            <Img
+              className="h-[81px] md:h-auto object-cover w-[81px]"
+              src="images/img_image589.png"
+              alt="image589"
+            />
+            <Text
+              className="text-base text-gray-900 tracking-[-0.30px]"
+              size="txtInterMedium16Gray900_1"
+            >
+              정지
+            </Text>
+          </div>
+          <div className="flex flex-col items-center justify-start mt-[5px] w-[69%]">
+            <div className="flex flex-col gap-2 items-center justify-start w-full">
+              <div className="flex flex-row items-center justify-between w-full">
                 <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
+                  className="h-16 md:h-auto object-cover w-16"
+                  src="images/img_image689_30x30.png"
+                  alt="image655"
                 />
+                <Text
+                  className="text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px]"
+                  size="txtInterBold24"
+                >
+                  25 / 30
+                </Text>
                 <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
-                />
-                <Img
-                  className="h-[150px] md:h-auto object-cover w-full"
-                  src="images/img__150x150.png"
-                  alt="profile"
+                  className="h-16 md:h-auto object-cover w-16"
+                  src="images/img_image690_30x30.png"
+                  alt="image656"
                 />
               </div>
-              <Scrollbar className="bg-blue_gray-50_01 flex flex-col items-center justify-start p-0.5 w-[4%] sm:w-full" />
+              <div className="flex flex-row items-center justify-between w-[54%] md:w-full">
+                <Text
+                  className="text-base text-gray-900 tracking-[-0.30px]"
+                  size="txtInterMedium16Gray900"
+                >
+                  이전
+                </Text>
+                <Text
+                  className="text-base text-gray-900 tracking-[-0.30px]"
+                  size="txtInterMedium16Gray900"
+                >
+                  다음
+                </Text>
+              </div>
             </div>
-            <Button
-              className="common-pointer cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
-              onClick={() => navigate("/page25")}
-              shape="round"
-              color="amber_A100"
-              size="md"
-              variant="fill"
-            >
-              취소
-            </Button>
           </div>
         </div>
       </div>

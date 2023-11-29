@@ -1,16 +1,17 @@
 import React from "react";
 
 import { Button, Img, Text } from "components";
-import FollowColumnlanguage from "components/FollowColumnlanguage";
 import FrameTwoHeader from "components/FrameTwoHeader";
-import TemporaryStorageRowrectangletwentyone from "components/TemporaryStorageRowrectangletwentyone";
+import Page24Rowrectangleten from "components/Page24Rowrectangleten";
+import Page26Columnonehundredninetyseven from "components/Page26Columnonehundredninetyseven";
+import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page24 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-5 items-center justify-start max-w-[1180px] mx-auto md:px-5 py-5 w-full">
           <Text
             className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 w-full"
@@ -47,12 +48,10 @@ const Page24 = () => {
           </div>
           <div className="flex flex-col items-start justify-between w-full">
             <div className="flex flex-col items-center justify-start w-full">
-              <div className="md:gap-5 gap-[60px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                {new Array(8).fill({}).map((props, index) => (
-                  <React.Fragment
-                    key={`TemporaryStorageRowrectangletwentyone${index}`}
-                  >
-                    <TemporaryStorageRowrectangletwentyone
+              <div className="gap-20 md:gap-5 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                {new Array(6).fill({}).map((props, index) => (
+                  <React.Fragment key={`Page24Rowrectangleten${index}`}>
+                    <Page24Rowrectangleten
                       className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
                       {...props}
                     />
@@ -61,6 +60,7 @@ const Page24 = () => {
               </div>
             </div>
           </div>
+          <Page26Columnonehundredninetyseven className="flex flex-col gap-8 items-center justify-center w-full" />
         </div>
       </div>
     </>

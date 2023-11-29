@@ -1,61 +1,76 @@
 import React from "react";
 
-import { Img, Text } from "components";
-import Columntwohundredninetyfive from "components/Columntwohundredninetyfive";
-import FrameTwoColumn from "components/FrameTwoColumn";
+import { Button, Img, List, Text } from "components";
+import Faq from "components/Faq";
 import FrameTwoHeader from "components/FrameTwoHeader";
+import Page26ColumnTwo from "components/Page26ColumnTwo";
+import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page10 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[166px] w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[231px] w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[30px] h-[748px] md:h-auto items-center justify-start max-w-[1180px] mt-1.5 mx-auto md:px-5 py-[30px] w-full">
-          <div className="flex flex-col items-center justify-start w-full">
+        <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <div className="flex flex-col gap-10 items-end justify-start max-w-[1180px] mx-auto pt-[30px] md:px-5 w-full">
+          <Text
+            className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[53px]"
+            size="txtInterMedium28Gray900"
+          >
+            FAQ
+          </Text>
+          <Page26ColumnTwo
+            className="flex flex-col gap-8 items-start justify-center max-w-[1180px] w-full"
+            searchtext="무엇을 도와드릴까요?"
+          />
+          <div className="flex flex-row md:gap-10 gap-[60px] items-center justify-center max-w-[1155px] w-full">
             <Text
-              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[140px]"
-              size="txtInterMedium28Gray900"
+              className="text-base text-black-900 text-center tracking-[-0.30px] w-[29px]"
+              size="txtInterBold16Black900"
             >
-              내가 쓴 댓글
+              전체
+            </Text>
+            <Text
+              className="text-base text-black-900 text-center tracking-[-0.30px] w-[58px]"
+              size="txtInterBold16Black900"
+            >
+              회원정보
+            </Text>
+            <Text
+              className="text-base text-black-900 text-center tracking-[-0.30px] w-[62px]"
+              size="txtInterBold16Black900"
+            >
+              동화 제작
+            </Text>
+            <Text
+              className="text-base text-black-900 text-center tracking-[-0.30px] w-[57px]"
+              size="txtInterBold16Black900"
+            >
+              기타문의
             </Text>
           </div>
-          <div className="bg-orange-50 flex flex-col gap-2.5 h-[100px] md:h-auto items-center justify-center px-10 sm:px-5 py-[15px] rounded-[10px] w-[200px]">
-            <Text
-              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-              size="txtInterMedium22Black900_1"
-            >
-              총 댓글 수
-            </Text>
-            <Text
-              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-              size="txtInterMedium22Black900_1"
-            >
-              5
-            </Text>
-          </div>
-          <div className="flex flex-col gap-5 items-end justify-start max-w-[1180px] outline outline-gray-600_01 p-2.5 w-full">
-            <Columntwohundredninetyfive className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full" />
-            <Columntwohundredninetyfive
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="작가 초심 잃었네ㅡㅡ"
-              texttwo="2023.11.02 11:03"
-              textthree="호랑이와 토끼"
-            />
-            <Columntwohundredninetyfive
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="뇌절 ㄴ"
-              texttwo="2023.11.22 11:04"
-              textthree="토끼와 호랑이2"
-            />
-            <Columntwohundredninetyfive
-              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
-              textone="이제 안 봄 ㅅㄱ"
-              texttwo="2023.12.02 13:22"
-              textthree="토끼와 호랑이 파이널"
-            />
-          </div>
+          <List
+            className="flex flex-col gap-[15px] items-start w-auto"
+            orientation="vertical"
+          >
+            {new Array(8).fill({}).map((props, index) => (
+              <React.Fragment key={`Faq${index}`}>
+                <Faq
+                  className="flex flex-col gap-2.5 items-center justify-start max-w-[1160px] my-0 outline outline-gray-400 py-5 w-full"
+                  {...props}
+                />
+              </React.Fragment>
+            ))}
+          </List>
         </div>
+        <Button
+          className="cursor-pointer mt-[71px] rounded-[10px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.42px] w-[564px]"
+          color="amber_A100"
+          size="lg"
+          variant="fill"
+        >
+          1:1 문의 하기
+        </Button>
       </div>
     </>
   );

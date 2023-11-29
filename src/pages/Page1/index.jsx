@@ -1,75 +1,70 @@
 import React from "react";
 
-import { Img, Line, Text } from "components";
+import { Button, Img, List, Text } from "components";
+import FrameTwoColumn from "components/FrameTwoColumn";
+import FrameTwoHeader from "components/FrameTwoHeader";
+import Rowellipsefour from "components/Rowellipsefour";
 
 const Page1 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-center mx-auto shadow-bs w-auto sm:w-full md:w-full">
-        <Img
-          className="h-[486px] sm:h-auto object-cover w-[455px] md:w-full"
-          src="images/img_rectangle59.png"
-          alt="rectangleFiftyNine"
-        />
-        <div className="h-[62px] md:px-5 relative w-[41%] sm:w-full">
-          <div className="h-[62px] m-auto w-full">
-            <div className="h-[62px] m-auto rounded-md w-full"></div>
-            <div className="absolute flex sm:flex-col flex-row sm:gap-5 h-max inset-[0] items-center justify-center m-auto w-[98%]">
-              <Line className="bg-yellow-200 h-[3px] w-[86%]" />
-              <Line className="bg-white-A700 h-[3px] w-[14%]" />
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
+        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-[15px] h-[875px] md:h-auto items-center justify-start max-w-[1180px] mx-auto pb-5 pt-[30px] md:px-5 w-full">
+          <Text
+            className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
+            size="txtInterMedium28"
+          >
+            ‘바보’ 검색 결과
+          </Text>
+          <div className="border-b border-blue_gray-100_01 border-solid flex flex-row gap-[30px] items-start justify-start w-full">
+            <div className="flex flex-col items-start justify-start sm:px-5 px-[30px] py-2.5 w-auto">
+              <Text
+                className="text-base text-blue_gray-100_01 tracking-[-0.30px] w-auto"
+                size="txtInterBold16Bluegray10001"
+              >
+                동화
+              </Text>
             </div>
-          </div>
-          <div className="absolute bottom-[15%] h-[34px] right-[14%] w-[4%]"></div>
-        </div>
-        <div className="flex flex-row gap-[25px] items-end justify-center md:px-5 w-[29%] md:w-full">
-          <div className="flex flex-col items-center justify-start w-1/4">
-            <Img
-              className="h-[81px] md:h-auto object-cover w-[81px]"
-              src="images/img_image589.png"
-              alt="image589"
-            />
-            <Text
-              className="text-base text-gray-900 tracking-[-0.30px]"
-              size="txtInterMedium16Gray900_1"
+            <Button
+              className="cursor-pointer font-bold min-w-[104px] text-base text-center tracking-[-0.30px]"
+              shape="square"
+              color="amber_A100"
+              size="md"
+              variant="outline"
             >
-              정지
+              글쓴이
+            </Button>
+          </div>
+          <div className="flex flex-col items-center justify-start w-full">
+            <Text
+              className="text-blue_gray-900_cc text-sm tracking-[-0.27px] w-auto"
+              size="txtInterMedium14Bluegray900cc"
+            >
+              4건
             </Text>
           </div>
-          <div className="flex flex-col items-center justify-start mt-[5px] w-[69%]">
-            <div className="flex flex-col gap-2 items-center justify-start w-full">
-              <div className="flex flex-row items-center justify-between w-full">
-                <Img
-                  className="h-16 md:h-auto object-cover w-16"
-                  src="images/img_image689_30x30.png"
-                  alt="image655"
-                />
-                <Text
-                  className="text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px]"
-                  size="txtInterBold24"
-                >
-                  25 / 30
-                </Text>
-                <Img
-                  className="h-16 md:h-auto object-cover w-16"
-                  src="images/img_image690_30x30.png"
-                  alt="image656"
-                />
+          <div className="flex flex-col items-center justify-center w-full">
+            <List
+              className="flex flex-col gap-10 items-center w-[89%]"
+              orientation="vertical"
+            >
+              <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
+                <div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between w-[66%] md:w-full">
+                  <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
+                  <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
+                </div>
+                <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
               </div>
-              <div className="flex flex-row items-center justify-between w-[54%] md:w-full">
-                <Text
-                  className="text-base text-gray-900 tracking-[-0.30px]"
-                  size="txtInterMedium16Gray900"
-                >
-                  이전
-                </Text>
-                <Text
-                  className="text-base text-gray-900 tracking-[-0.30px]"
-                  size="txtInterMedium16Gray900"
-                >
-                  다음
-                </Text>
+              <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
+                <div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between w-[66%] md:w-full">
+                  <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
+                  <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
+                </div>
+                <Rowellipsefour className="flex flex-row gap-5 items-center justify-center w-auto" />
               </div>
-            </div>
+            </List>
           </div>
         </div>
       </div>

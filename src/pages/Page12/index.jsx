@@ -1,166 +1,61 @@
 import React from "react";
 
-import { Button, Img, Line, List, Text } from "components";
+import { Img, Text } from "components";
+import Columnthreehundredfifteen from "components/Columnthreehundredfifteen";
 import FrameTwoColumn from "components/FrameTwoColumn";
 import FrameTwoHeader from "components/FrameTwoHeader";
-import Rowrectangleten2 from "components/Rowrectangleten2";
 
 const Page12 = () => {
-  const rowrectangleten2PropList = [
-    {},
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
-  ];
-
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[166px] w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-2.5 items-start justify-start max-w-[1180px] mx-auto pb-[100px] pt-[30px] md:px-5 w-full">
-          <div className="flex flex-col gap-2.5 items-start justify-start p-2.5 w-full">
-            <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-auto sm:w-full">
-              <Text
-                className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.31px] w-auto"
-                size="txtInterMedium28Gray900"
-              >
-                최근 본 동화
-              </Text>
-              <Text
-                className="text-base text-gray-600_02 tracking-[-0.18px] w-full"
-                size="txtInterLight16"
-              >
-                전체 90 (최근에 감상한 동화 목록 입니다)
-              </Text>
-            </div>
+        <div className="flex flex-col gap-[30px] h-[748px] md:h-auto items-center justify-start max-w-[1180px] mt-1.5 mx-auto md:px-5 py-[30px] w-full">
+          <div className="flex flex-col items-center justify-start w-full">
             <Text
-              className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.53px] w-[140px]"
+              size="txtInterMedium28Gray900"
             >
-              ※이력은 100건까지 저장됩니다
+              내가 쓴 댓글
             </Text>
           </div>
-          <List
-            className="flex flex-col gap-2.5 items-center w-full"
-            orientation="vertical"
-          >
-            <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
-              <div className="flex flex-col gap-3 items-start justify-start w-full">
-                <Line className="bg-gray-400_04 h-px w-full" />
-                <Text
-                  className="ml-4 md:ml-[0] text-base text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  2023. 10. 08
-                </Text>
-                <Line className="bg-gray-400_06 h-px w-full" />
-              </div>
-              <div className="flex flex-col items-start justify-between w-full">
-                <div className="flex flex-col items-start justify-start w-full">
-                  <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                    <Rowrectangleten2 className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full" />
-                    <Rowrectangleten2
-                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
-                    />
-                  </div>
-                  <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                    <Rowrectangleten2
-                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
-                    />
-                    <Rowrectangleten2
-                      className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
-                    />
-                  </div>
-                  <Rowrectangleten2
-                    className="flex sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                    username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-1 flex-col gap-5 items-start justify-start w-full">
-              <div className="flex flex-col gap-3 items-start justify-start w-full">
-                <Line className="bg-gray-400_04 h-px w-full" />
-                <Text
-                  className="ml-4 md:ml-[0] text-base text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
-                >
-                  2023. 10. 07
-                </Text>
-                <Line className="bg-gray-400_06 h-px w-full" />
-              </div>
-              <div className="flex flex-col items-start justify-between w-full">
-                <div className="flex flex-col items-center justify-start w-full">
-                  <div className="gap-20 md:gap-5 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                    {rowrectangleten2PropList.map((props, index) => (
-                      <React.Fragment key={`Rowrectangleten2${index}`}>
-                        <Rowrectangleten2
-                          className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
-                          {...props}
-                        />
-                      </React.Fragment>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </List>
-        </div>
-        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
-          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
-            <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
-              <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
-                <div className="flex flex-col items-start justify-end pr-0.5 py-0.5">
-                  <Text
-                    className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px]"
-                    size="txtInterMedium22Black900"
-                  >
-                    고객센터
-                  </Text>
-                </div>
-                <div className="flex flex-col items-start justify-end pr-0.5 py-0.5">
-                  <Text
-                    className="text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px]"
-                    size="txtInterMedium22Black900"
-                  >
-                    공지사항
-                  </Text>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2.5 items-start justify-center md:px-10 sm:px-5 px-[60px] py-2.5 w-full">
-                <Text
-                  className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
-                  size="txtInterMedium16Bluegray900"
-                >
-                  사업자 정보
-                </Text>
-                <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
-                  <Text
-                    className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
-                    size="txtInterMedium16Bluegray900"
-                  >
-                    이용약관
-                  </Text>
-                  <Text
-                    className="text-base text-blue_gray-400_01 tracking-[-0.30px] w-auto"
-                    size="txtInterMedium16Bluegray40001"
-                  >
-                    개인정보 처리방침
-                  </Text>
-                </div>
-              </div>
-              <Img
-                className="h-[92px] w-full"
-                src="images/img__blue_gray_100.svg"
-                alt="ThreeHundredFiftyEight"
-              />
-            </div>
+          <div className="bg-orange-50 flex flex-col gap-2.5 h-[100px] md:h-auto items-center justify-center px-10 sm:px-5 py-[15px] rounded-[10px] w-[200px]">
+            <Text
+              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
+              size="txtInterMedium22Black900"
+            >
+              총 댓글 수
+            </Text>
+            <Text
+              className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
+              size="txtInterMedium22Black900"
+            >
+              5
+            </Text>
           </div>
-        </footer>
+          <div className="flex flex-col gap-5 items-end justify-start max-w-[1180px] outline outline-gray-600_02 p-2.5 w-full">
+            <Columnthreehundredfifteen className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full" />
+            <Columnthreehundredfifteen
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="작가 초심 잃었네ㅡㅡ"
+              texttwo="2023.11.02 11:03"
+              textthree="호랑이와 토끼"
+            />
+            <Columnthreehundredfifteen
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="뇌절 ㄴ"
+              texttwo="2023.11.22 11:04"
+              textthree="토끼와 호랑이2"
+            />
+            <Columnthreehundredfifteen
+              className="flex flex-col gap-[3px] items-start justify-start outline outline-gray-400 w-full"
+              textone="이제 안 봄 ㅅㄱ"
+              texttwo="2023.12.02 13:22"
+              textthree="토끼와 호랑이 파이널"
+            />
+          </div>
+        </div>
       </div>
     </>
   );

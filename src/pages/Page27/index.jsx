@@ -10,7 +10,7 @@ const Page27 = () => {
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[35px] h-[1090px] md:h-auto items-center justify-start max-w-[720px] pb-5 pt-[30px] md:px-5 w-full">
+        <div className="flex flex-col gap-[35px] items-center justify-start max-w-[720px] pb-5 pt-[30px] md:px-5 w-full">
           <Text
             className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
             size="txtInterMedium28"
@@ -21,7 +21,7 @@ const Page27 = () => {
             <Img
               className="h-[120px] md:h-auto object-cover w-[120px]"
               src="images/img__120x120.png"
-              alt="OneHundredFiftyOne"
+              alt="OneHundredSixtySeven"
             />
             <Text
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
@@ -126,23 +126,23 @@ const Page27 = () => {
                   alt="image917"
                 />
               </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start rounded-[20px] w-full">
+              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
                 <Img
-                  className="h-[184px] md:h-auto object-cover rounded-[20px] w-full"
+                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
                   src="images/img_image917_194x150.png"
                   alt="image917"
                 />
               </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start rounded-[20px] w-full">
+              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
                 <Img
-                  className="h-[184px] md:h-auto object-cover rounded-[20px] w-full"
+                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
                   src="images/img_image917_194x150.png"
                   alt="image917"
                 />
               </div>
-              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start rounded-[20px] w-full">
+              <div className="border border-black-900 border-solid flex flex-1 flex-col items-center justify-start pb-1.5 rounded-[20px] w-full">
                 <Img
-                  className="h-[184px] md:h-auto object-cover rounded-[20px] w-full"
+                  className="h-[194px] md:h-auto object-cover rounded-[20px] w-full"
                   src="images/img_image917_194x150.png"
                   alt="image917"
                 />

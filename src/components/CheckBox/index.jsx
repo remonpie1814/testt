@@ -4,7 +4,7 @@ import { ErrorMessage } from "../../components/ErrorMessage";
 
 const variants = {
   fill: { white_A700: "bg-white-A700 text-gray-900" },
-  outline: { gray_600_01: "border-2 border-gray-600_01 border-solid" },
+  outline: { gray_600_02: "border-2 border-gray-600_02 border-solid" },
 };
 const shapes = { round: "rounded-[5px]" };
 const sizes = { xs: "pb-px pt-0.5 px-px", sm: "pb-3.5 pr-3.5 pt-[15px]" };
@@ -63,7 +63,7 @@ CheckBox.propTypes = {
   shape: PropTypes.oneOf(["round"]),
   size: PropTypes.oneOf(["xs", "sm"]),
   variant: PropTypes.oneOf(["fill", "outline"]),
-  color: PropTypes.oneOf(["white_A700", "gray_600_01"]),
+  color: PropTypes.oneOf(["white_A700", "gray_600_02"]),
 };
 
 export { CheckBox };

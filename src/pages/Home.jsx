@@ -14,22 +14,28 @@ const Home = () => {
           <Link to="/">FrameTwo</Link>
         </li>
         <li>
+          <Link to="/page">Page</Link>
+        </li>
+        <li>
           <Link to="/page29">Page29</Link>
         </li>
         <li>
           <Link to="/page30">Page30</Link>
         </li>
         <li>
-          <Link to="/page">Page</Link>
+          <Link to="/page1">Page1</Link>
+        </li>
+        <li>
+          <Link to="/page2">Page2</Link>
         </li>
         <li>
           <Link to="/page28">Page28</Link>
         </li>
         <li>
-          <Link to="/page1">Page1</Link>
+          <Link to="/page3">Page3</Link>
         </li>
         <li>
-          <Link to="/page2">Page2</Link>
+          <Link to="/page4">Page4</Link>
         </li>
         <li>
           <Link to="/page27">Page27</Link>
@@ -39,12 +45,6 @@ const Home = () => {
         </li>
         <li>
           <Link to="/page25">Page25</Link>
-        </li>
-        <li>
-          <Link to="/page3">Page3</Link>
-        </li>
-        <li>
-          <Link to="/page4">Page4</Link>
         </li>
         <li>
           <Link to="/page5">Page5</Link>
@@ -74,13 +74,13 @@ const Home = () => {
           <Link to="/page13">Page13</Link>
         </li>
         <li>
-          <Link to="/page24">Page24</Link>
-        </li>
-        <li>
           <Link to="/page14">Page14</Link>
         </li>
         <li>
           <Link to="/page15">Page15</Link>
+        </li>
+        <li>
+          <Link to="/page24">Page24</Link>
         </li>
         <li>
           <Link to="/page16">Page16</Link>
@@ -95,10 +95,16 @@ const Home = () => {
           <Link to="/page19">Page19</Link>
         </li>
         <li>
+          <Link to="/page20">Page20</Link>
+        </li>
+        <li>
+          <Link to="/page21">Page21</Link>
+        </li>
+        <li>
           <Link to="/page22">Page22</Link>
         </li>
         <li>
-          <Link to="/page23">Page23</Link>
+          <Link to="/page31">Page31</Link>
         </li>
       </ul>
     </div>
