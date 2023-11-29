@@ -1,127 +1,121 @@
 import React from "react";
 
-import { Button, Img, Text } from "components";
-import ColumnOne from "components/ColumnOne";
-import FollowColumnlanguage from "components/FollowColumnlanguage";
+import { Img, Input, Text } from "components";
 import FrameTwoHeader from "components/FrameTwoHeader";
-import LikeColumnonehundredeighty from "components/LikeColumnonehundredeighty";
-import Rowrectangleten1 from "components/Rowrectangleten1";
+import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page11 = () => {
-  const rowrectangleten1PropList = [
-    {},
-    { usernickname: "유미엄마" },
-    { usernickname: "유미엄마" },
-    { usernickname: "유미엄마" },
-    {
-      usernickname: "유미엄마",
-      username: "호랑이와 토끼가 살았는데 결국 나중에 멸종함",
-    },
-    { usernickname: "유미엄마" },
-  ];
-
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
         <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
-        <div className="flex flex-col gap-5 items-center justify-start max-w-[1180px] mx-auto md:px-5 py-[30px] w-full">
+        <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <div className="flex flex-col gap-[50px] md:h-auto items-center justify-start md:px-5 py-[120px] w-[720px] md:w-full">
           <Text
-            className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
-            size="txtInterMedium28"
+            className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900 tracking-[-0.53px] w-auto"
+            size="txtInterMedium28Gray900"
           >
-            내 책장
+            비밀번호 수정
           </Text>
-          <ColumnOne className="flex flex-col gap-8 items-start justify-center w-full" />
-          <div className="flex flex-col gap-8 items-start justify-center w-full">
-            <div className="flex flex-col items-center justify-start w-auto">
+          <div className="flex flex-col gap-[33px] items-center justify-start w-full">
+            <Input
+              name="input"
+              placeholder="현재 비밀번호"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <Input
+              name="input_One"
+              placeholder="새 비밀번호"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <div className="flex flex-col h-[33px] md:h-auto items-center justify-start px-5 w-[400px] sm:w-full">
               <Text
-                className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-[223px]"
-                size="txtInterMedium22Gray900"
+                className="text-deep_orange-600 text-sm tracking-[-0.27px] w-full"
+                size="txtInterMedium14Deeporange600"
               >
-                ‘호랑이’에 대한 검색 결과
+                비밀번호는 8자 이상으로 입력해주세요
               </Text>
             </div>
-            <div className="flex flex-row gap-8 items-start justify-center w-auto">
-              <div className="h-[31px] relative w-[38%]">
-                <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
-                <Text
-                  className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
-                  size="txtInterMedium16WhiteA700"
-                >
-                  그림만 X
-                </Text>
-              </div>
-              <div className="h-[31px] relative w-[46%]">
-                <div className="h-[31px] m-auto rounded-[3px] w-full"></div>
-                <Text
-                  className="absolute h-max inset-[0] justify-center m-auto text-base text-white-A700 tracking-[-0.18px] w-max"
-                  size="txtInterMedium16WhiteA700"
-                >
-                  전체공개 X
-                </Text>
-              </div>
+            <Input
+              name="input_Two"
+              placeholder="비밀번호 확인"
+              className="font-medium p-0 placeholder:text-black-900 text-base text-left tracking-[-0.30px] w-full"
+              wrapClassName="w-[56%]"
+            ></Input>
+            <div className="flex flex-col h-[33px] md:h-auto items-center justify-start px-5 w-[400px] sm:w-full">
+              <Text
+                className="text-deep_orange-600 text-sm tracking-[-0.27px] w-full"
+                size="txtInterMedium14Deeporange600"
+              >
+                비밀번호가 불일치합니다
+              </Text>
             </div>
           </div>
-          <div className="flex flex-col items-end justify-start md:pl-10 sm:pl-5 pl-[1013px] w-full">
-            <Button
-              className="cursor-pointer font-medium min-w-[167px] text-base text-center tracking-[-0.30px]"
-              shape="square"
-              color="blue_gray_100"
-              size="lg"
-              variant="fill"
-            >
-              임시저장
-            </Button>
-          </div>
-          <div className="flex flex-col gap-[15px] items-center justify-start w-full">
-            <div className="flex flex-col items-center justify-end max-w-[1180px] w-full">
-              <div className="flex flex-col items-center justify-start w-auto">
-                <div className="flex flex-row items-center justify-center w-auto">
-                  <Text
-                    className="text-base text-gray-900 tracking-[-0.30px] w-auto"
-                    size="txtInterMedium16Gray900_1"
-                  >
-                    최신순
-                  </Text>
-                  <Img
-                    className="h-8 md:h-auto object-cover w-8"
-                    src="images/img_down11.png"
-                    alt="downEleven"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col items-start justify-between w-full">
-              <div className="flex flex-col items-center justify-start w-full">
-                <div className="gap-20 md:gap-5 grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                  {rowrectangleten1PropList.map((props, index) => (
-                    <React.Fragment key={`Rowrectangleten1${index}`}>
-                      <Rowrectangleten1
-                        className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-full"
-                        {...props}
-                      />
-                    </React.Fragment>
-                  ))}
-                </div>
-              </div>
+          <div className="h-[57px] relative w-1/2">
+            <div className="absolute bg-amber-A100 h-[57px] inset-[0] justify-center m-auto rounded-[10px] w-[64%]"></div>
+            <div className="absolute flex flex-col h-max inset-[0] items-center justify-center m-auto p-[3px] w-full">
+              <Text
+                className="text-[22px] text-black-900 sm:text-lg md:text-xl tracking-[-0.42px]"
+                size="txtInterMedium22Black900_1"
+              >
+                비밀번호 재설정
+              </Text>
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center w-full">
-            <div className="flex flex-col items-center justify-center w-auto">
-              <div className="md:pl-10 sm:pl-5 pl-[1100px] relative w-[1165px] md:w-full">
-                <div className="h-[61px] ml-auto my-auto w-[6%]"></div>
-                <Text
-                  className="absolute bottom-[18%] right-[2%] text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl w-auto"
-                  size="txtInterMedium24Gray900_1"
-                >
-                  +
-                </Text>
-              </div>
-            </div>
-          </div>
-          <LikeColumnonehundredeighty className="flex flex-col gap-8 items-center justify-center w-full" />
         </div>
+        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
+          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
+            <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
+              <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center max-w-[1180px] md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
+                <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
+                  <Text
+                    className="text-base text-black-900 tracking-[-0.30px]"
+                    size="txtInterMedium16"
+                  >
+                    고객센터
+                  </Text>
+                </div>
+                <div className="flex flex-col items-start justify-start p-[5px]">
+                  <Text
+                    className="md:ml-[0] ml-[5px] text-base text-black-900 text-center tracking-[-0.30px]"
+                    size="txtInterMedium16"
+                  >
+                    공지사항
+                  </Text>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2.5 items-start justify-center md:px-10 sm:px-5 px-[60px] py-2.5 w-full">
+                <Text
+                  className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
+                  size="txtInterMedium16Bluegray900"
+                >
+                  사업자 정보
+                </Text>
+                <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
+                  <Text
+                    className="text-base text-blue_gray-900 tracking-[-0.30px] w-auto"
+                    size="txtInterMedium16Bluegray900"
+                  >
+                    이용약관
+                  </Text>
+                  <Text
+                    className="text-base text-blue_gray-400_01 tracking-[-0.30px] w-auto"
+                    size="txtInterMedium16Bluegray40001"
+                  >
+                    개인정보 처리방침
+                  </Text>
+                </div>
+              </div>
+              <Img
+                className="h-[92px] w-full"
+                src="images/img__blue_gray_100.svg"
+                alt="ThreeHundredEight"
+              />
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

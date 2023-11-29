@@ -25,12 +25,12 @@ const Page25 = () => {
             <div className="flex flex-col h-[150px] md:h-auto items-center justify-center w-full">
               <div
                 className="common-pointer h-[150px] md:px-10 sm:px-5 px-[515px] relative w-full"
-                onClick={() => navigate("/page3")}
+                onClick={() => navigate("/page5")}
               >
                 <Img
                   className="h-[150px] m-auto object-cover w-[150px]"
                   src="images/img__150x150.png"
-                  alt="OneHundredEightySeven"
+                  alt="TwoHundredFour"
                 />
                 <div className="absolute bg-black-900_4c flex flex-col h-full inset-[0] items-center justify-center m-auto p-10 sm:px-5 w-[150px]">
                   <Button
@@ -42,7 +42,7 @@ const Page25 = () => {
                     <Img
                       className="h-9"
                       src="images/img_group241.png"
-                      alt="group1555"
+                      alt="group1725"
                     />
                   </Button>
                 </div>

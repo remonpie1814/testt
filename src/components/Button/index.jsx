@@ -4,16 +4,15 @@ import PropTypes from "prop-types";
 const shapes = { round: "rounded-[5px]", square: "rounded-none" };
 const variants = {
   fill: {
-    yellow_200_b2: "bg-yellow-200_b2 text-black-900",
-    orange_100_b2: "bg-orange-100_b2 text-black-900",
+    gray_200_01: "bg-gray-200_01 text-black-900",
     black_900_60: "bg-black-900_60",
-    blue_gray_50_02: "bg-blue_gray-50_02 text-black-900",
+    blue_gray_50_01: "bg-blue_gray-50_01 text-black-900",
     yellow_200: "bg-yellow-200",
     blue_gray_100_01: "bg-blue_gray-100_01 text-black-900",
-    amber_200: "bg-amber-200",
+    gray_100_01: "bg-gray-100_01 text-black-900",
     gray_600: "bg-gray-600",
-    gray_300: "bg-gray-300 text-black-900",
     blue_gray_100: "bg-blue_gray-100 text-black-900",
+    gray_300: "bg-gray-300",
     amber_A100: "bg-amber-A100 text-black-900",
   },
   outline: {
@@ -21,8 +20,8 @@ const variants = {
   },
 };
 const sizes = {
-  xs: "p-2",
-  sm: "p-[11px]",
+  xs: "p-1.5",
+  sm: "p-[9px]",
   md: "p-3.5",
   lg: "p-[17px]",
   xl: "p-5",
@@ -61,16 +60,15 @@ Button.propTypes = {
   size: PropTypes.oneOf(["xs", "sm", "md", "lg", "xl", "2xl"]),
   variant: PropTypes.oneOf(["fill", "outline"]),
   color: PropTypes.oneOf([
-    "yellow_200_b2",
-    "orange_100_b2",
+    "gray_200_01",
     "black_900_60",
-    "blue_gray_50_02",
+    "blue_gray_50_01",
     "yellow_200",
     "blue_gray_100_01",
-    "amber_200",
+    "gray_100_01",
     "gray_600",
-    "gray_300",
     "blue_gray_100",
+    "gray_300",
     "amber_A100",
   ]),
 };

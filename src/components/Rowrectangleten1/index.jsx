@@ -6,34 +6,39 @@ const Rowrectangleten1 = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="flex flex-col items-center justify-start rounded-[30px] w-[28%] sm:w-full">
+        <div className="h-[180px] relative rounded-[30px] w-[28%] sm:w-full">
           <Img
-            className="h-[180px] md:h-auto object-cover rounded-[30px] w-full"
-            src="images/img_rectangle10.png"
+            className="absolute h-[180px] inset-[0] justify-center m-auto object-cover rounded-[30px] w-full"
+            src="images/img_rectangle10_180x140.png"
             alt="rectangleTen"
+          />
+          <Img
+            className="absolute h-[26px] object-cover right-[8%] top-[6%] w-[26px]"
+            src="images/img_speakerfilledaudiotool_26x26.png"
+            alt="speakerfilledau"
           />
         </div>
         <div className="flex flex-col gap-0.5 h-[196px] md:h-auto items-start justify-center w-[360px]">
-          <div className="flex flex-col items-start justify-center w-[360px]">
+          <div className="flex flex-row gap-2.5 items-center justify-start w-[360px]">
             <Text
               className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.username}
+              {props?.twohundredfortyseven}
             </Text>
+            <Img
+              className="h-[18px] md:h-auto object-cover w-[18px]"
+              src="images/img_seticon_18x18.png"
+              alt="seticon"
+            />
           </div>
-          <div className="flex flex-row gap-0.5 items-center justify-start w-auto">
+          <div className="flex flex-col items-center justify-start w-auto">
             <Text
               className="text-gray-900 text-sm w-auto"
               size="txtInterMedium14Gray900"
             >
               {props?.userpoints}
             </Text>
-            <Img
-              className="h-5 md:h-auto object-cover w-5"
-              src="images/img__24x25.png"
-              alt="image920"
-            />
           </div>
           <div className="flex flex-row gap-0.5 items-center justify-start w-auto">
             <Img
@@ -56,7 +61,7 @@ const Rowrectangleten1 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelprogress}
+              {props?.userlevelnext}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -65,18 +70,18 @@ const Rowrectangleten1 = (props) => {
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.usernickname}
+                {props?.username}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
                 size="txtInterMedium12"
               >
-                {props?.userjoindate}
+                {props?.userdate}
               </Text>
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start mt-[15px] w-auto">
               <Button
-                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
+                className="!text-black-900 cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
                 shape="square"
                 color="gray_300"
                 size="sm"
@@ -85,7 +90,7 @@ const Rowrectangleten1 = (props) => {
                 {props?.prop}
               </Button>
               <Button
-                className="cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
+                className="!text-black-900 cursor-pointer font-inter font-medium min-w-[100px] text-center text-sm tracking-[-0.15px]"
                 shape="square"
                 color="gray_300"
                 size="sm"
@@ -102,12 +107,12 @@ const Rowrectangleten1 = (props) => {
 };
 
 Rowrectangleten1.defaultProps = {
-  username: "신데렐라는 어려서 부모님을 잃고요",
+  twohundredfortyseven: "신데렐라는 어려서 부모님을 잃고요",
   userpoints: "10p",
   userlevel: "5",
-  userlevelprogress: "5",
-  usernickname: "유미네",
-  userjoindate: "2023. 10. 08",
+  userlevelnext: "5",
+  username: "유미네",
+  userdate: "2023. 10. 08",
   prop: "복사",
   prop1: "삭제",
 };

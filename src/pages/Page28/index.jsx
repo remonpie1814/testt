@@ -1,11 +1,11 @@
 import React from "react";
 
 import { Button, Img, List, Text } from "components";
-import FollowColumnlanguage from "components/FollowColumnlanguage";
-import FollowRowellipsefour from "components/FollowRowellipsefour";
+import Page28Columnlanguage from "components/Page28Columnlanguage";
+import Page28Rowellipsefour from "components/Page28Rowellipsefour";
 
 const Page28 = () => {
-  const followRowellipsefourPropList = [
+  const page28RowellipsefourPropList = [
     {},
     { followtext: "팔로우2" },
     { followtext: "콩림이" },
@@ -21,7 +21,7 @@ const Page28 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredSixteen"
+                alt="OneHundredThirty"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -43,13 +43,13 @@ const Page28 = () => {
             </div>
           </div>
         </div>
-        <FollowColumnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
+        <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="border-b border-gray-300 border-solid flex flex-col gap-5 h-[603px] md:h-auto items-center justify-start max-w-[720px] pt-[30px] md:px-5 w-full">
           <div className="flex flex-row sm:gap-10 gap-20 items-start justify-center outline outline-gray-300 w-full">
             <div className="flex flex-col items-center justify-center pb-2.5 w-auto">
               <Text
                 className="text-[22px] text-blue_gray-100_01 text-center sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
-                size="txtInterMedium22"
+                size="txtInterMedium22Bluegray10001"
               >
                 팔로워
               </Text>
@@ -58,7 +58,7 @@ const Page28 = () => {
               className="!text-gray-900 cursor-pointer font-medium min-w-[100px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.42px]"
               shape="square"
               color="amber_A100"
-              size="xs"
+              size="sm"
               variant="outline"
             >
               팔로우
@@ -68,9 +68,9 @@ const Page28 = () => {
             className="flex flex-col gap-5 items-center pb-5 w-full"
             orientation="vertical"
           >
-            {followRowellipsefourPropList.map((props, index) => (
-              <React.Fragment key={`FollowRowellipsefour${index}`}>
-                <FollowRowellipsefour
+            {page28RowellipsefourPropList.map((props, index) => (
+              <React.Fragment key={`Page28Rowellipsefour${index}`}>
+                <Page28Rowellipsefour
                   className="flex flex-1 sm:flex-col flex-row gap-5 items-center justify-center my-0 w-full"
                   {...props}
                 />
