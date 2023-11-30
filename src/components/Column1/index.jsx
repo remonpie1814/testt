@@ -20,7 +20,7 @@ const Column1 = (props) => {
             <div className="flex flex-col h-full items-center justify-center px-3 py-2.5 w-full">
               <Text
                 className="text-base text-black-900 w-auto"
-                size="txtInterRegular16"
+                size="txtInterRegular16Black900"
               >
                 {props?.itemtext}
               </Text>
@@ -41,7 +41,7 @@ const Column1 = (props) => {
             <div className="flex flex-col h-full items-center justify-center px-3 py-2.5 w-full">
               <Text
                 className="text-base text-black-900 w-auto"
-                size="txtInterRegular16"
+                size="txtInterRegular16Black900"
               >
                 {props?.contenttext}
               </Text>
@@ -53,7 +53,7 @@ const Column1 = (props) => {
             className="!text-white-A700 border-gray-400_03 border-l border-solid border-t cursor-pointer flex-1 font-bold font-inter h-[66px] text-[22px] text-center sm:text-lg md:text-xl w-full"
             shape="square"
             color="gray_600"
-            size="lg"
+            size="xl"
             variant="fill"
           >
             {props?.datename}
@@ -62,7 +62,7 @@ const Column1 = (props) => {
             <div className="flex flex-col h-full items-center justify-center px-3 py-2.5 w-full">
               <Text
                 className="text-base text-black-900 w-auto"
-                size="txtInterRegular16"
+                size="txtInterRegular16Black900"
               >
                 {props?.datetext}
               </Text>
@@ -83,7 +83,7 @@ const Column1 = (props) => {
             <div className="flex flex-col h-full items-center justify-center px-3 py-2.5 w-full">
               <Text
                 className="text-base text-black-900 w-auto"
-                size="txtInterRegular16"
+                size="txtInterRegular16Black900"
               >
                 {props?.reasontext}
               </Text>

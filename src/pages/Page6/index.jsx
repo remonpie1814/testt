@@ -2,14 +2,14 @@ import React from "react";
 
 import { Button, Img, List, Text } from "components";
 import Column1 from "components/Column1";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page6 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-[27px] items-center justify-start max-w-[1180px] mx-auto md:px-5 w-full">
           <div className="flex flex-col items-center justify-center max-w-[1180px] pb-2.5 pt-[30px] px-2.5 w-full">

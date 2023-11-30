@@ -1,15 +1,15 @@
 import React from "react";
 
 import { Img, Text } from "components";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page9 = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-start justify-start mx-auto pb-[1020px] w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-start justify-start mx-auto pb-[911px] w-full">
         <div className="flex flex-col items-center w-full">
-          <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+          <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
           <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         </div>
         <div className="flex flex-row gap-[11px] items-start justify-start md:ml-[0] ml-[370px] mt-[148px] md:px-5 w-auto sm:w-full">
@@ -36,7 +36,7 @@ const Page9 = () => {
           </div>
         </div>
         <Text
-          className="md:ml-[0] ml-[381px] mt-[67px] text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px]"
+          className="md:ml-[0] ml-[370px] mt-44 text-[22px] text-black-900 text-center sm:text-lg md:text-xl tracking-[-0.42px]"
           size="txtInterMedium22Black900"
         >
           내용

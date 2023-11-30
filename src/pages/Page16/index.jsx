@@ -1,14 +1,14 @@
 import React from "react";
 
 import { Img, Input, Text } from "components";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page16 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-[50px] md:h-auto items-center justify-start md:px-5 py-[121px] w-[720px] md:w-full">
           <Text
@@ -36,14 +36,14 @@ const Page16 = () => {
             </div>
           </div>
         </div>
-        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
-          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
+        <footer className="bg-blue_gray-50_02 flex items-center justify-center md:px-5 w-full">
+          <div className="bg-gray-100_01 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
             <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center max-w-[1180px] md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
                 <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
                   <Text
                     className="text-base text-black-900 tracking-[-0.30px]"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Black900_1"
                   >
                     고객센터
                   </Text>
@@ -51,7 +51,7 @@ const Page16 = () => {
                 <div className="flex flex-col items-start justify-start p-[5px]">
                   <Text
                     className="md:ml-[0] ml-[5px] text-base text-black-900 text-center tracking-[-0.30px]"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Black900_1"
                   >
                     공지사항
                   </Text>
@@ -82,7 +82,7 @@ const Page16 = () => {
               <Img
                 className="h-[92px] w-full"
                 src="images/img__blue_gray_100.svg"
-                alt="FourHundredEleven"
+                alt="FourHundred"
               />
             </div>
           </div>

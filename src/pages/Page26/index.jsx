@@ -1,18 +1,18 @@
 import React from "react";
 
 import { Button, Img, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page26ColumnTwo from "components/Page26ColumnTwo";
-import Page26Columnonehundredninetyseven from "components/Page26Columnonehundredninetyseven";
+import Page26Columnonehundredseventynine from "components/Page26Columnonehundredseventynine";
+import Page29Column from "components/Page29Column";
 import Rowrectangleten from "components/Rowrectangleten";
 
 const Page26 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-10 items-center justify-start max-w-[1180px] mx-auto pb-[60px] pt-[30px] md:px-5 w-full">
           <Text
             className="bg-white-A700 justify-center pb-[15px] sm:pr-5 pr-[35px] pt-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
@@ -28,7 +28,7 @@ const Page26 = () => {
                   <div className="flex flex-row items-center justify-center w-auto">
                     <Text
                       className="text-base text-gray-900 tracking-[-0.30px] w-auto"
-                      size="txtInterMedium16Gray900_1"
+                      size="txtInterMedium16Gray900"
                     >
                       최신순
                     </Text>
@@ -54,7 +54,7 @@ const Page26 = () => {
               </div>
             </div>
           </div>
-          <Page26Columnonehundredninetyseven className="flex flex-col gap-8 items-center justify-center w-full" />
+          <Page26Columnonehundredseventynine className="flex flex-col gap-8 items-center justify-center w-full" />
         </div>
       </div>
     </>

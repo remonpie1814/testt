@@ -4,16 +4,16 @@ import { Img, List, Text } from "components";
 import Columncommenteleven from "components/Columncommenteleven";
 import Columnconfusedone from "components/Columnconfusedone";
 import Columnreloadone from "components/Columnreloadone";
-import Columntwohundredthirtyone from "components/Columntwohundredthirtyone";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Columntwohundredthirteen from "components/Columntwohundredthirteen";
+import Header from "components/Header";
+import Page29Column from "components/Page29Column";
 
 const Page7 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-10 items-center justify-start max-w-[1182px] mx-auto pt-[30px] md:px-5 w-full">
           <div className="bg-white-A700 flex flex-col gap-2 items-center justify-center max-w-[1182px] sm:px-5 px-[30px] py-[15px] w-full">
             <Text
@@ -103,7 +103,7 @@ const Page7 = () => {
             <Img
               className="h-[50px] w-[49px]"
               src="images/img__black_900_1.svg"
-              alt="TwoHundredTwentyEight"
+              alt="TwoHundredTen"
             />
           </div>
           <List
@@ -113,7 +113,7 @@ const Page7 = () => {
             <Columncommenteleven className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
             <Columnreloadone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
             <Columnconfusedone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
-            <Columntwohundredthirtyone className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
+            <Columntwohundredthirteen className="border-2 border-blue_gray-900 border-solid flex flex-col items-center justify-start my-0 p-2 rounded-[16px] w-full" />
           </List>
         </div>
       </div>

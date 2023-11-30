@@ -14,7 +14,7 @@ const Page22 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="FourHundredSeventyOne"
+                alt="FourHundredSixty"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -61,7 +61,7 @@ const Page22 = () => {
                   >
                     제목
                   </Text>
-                  <div className="bg-gray-100 h-[90px] w-[78%]"></div>
+                  <div className="bg-gray-100_01 h-[90px] w-[78%]"></div>
                 </div>
                 <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-center px-4 py-[19px] w-full">
                   <Text
@@ -70,7 +70,7 @@ const Page22 = () => {
                   >
                     설명
                   </Text>
-                  <div className="bg-gray-100 h-[267px] w-[82%]"></div>
+                  <div className="bg-gray-100_01 h-[267px] w-[82%]"></div>
                 </div>
               </div>
             </div>

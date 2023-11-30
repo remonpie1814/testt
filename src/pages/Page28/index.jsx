@@ -21,7 +21,7 @@ const Page28 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="OneHundredThirty"
+                alt="OneHundredFifteen"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">

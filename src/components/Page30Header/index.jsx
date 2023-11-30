@@ -14,7 +14,7 @@ const Page30Header = (props) => {
           />
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.18px]"
-            size="txtInterMedium16Gray900_1"
+            size="txtInterMedium16Gray900"
           >
             {props?.twentythree}
           </Text>
@@ -27,7 +27,7 @@ const Page30Header = (props) => {
           />
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
             {props?.usernumberone}
           </Text>
@@ -40,7 +40,7 @@ const Page30Header = (props) => {
           />
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
             {props?.usernumberfive}
           </Text>

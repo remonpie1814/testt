@@ -3,8 +3,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import { Button, Img, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
+import Page29Column from "components/Page29Column";
 
 const Page25 = () => {
   const navigate = useNavigate();
@@ -12,8 +12,8 @@ const Page25 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-[30px] h-[875px] md:h-auto items-center justify-start max-w-[1180px] mx-auto pb-5 pt-[30px] md:px-5 w-full">
           <Text
             className="bg-white-A700 h-[42px] justify-center sm:pr-5 pr-[35px] py-[3px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
@@ -30,19 +30,19 @@ const Page25 = () => {
                 <Img
                   className="h-[150px] m-auto object-cover w-[150px]"
                   src="images/img__150x150.png"
-                  alt="TwoHundredFour"
+                  alt="OneHundredEightySix"
                 />
                 <div className="absolute bg-black-900_4c flex flex-col h-full inset-[0] items-center justify-center m-auto p-10 sm:px-5 w-[150px]">
                   <Button
                     className="flex h-[69px] items-center justify-center rounded-[34px] w-[69px]"
                     color="black_900_60"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <Img
                       className="h-9"
                       src="images/img_group241.png"
-                      alt="group1725"
+                      alt="group1863"
                     />
                   </Button>
                 </div>
@@ -58,7 +58,7 @@ const Page25 = () => {
                 </Text>
                 <Text
                   className="text-base text-black-900 tracking-[-0.18px] w-full"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Black900_1"
                 >
                   둥치탁치
                 </Text>
@@ -82,7 +82,7 @@ const Page25 = () => {
                 </Text>
                 <Text
                   className="text-base text-black-900 tracking-[-0.18px]"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Black900_1"
                 >
                   둥치탁치 구독과 좋아요 알림설정까지~
                 </Text>
@@ -93,7 +93,7 @@ const Page25 = () => {
                 className="cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
                 shape="round"
                 color="blue_gray_100_01"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 취소
@@ -102,7 +102,7 @@ const Page25 = () => {
                 className="cursor-pointer font-medium min-w-[184px] text-base text-center tracking-[-0.18px]"
                 shape="round"
                 color="amber_A100"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 적용

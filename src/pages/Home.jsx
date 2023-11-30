@@ -11,12 +11,6 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/">FrameTwo</Link>
-        </li>
-        <li>
-          <Link to="/page">Page</Link>
-        </li>
-        <li>
           <Link to="/page29">Page29</Link>
         </li>
         <li>
@@ -29,10 +23,10 @@ const Home = () => {
           <Link to="/page2">Page2</Link>
         </li>
         <li>
-          <Link to="/page28">Page28</Link>
+          <Link to="/page3">Page3</Link>
         </li>
         <li>
-          <Link to="/page3">Page3</Link>
+          <Link to="/page28">Page28</Link>
         </li>
         <li>
           <Link to="/page4">Page4</Link>
@@ -66,6 +60,9 @@ const Home = () => {
         </li>
         <li>
           <Link to="/page11">Page11</Link>
+        </li>
+        <li>
+          <Link to="/frametwo">FrameTwo</Link>
         </li>
         <li>
           <Link to="/page12">Page12</Link>
@@ -105,6 +102,15 @@ const Home = () => {
         </li>
         <li>
           <Link to="/page31">Page31</Link>
+        </li>
+        <li>
+          <Link to="/page32">Page32</Link>
+        </li>
+        <li>
+          <Link to="/page34">Page34</Link>
+        </li>
+        <li>
+          <Link to="/page35">Page35</Link>
         </li>
       </ul>
     </div>

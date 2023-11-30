@@ -24,7 +24,7 @@ const Rowrectangleten1 = (props) => {
               className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.twohundredfortyseven}
+              {props?.username}
             </Text>
             <Img
               className="h-[18px] md:h-auto object-cover w-[18px]"
@@ -50,7 +50,7 @@ const Rowrectangleten1 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevel}
+              {props?.five}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -61,7 +61,7 @@ const Rowrectangleten1 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnext}
+              {props?.fiveOne}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -70,7 +70,7 @@ const Rowrectangleten1 = (props) => {
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.username}
+                {props?.usernickname}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
@@ -107,11 +107,11 @@ const Rowrectangleten1 = (props) => {
 };
 
 Rowrectangleten1.defaultProps = {
-  twohundredfortyseven: "신데렐라는 어려서 부모님을 잃고요",
+  username: "신데렐라는 어려서 부모님을 잃고요",
   userpoints: "10p",
-  userlevel: "5",
-  userlevelnext: "5",
-  username: "유미네",
+  five: "5",
+  fiveOne: "5",
+  usernickname: "유미네",
   userdate: "2023. 10. 08",
   prop: "복사",
   prop1: "삭제",

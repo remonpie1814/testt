@@ -1,32 +1,23 @@
 import React from "react";
 
 import { Button, Img, Line, List, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
+import Page29Column from "components/Page29Column";
 import Rowrectangleten2 from "components/Rowrectangleten2";
 
 const Page14 = () => {
   const rowrectangleten2PropList = [
     {},
-    {
-      threehundredfiftyfive:
-        "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커",
-    },
-    {
-      threehundredfiftyfive:
-        "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커",
-    },
-    {
-      threehundredfiftyfive:
-        "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커",
-    },
+    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
+    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
+    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
   ];
 
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-2.5 items-start justify-start max-w-[1180px] mx-auto pb-[100px] pt-[30px] md:px-5 w-full">
           <div className="flex flex-col gap-2.5 items-start justify-start p-2.5 w-full">
             <div className="flex sm:flex-col flex-row gap-2.5 items-start justify-start w-auto sm:w-full">
@@ -45,7 +36,7 @@ const Page14 = () => {
             </div>
             <Text
               className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16"
             >
               ※이력은 100건까지 저장됩니다
             </Text>
@@ -59,7 +50,7 @@ const Page14 = () => {
                 <Line className="bg-gray-400_04 h-px w-full" />
                 <Text
                   className="ml-4 md:ml-[0] text-base text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   2023. 10. 08
                 </Text>
@@ -71,22 +62,22 @@ const Page14 = () => {
                     <Rowrectangleten2 className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full" />
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      threehundredfiftyfive="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
                   <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      threehundredfiftyfive="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      threehundredfiftyfive="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
                   <Rowrectangleten2
                     className="flex sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                    threehundredfiftyfive="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                    username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                   />
                 </div>
               </div>
@@ -96,7 +87,7 @@ const Page14 = () => {
                 <Line className="bg-gray-400_04 h-px w-full" />
                 <Text
                   className="ml-4 md:ml-[0] text-base text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   2023. 10. 07
                 </Text>
@@ -119,8 +110,8 @@ const Page14 = () => {
             </div>
           </List>
         </div>
-        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
-          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
+        <footer className="bg-blue_gray-50_02 flex items-center justify-center md:px-5 w-full">
+          <div className="bg-gray-100_01 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
             <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
                 <div className="flex flex-col items-start justify-end pr-0.5 py-0.5">
@@ -165,7 +156,7 @@ const Page14 = () => {
               <Img
                 className="h-[92px] w-full"
                 src="images/img__blue_gray_100.svg"
-                alt="ThreeHundredSeventyEight"
+                alt="ThreeHundredSixtySeven"
               />
             </div>
           </div>

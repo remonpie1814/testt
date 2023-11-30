@@ -1,21 +1,21 @@
 import React from "react";
 
 import { Button, Img, List, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
+import Page29Column from "components/Page29Column";
 
 const Page4 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-[35px] items-center justify-start max-w-[720px] md:px-5 py-[30px] w-full">
           <div className="flex sm:flex-col flex-row gap-2 items-center justify-between max-w-[720px] sm:px-5 px-[30px] w-full">
             <Img
               className="h-[120px] md:h-auto object-cover w-[120px]"
               src="images/img__120x120.png"
-              alt="OneHundredFiftyFour"
+              alt="OneHundredThirtySix"
             />
             <Text
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
@@ -30,13 +30,13 @@ const Page4 = () => {
               <div className="flex flex-col gap-2 items-center justify-center w-auto">
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   팔로워
                 </Text>
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   40
                 </Text>
@@ -44,13 +44,13 @@ const Page4 = () => {
               <div className="flex flex-col gap-2 items-center justify-center w-auto">
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   팔로잉
                 </Text>
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   40
                 </Text>
@@ -70,7 +70,7 @@ const Page4 = () => {
             <div className="absolute flex flex-col h-max inset-[0] items-start justify-center m-auto p-3.5">
               <Text
                 className="mb-[41px] mt-[30px] text-base text-black-900 text-center tracking-[-0.30px]"
-                size="txtInterMedium16"
+                size="txtInterMedium16Black900_1"
               >
                 자기소개
               </Text>
@@ -86,7 +86,7 @@ const Page4 = () => {
             <div className="flex flex-row items-center justify-start w-auto">
               <Text
                 className="text-base text-gray-900 tracking-[-0.18px] w-auto"
-                size="txtInterMedium16Gray900_1"
+                size="txtInterMedium16Gray900"
               >
                 전체 보기
               </Text>

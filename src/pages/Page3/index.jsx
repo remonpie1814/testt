@@ -6,11 +6,17 @@ const Page3 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-center mx-auto shadow-bs w-auto sm:w-full md:w-full">
-        <Img
-          className="h-[486px] sm:h-auto object-cover w-[455px] md:w-full"
-          src="images/img_rectangle59.png"
-          alt="rectangleFiftyNine"
-        />
+        <div className="bg-yellow-100 flex flex-col h-[65px] md:h-auto items-end justify-center max-w-[1170px] shadow-bs w-full">
+          <div className="flex flex-col items-center justify-start md:px-5">
+            <Text
+              className="text-[22px] text-center text-gray-600 sm:text-lg md:text-xl tracking-[-0.24px] w-full"
+              size="txtInterMedium22"
+            >
+              신데렐라는 어려서
+            </Text>
+          </div>
+        </div>
+        <div className="bg-blue_gray-100 h-[499px] md:px-5 w-[39%]"></div>
         <div className="h-[62px] md:px-5 relative w-[41%] sm:w-full">
           <div className="h-[62px] m-auto w-full">
             <div className="h-[62px] m-auto rounded-md w-full"></div>
@@ -21,7 +27,7 @@ const Page3 = () => {
           </div>
           <div className="absolute bottom-[15%] h-[34px] right-[14%] w-[4%]"></div>
         </div>
-        <div className="flex flex-row gap-[25px] items-end justify-center md:px-5 w-[29%] md:w-full">
+        <div className="flex flex-row gap-[25px] items-center justify-center md:px-5 w-[29%] md:w-full">
           <div className="flex flex-col items-center justify-start w-1/4">
             <Img
               className="h-[81px] md:h-auto object-cover w-[81px]"
@@ -29,14 +35,14 @@ const Page3 = () => {
               alt="image589"
             />
             <Text
-              className="text-base text-gray-900 tracking-[-0.30px]"
-              size="txtInterMedium16Gray900_1"
+              className="mt-0.5 text-base text-gray-900 tracking-[-0.30px]"
+              size="txtInterMedium16Gray900"
             >
               정지
             </Text>
           </div>
-          <div className="flex flex-col items-center justify-start mt-[5px] w-[69%]">
-            <div className="flex flex-col gap-2 items-center justify-start w-full">
+          <div className="flex flex-col items-center justify-start w-[69%]">
+            <div className="flex flex-col gap-[11px] items-center justify-start w-full">
               <div className="flex flex-row items-center justify-between w-full">
                 <Img
                   className="h-16 md:h-auto object-cover w-16"
@@ -58,13 +64,13 @@ const Page3 = () => {
               <div className="flex flex-row items-center justify-between w-[54%] md:w-full">
                 <Text
                   className="text-base text-gray-900 tracking-[-0.30px]"
-                  size="txtInterMedium16Gray900"
+                  size="txtInterMedium16"
                 >
                   이전
                 </Text>
                 <Text
                   className="text-base text-gray-900 tracking-[-0.30px]"
-                  size="txtInterMedium16Gray900"
+                  size="txtInterMedium16"
                 >
                   다음
                 </Text>

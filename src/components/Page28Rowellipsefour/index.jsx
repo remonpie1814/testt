@@ -16,7 +16,7 @@ const Page28Rowellipsefour = (props) => {
         <div className="flex flex-col items-start justify-start pr-0.5 py-0.5">
           <Text
             className="mb-[11px] text-base text-gray-900 tracking-[-0.30px]"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
             {props?.followtext}
           </Text>
@@ -25,7 +25,7 @@ const Page28Rowellipsefour = (props) => {
           <Img
             className="h-[30px] md:h-auto object-cover w-[30px]"
             src="images/img_image916.png"
-            alt="OneHundredThirtySix"
+            alt="OneHundredTwentyOne"
           />
         </div>
         <div className="h-[103px] md:h-[35px] py-[34px] relative w-[17%] sm:w-full">
@@ -34,7 +34,7 @@ const Page28Rowellipsefour = (props) => {
             className="absolute h-max inset-[0] justify-center m-auto text-base text-black-900 text-center tracking-[-0.30px] w-max"
             size="txtInterMedium16Black900"
           >
-            {props?.onehundredthirtyseven}
+            {props?.deletetext}
           </Text>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Page28Rowellipsefour = (props) => {
 
 Page28Rowellipsefour.defaultProps = {
   followtext: "팔로우1",
-  onehundredthirtyseven: "삭제",
+  deletetext: "삭제",
 };
 
 export default Page28Rowellipsefour;

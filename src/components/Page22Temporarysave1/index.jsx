@@ -11,17 +11,17 @@ const Page22Temporarysave1 = (props) => {
             className="text-base text-black-900 tracking-[-0.30px] w-auto"
             size="txtInterBold16Black900"
           >
-            {props?.fourhundredseventyeight}
+            {props?.text}
           </Text>
           <div className="h-6 relative w-full">
             <div className="absolute flex flex-row h-full inset-y-[0] items-center justify-evenly left-[0] my-auto w-[252px]">
-              <div className="border-2 border-gray-600_02 border-solid h-[22px] rounded-[5px] w-[22px]"></div>
+              <div className="border-2 border-gray-600_01 border-solid h-[22px] rounded-[5px] w-[22px]"></div>
               <div className="flex flex-col items-center justify-start pl-2.5 w-auto">
                 <Text
                   className="text-base text-black-900 w-auto"
                   size="txtInterMedium16Black900"
                 >
-                  {props?.fourhundredseventynine}
+                  {props?.text1}
                 </Text>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Page22Temporarysave1 = (props) => {
               className="absolute h-max inset-y-[0] left-[10%] my-auto text-green-500 text-sm tracking-[-0.27px] w-auto"
               size="txtInterMedium14Green500"
             >
-              {props?.fourhundredeighty}
+              {props?.text2}
             </Text>
           </div>
           <div className="flex flex-col gap-2 items-start justify-center sm:px-5 px-[30px] w-full">
@@ -38,16 +38,16 @@ const Page22Temporarysave1 = (props) => {
                 className="text-base text-black-900 tracking-[-0.30px] w-[255px]"
                 size="txtInterMedium16Black900"
               >
-                {props?.fourhundredeightyone}
+                {props?.text3}
               </Text>
               <CheckBox
                 className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
                 inputClassName="h-[22px] mr-[5px] w-[22px]"
-                name="FourHundredEightyTwo"
-                id="FourHundredEightyTwo"
+                name="FourHundredSeventyOne"
+                id="FourHundredSeventyOne"
                 label="녹음 공개하기"
                 shape="round"
-                color="gray_600_02"
+                color="gray_600_01"
                 size="xs"
                 variant="outline"
               ></CheckBox>
@@ -57,16 +57,16 @@ const Page22Temporarysave1 = (props) => {
                 className="text-base text-black-900 tracking-[-0.30px] w-[400px]"
                 size="txtInterMedium16Black900"
               >
-                {props?.fourhundredeightythree}
+                {props?.text4}
               </Text>
               <CheckBox
                 className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
                 inputClassName="h-[22px] mr-[5px] w-[22px]"
-                name="FourHundredEightyFour"
-                id="FourHundredEightyFour"
+                name="FourHundredSeventyThree"
+                id="FourHundredSeventyThree"
                 label="다른 사람 녹음 허용하기"
                 shape="round"
-                color="gray_600_02"
+                color="gray_600_01"
                 size="xs"
                 variant="outline"
               ></CheckBox>
@@ -78,11 +78,11 @@ const Page22Temporarysave1 = (props) => {
             <CheckBox
               className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
               inputClassName="h-[22px] mr-[5px] w-[22px]"
-              name="FourHundredEightyFive"
-              id="FourHundredEightyFive"
+              name="FourHundredSeventyFour"
+              id="FourHundredSeventyFour"
               label="비공개로 출판하기"
               shape="round"
-              color="gray_600_02"
+              color="gray_600_01"
               size="xs"
               variant="outline"
             ></CheckBox>
@@ -90,17 +90,17 @@ const Page22Temporarysave1 = (props) => {
               className="text-green-500_01 text-sm tracking-[-0.27px] w-auto"
               size="txtInterMedium14Green50001"
             >
-              {props?.fourhundredeightysix}
+              {props?.text5}
             </Text>
           </div>
           <CheckBox
             className="!text-black-900 font-inter font-medium text-base text-left tracking-[-0.30px]"
             inputClassName="h-[22px] mr-[5px] w-[22px]"
-            name="FourHundredEightySeven"
-            id="FourHundredEightySeven"
+            name="FourHundredSeventySix"
+            id="FourHundredSeventySix"
             label="임시저장하기"
             shape="round"
-            color="gray_600_02"
+            color="gray_600_01"
             size="xs"
             variant="outline"
           ></CheckBox>
@@ -113,7 +113,7 @@ const Page22Temporarysave1 = (props) => {
             size="lg"
             variant="fill"
           >
-            {props?.prop}
+            {props?.text6}
           </Button>
         </div>
       </div>
@@ -122,14 +122,13 @@ const Page22Temporarysave1 = (props) => {
 };
 
 Page22Temporarysave1.defaultProps = {
-  fourhundredseventyeight: "출판 후에는 수정이 불가능합니다.",
-  fourhundredseventynine: "출판하기",
-  fourhundredeighty: "모든 사람이 볼 수 있습니다.",
-  fourhundredeightyone: "녹음이 저장된 동화입니다. 공개할까요?",
-  fourhundredeightythree:
-    "내 동화에 다른 사람이 목소리를 녹음할 수 있도록 허용할까요?",
-  fourhundredeightysix: "나만 볼 수 있습니다.",
-  prop: "완료",
+  text: "출판 후에는 수정이 불가능합니다.",
+  text1: "출판하기",
+  text2: "모든 사람이 볼 수 있습니다.",
+  text3: "녹음이 저장된 동화입니다. 공개할까요?",
+  text4: "내 동화에 다른 사람이 목소리를 녹음할 수 있도록 허용할까요?",
+  text5: "나만 볼 수 있습니다.",
+  text6: "완료",
 };
 
 export default Page22Temporarysave1;

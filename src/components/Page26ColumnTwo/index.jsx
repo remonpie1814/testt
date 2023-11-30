@@ -7,7 +7,7 @@ const Page26ColumnTwo = (props) => {
     <>
       <div className={props.className}>
         <div className="flex flex-col items-start justify-start w-full">
-          <div className="bg-blue_gray-50_01 flex flex-row items-center justify-start pl-3 rounded-br-[5px] rounded-tr-[5px] w-[27%] md:w-full">
+          <div className="bg-blue_gray-50 flex flex-row items-center justify-start pl-3 rounded-br-[5px] rounded-tr-[5px] w-[27%] md:w-full">
             <div className="flex flex-col items-start justify-start pr-[7px] py-[7px]">
               <Text
                 className="text-base text-gray-400_01 tracking-[-0.30px]"

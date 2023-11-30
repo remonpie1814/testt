@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Img, List, Text } from "components";
 import Faq from "components/Faq";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page26ColumnTwo from "components/Page26ColumnTwo";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 
@@ -10,7 +10,7 @@ const Page10 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto pb-[231px] w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-10 items-end justify-start max-w-[1180px] mx-auto pt-[30px] md:px-5 w-full">
           <Text

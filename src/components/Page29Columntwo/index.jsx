@@ -17,7 +17,7 @@ const Page29Columntwo = (props) => {
               className="text-base text-gray-900 tracking-[-0.30px] w-auto"
               size="txtInterBold16"
             >
-              {props?.fortysix}
+              {props?.twentyeight}
             </Text>
             <Img
               className="h-5 md:h-auto object-cover w-5"
@@ -28,7 +28,7 @@ const Page29Columntwo = (props) => {
         </div>
         <Text
           className="text-base text-gray-900 tracking-[-0.30px] w-full"
-          size="txtInterMedium16Gray900"
+          size="txtInterMedium16"
         >
           {props?.languagetext}
         </Text>
@@ -40,7 +40,7 @@ const Page29Columntwo = (props) => {
         </Text>
         <Text
           className="text-base text-gray-900 tracking-[-0.18px] w-full"
-          size="txtInterMedium16Gray900"
+          size="txtInterMedium16"
         >
           {props?.replytext}
         </Text>
@@ -50,7 +50,7 @@ const Page29Columntwo = (props) => {
 };
 
 Page29Columntwo.defaultProps = {
-  fortysix: "봐로완치",
+  twentyeight: "봐로완치",
   languagetext:
     "와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 와 재밌다 즐겁다 ",
   datetext: "2023.11.15",

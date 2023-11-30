@@ -24,7 +24,7 @@ const Rowrectangleten2 = (props) => {
               className="leading-[150.00%] md:max-w-full max-w-xs text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px]"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.threehundredfiftyfive}
+              {props?.username}
             </Text>
             <Img
               className="h-[18px] md:h-auto object-cover w-[18px]"
@@ -37,7 +37,7 @@ const Rowrectangleten2 = (props) => {
               className="text-gray-900 text-sm w-auto"
               size="txtInterMedium14Gray900"
             >
-              {props?.p10p}
+              {props?.userpoints}
             </Text>
           </div>
           <div className="flex flex-row gap-0.5 items-center justify-start w-auto">
@@ -50,7 +50,7 @@ const Rowrectangleten2 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.five}
+              {props?.userlevelnumber}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -61,7 +61,7 @@ const Rowrectangleten2 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.fiveOne}
+              {props?.userlevelnumber2}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -70,13 +70,13 @@ const Rowrectangleten2 = (props) => {
                 className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
                 size="txtInterMedium14Gray900_1"
               >
-                {props?.threehundredfiftysix}
+                {props?.usernickname}
               </Text>
               <Text
                 className="text-gray-900 text-xs tracking-[-0.13px] w-auto"
                 size="txtInterMedium12"
               >
-                {props?.userdate}
+                {props?.userjoindate}
               </Text>
             </div>
             <Button
@@ -86,7 +86,7 @@ const Rowrectangleten2 = (props) => {
               size="sm"
               variant="fill"
             >
-              {props?.username}
+              {props?.prop}
             </Button>
           </div>
         </div>
@@ -96,18 +96,18 @@ const Rowrectangleten2 = (props) => {
 };
 
 Rowrectangleten2.defaultProps = {
-  threehundredfiftyfive: (
+  username: (
     <>
       신데렐라는 어려서 부모님을 발로 차<br />
       싸커 발로 차 싸커
     </>
   ),
-  p10p: "10p",
-  five: "5",
-  fiveOne: "5",
-  threehundredfiftysix: "유미엄마",
-  userdate: "2023. 10. 08",
-  username: "삭제",
+  userpoints: "10p",
+  userlevelnumber: "5",
+  userlevelnumber2: "5",
+  usernickname: "유미엄마",
+  userjoindate: "2023. 10. 08",
+  prop: "삭제",
 };
 
 export default Rowrectangleten2;
