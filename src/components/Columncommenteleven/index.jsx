@@ -14,7 +14,7 @@ const Columncommenteleven = (props) => {
           />
           <Text
             className="text-base text-black-900 tracking-[-0.30px] w-20"
-            size="txtInterMedium16"
+            size="txtInterMedium16Black900_1"
           >
             {props?.type}
           </Text>

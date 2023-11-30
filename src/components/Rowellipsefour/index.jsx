@@ -16,7 +16,7 @@ const Rowellipsefour = (props) => {
         <div className="flex flex-col items-start justify-start pr-0.5 py-0.5">
           <Text
             className="mb-[11px] text-base text-gray-900 tracking-[-0.30px]"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
             {props?.followtext}
           </Text>

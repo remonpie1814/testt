@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 import Rowonehundredtwentythree from "components/Rowonehundredtwentythree";
 
@@ -9,7 +9,7 @@ const Page15 = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100_01 p-2 w-full" />
         <Text
           className="bg-white-A700 h-[78px] justify-center sm:px-5 px-[35px] py-[21px] sm:text-2xl md:text-[26px] text-[28px] text-black-900 tracking-[-0.53px] w-full"
@@ -25,7 +25,7 @@ const Page15 = () => {
                   <div className="flex flex-row items-start justify-end mr-[524px] md:px-5 w-[6%] md:w-full">
                     <Text
                       className="text-2xl md:text-[22px] text-gray-900 text-right sm:text-xl tracking-[-0.46px]"
-                      size="txtInterMedium24Gray900_1"
+                      size="txtInterMedium24Gray900"
                     >
                       최신순
                     </Text>

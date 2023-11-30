@@ -1,15 +1,19 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import { Button, Img, Input, Text } from "components";
 import Footer1 from "components/Footer1";
-import FrameTwoHeader from "components/FrameTwoHeader";
+import Header from "components/Header";
 import Page28Columnlanguage from "components/Page28Columnlanguage";
 
 const Page20 = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto shadow-bs w-auto sm:w-full md:w-full">
-        <FrameTwoHeader className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
+        <Header className="bg-white-A700 flex flex-col items-center justify-start p-[26px] sm:px-5 w-full" />
         <Page28Columnlanguage className="flex flex-col items-center justify-start outline outline-blue_gray-100 p-2 w-full" />
         <div className="flex flex-col gap-[50px] md:h-auto items-center justify-start md:px-5 py-[120px] w-[720px] md:w-full">
           <Text
@@ -41,7 +45,8 @@ const Page20 = () => {
             ></Input>
           </div>
           <Button
-            className="cursor-pointer font-medium min-w-[400px] sm:min-w-full rounded-[10px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.42px]"
+            className="common-pointer cursor-pointer font-medium min-w-[400px] sm:min-w-full rounded-[10px] text-[22px] text-center sm:text-lg md:text-xl tracking-[-0.42px]"
+            onClick={() => navigate("/page17")}
             color="amber_A100"
             size="lg"
             variant="fill"
@@ -49,7 +54,7 @@ const Page20 = () => {
             비밀번호 재설정
           </Button>
         </div>
-        <Footer1 className="bg-blue_gray-50 flex gap-2.5 items-center justify-center md:px-5 w-full" />
+        <Footer1 className="bg-blue_gray-50_02 flex gap-2.5 items-center justify-center md:px-5 w-full" />
       </div>
     </>
   );

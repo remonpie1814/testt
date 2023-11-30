@@ -14,9 +14,9 @@ const Columnconfusedone = (props) => {
           />
           <Text
             className="text-base text-black-900 tracking-[-0.30px] w-[93px]"
-            size="txtInterMedium16"
+            size="txtInterMedium16Black900_1"
           >
-            {props?.twohundredthirty}
+            {props?.twohundredtwelve}
           </Text>
         </div>
       </div>
@@ -24,6 +24,6 @@ const Columnconfusedone = (props) => {
   );
 };
 
-Columnconfusedone.defaultProps = { twohundredthirty: "제재 내역 보기" };
+Columnconfusedone.defaultProps = { twohundredtwelve: "제재 내역 보기" };
 
 export default Columnconfusedone;

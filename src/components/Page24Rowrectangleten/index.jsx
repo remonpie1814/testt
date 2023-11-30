@@ -9,7 +9,7 @@ const Page24Rowrectangleten = (props) => {
         <div className="h-[180px] relative rounded-[30px] w-[28%] sm:w-full">
           <Img
             className="absolute h-[180px] inset-[0] justify-center m-auto object-cover rounded-[30px] w-full"
-            src="images/img_rectangle10_1.png"
+            src="images/img_rectangle10_2.png"
             alt="rectangleTen"
           />
           <Img

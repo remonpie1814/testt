@@ -9,19 +9,19 @@ const Page23Rowfivehundredtwo = (props) => {
         <div className="flex flex-col gap-2.5 h-[900px] md:h-auto items-center justify-start px-5 w-[540px] sm:w-full">
           <Img
             className="h-[90px] rounded-[5px] w-full"
-            src="images/img__white_a700.svg"
+            src="defaultNoData.png"
             alt="FiveHundredTwo"
           />
           <div className="bg-white-A700 flex sm:flex-col flex-row gap-3 items-center justify-between outline outline-[2px] outline-black-900 px-2.5 py-5 rounded-[5px] w-full">
             <Img
               className="flex-1 h-[95px] w-full"
-              src="images/img__gray_400.svg"
+              src="defaultNoData.png"
               alt="FiveHundredThree"
             />
             <div className="flex flex-col items-center justify-start">
               <Img
                 className="h-[102px] md:h-auto object-cover w-full"
-                src="images/img_image708.png"
+                src="defaultNoData.png"
                 alt="image708"
               />
             </div>

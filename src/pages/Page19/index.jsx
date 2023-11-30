@@ -13,7 +13,7 @@ const Page19 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="FourHundredThirtyTwo"
+                alt="FourHundredTwentyOne"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -102,12 +102,12 @@ const Page19 = () => {
             </div>
           </div>
           <div className="flex flex-col items-center justify-start md:px-10 px-40 sm:px-5 w-full">
-            <div className="bg-gray-100 flex flex-col items-center justify-start px-5 rounded-[10px] w-[47%] md:w-full">
+            <div className="bg-gray-100_01 flex flex-col items-center justify-start px-5 rounded-[10px] w-[47%] md:w-full">
               <CheckBox
                 className="font-medium text-base text-left tracking-[-0.30px]"
                 inputClassName="h-5 mr-[5px] outline outline-[2px] outline-gray-300 rounded-sm w-5"
-                name="FourHundredFortyOne"
-                id="FourHundredFortyOne"
+                name="FourHundredThirty"
+                id="FourHundredThirty"
                 label="개인정보 이용동의"
                 color="white_A700"
                 size="sm"
@@ -124,14 +124,14 @@ const Page19 = () => {
             회원가입
           </Button>
         </div>
-        <footer className="bg-blue_gray-50 flex items-center justify-center md:px-5 w-full">
-          <div className="bg-gray-100 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
+        <footer className="bg-blue_gray-50_02 flex items-center justify-center md:px-5 w-full">
+          <div className="bg-gray-100_01 flex flex-col items-center justify-center pb-[30px] sm:px-5 px-[30px] w-full">
             <div className="flex flex-col gap-[25px] items-center justify-start max-w-[1180px] w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-center max-w-[1180px] md:px-10 sm:px-5 px-[60px] py-[25px] w-full">
                 <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
                   <Text
                     className="text-base text-black-900 tracking-[-0.30px]"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Black900_1"
                   >
                     고객센터
                   </Text>
@@ -139,7 +139,7 @@ const Page19 = () => {
                 <div className="flex flex-col items-start justify-start p-[5px]">
                   <Text
                     className="md:ml-[0] ml-[5px] text-base text-black-900 text-center tracking-[-0.30px]"
-                    size="txtInterMedium16"
+                    size="txtInterMedium16Black900_1"
                   >
                     공지사항
                   </Text>
@@ -170,7 +170,7 @@ const Page19 = () => {
               <Img
                 className="h-[92px] w-full"
                 src="images/img__blue_gray_100.svg"
-                alt="FourHundredFortySeven"
+                alt="FourHundredThirtySix"
               />
             </div>
           </div>

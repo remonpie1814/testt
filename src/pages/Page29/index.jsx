@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Button, Img, List, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
-import Page29ColumnOne from "components/Page29ColumnOne";
+import Page29Column from "components/Page29Column";
+import Page29Columnspeakerfilledau from "components/Page29Columnspeakerfilledau";
 import Page29Columntwo from "components/Page29Columntwo";
 
 const Page29 = () => {
@@ -21,7 +21,7 @@ const Page29 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="TwentyFour"
+                alt="Five"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -43,9 +43,9 @@ const Page29 = () => {
             </div>
           </div>
         </div>
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
         <div className="flex flex-col gap-[22px] h-[1779px] md:h-auto items-center justify-start max-w-[1182px] mx-auto pb-5 pt-[30px] md:px-5 w-full">
-          <Page29ColumnOne className="flex flex-col items-center justify-start w-full" />
+          <Page29Columnspeakerfilledau className="flex flex-col items-center justify-start w-full" />
           <div className="flex md:flex-col flex-row gap-[45px] items-center justify-start w-full">
             <div className="bg-yellow-100 border border-amber-A100 border-solid flex flex-row gap-2.5 h-[60px] md:h-auto items-center justify-center py-2.5 rounded-[5px] w-[300px]">
               <Img
@@ -65,7 +65,7 @@ const Page29 = () => {
                 <Button
                   className="border border-gray-200 border-solid cursor-pointer flex-1 font-medium min-w-[213px] text-base text-center tracking-[-0.18px] w-full"
                   shape="round"
-                  color="gray_100_01"
+                  color="gray_100"
                   size="xl"
                   variant="fill"
                 >
@@ -74,7 +74,7 @@ const Page29 = () => {
                 <Button
                   className="border border-gray-200 border-solid cursor-pointer flex-1 font-medium min-w-[213px] text-base text-center tracking-[-0.18px] w-full"
                   shape="round"
-                  color="gray_100_01"
+                  color="gray_100"
                   size="xl"
                   variant="fill"
                 >
@@ -83,7 +83,7 @@ const Page29 = () => {
                 <Button
                   className="border border-gray-200 border-solid cursor-pointer flex-1 font-medium min-w-[213px] text-base text-center tracking-[-0.18px] w-full"
                   shape="round"
-                  color="gray_100_01"
+                  color="gray_100"
                   size="xl"
                   variant="fill"
                 >
@@ -95,7 +95,7 @@ const Page29 = () => {
           <div className="flex flex-col h-[211px] md:h-auto items-center justify-start w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.30px] w-full"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16"
             >
               이 동화를 녹음한 사람
             </Text>
@@ -112,7 +112,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     초록이
                   </Text>
@@ -125,7 +125,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -136,7 +136,7 @@ const Page29 = () => {
                   <Img
                     className="h-[114px] m-auto object-cover w-[113px]"
                     src="images/img_6.png"
-                    alt="Six"
+                    alt="Six_Two"
                   />
                   <div className="absolute h-[113px] inset-[0] justify-center m-auto w-28">
                     <div className="h-[113px] m-auto rounded-md w-28"></div>
@@ -145,7 +145,7 @@ const Page29 = () => {
                 </div>
                 <Text
                   className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   멈뭄미
                 </Text>
@@ -162,7 +162,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -175,7 +175,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -188,7 +188,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -201,7 +201,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -214,7 +214,7 @@ const Page29 = () => {
                   />
                   <Text
                     className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     스파르탄
                   </Text>
@@ -229,11 +229,11 @@ const Page29 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__49x40.png"
-                    alt="FortyTwo"
+                    alt="TwentyFour"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -251,11 +251,11 @@ const Page29 = () => {
                 <Img
                   className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                   src="images/img__3.png"
-                  alt="FortyThree"
+                  alt="TwentyFive"
                 />
                 <Text
                   className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   <span className="text-gray-900 font-inter font-medium">
                     <>
@@ -276,11 +276,11 @@ const Page29 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__4.png"
-                    alt="FortyFour"
+                    alt="TwentySix"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -297,11 +297,11 @@ const Page29 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__5.png"
-                    alt="FortyFive"
+                    alt="TwentySeven"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -317,7 +317,7 @@ const Page29 = () => {
               </List>
             </div>
           </div>
-          <div className="bg-gray-100 flex flex-col gap-5 h-[536px] md:h-auto items-center justify-start sm:px-5 px-[35px] py-5 w-full">
+          <div className="bg-gray-100_01 flex flex-col gap-5 h-[536px] md:h-auto items-center justify-start sm:px-5 px-[35px] py-5 w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.30px] w-full"
               size="txtInterBold16"

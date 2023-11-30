@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Button, Img, Line, List, Text } from "components";
-import FrameTwoColumn from "components/FrameTwoColumn";
+import { Button, Img, List, Text } from "components";
+import Page29Column from "components/Page29Column";
+import Page29Columnspeakerfilledau from "components/Page29Columnspeakerfilledau";
 import Page29Columntwo from "components/Page29Columntwo";
-import Page30Columnseventyeight from "components/Page30Columnseventyeight";
-import Page30Header from "components/Page30Header";
+import Page30Columnfiftynine from "components/Page30Columnfiftynine";
 
 const Page30 = () => {
-  const page30ColumnseventyeightPropList = [
+  const page30ColumnfiftyninePropList = [
     {},
     {},
     {},
@@ -30,7 +30,7 @@ const Page30 = () => {
               <Img
                 className="h-[51px] md:h-auto object-cover w-[170px]"
                 src="images/img_.png"
-                alt="Sixty"
+                alt="FortyTwo"
               />
             </div>
             <div className="flex flex-row gap-2.5 items-start justify-start py-2.5 w-auto">
@@ -52,388 +52,41 @@ const Page30 = () => {
             </div>
           </div>
         </div>
-        <FrameTwoColumn className="flex flex-col items-center justify-start w-full" />
-        <div className="flex flex-col gap-[22px] h-[1650px] md:h-auto items-center justify-start max-w-[1180px] mx-auto md:px-5 py-5 w-full">
-          <div className="flex flex-col h-[280px] md:h-auto items-center justify-start max-w-[1180px] w-full">
-            <div className="flex md:flex-col flex-row md:gap-[57px] items-start justify-between pt-8 w-full">
-              <div className="h-[248px] relative w-[17%] md:w-full">
-                <div className="absolute h-[248px] inset-[0] justify-center m-auto w-full">
-                  <div className="h-[248px] m-auto w-full">
-                    <div className="h-[248px] m-auto w-full">
-                      <div className="h-[248px] m-auto w-full">
-                        <div className="h-[248px] m-auto w-full">
-                          <div className="h-[248px] m-auto w-full">
-                            <div className="h-[248px] m-auto w-full">
-                              <div className="h-[248px] m-auto w-full">
-                                <div className="h-[248px] m-auto w-full">
-                                  <div className="h-[248px] m-auto w-full">
-                                    <div className="h-[248px] m-auto rounded-[30px] w-full"></div>
-                                    <Img
-                                      className="absolute h-3.5 left-[35%] rounded-[50%] top-[40%] w-[18%]"
-                                      src="images/img_reply.svg"
-                                      alt="vector1295"
-                                    />
-                                  </div>
-                                  <div className="absolute h-7 inset-y-[0] left-[31%] my-auto w-1/4">
-                                    <div className="h-7 m-auto w-full">
-                                      <Img
-                                        className="h-7 m-auto rounded-[50%] w-full"
-                                        src="images/img_arrowdown.svg"
-                                        alt="arrowdown"
-                                      />
-                                      <div className="absolute flex flex-col gap-4 inset-x-[0] items-end justify-start mx-auto top-[0] w-[37%]">
-                                        <div className="flex flex-row items-start justify-evenly w-[71%] md:w-full">
-                                          <Img
-                                            className="h-0.5 rounded-[1px] w-px"
-                                            src="images/img_vector1301.svg"
-                                            alt="vector1301"
-                                          />
-                                          <Img
-                                            className="h-0.5 rounded-[1px] w-px"
-                                            src="images/img_vector1302.svg"
-                                            alt="vector1302"
-                                          />
-                                          <Img
-                                            className="h-px rounded-[50%] w-1/4"
-                                            src="images/img_vector1303.svg"
-                                            alt="vector1303"
-                                          />
-                                        </div>
-                                        <div className="flex flex-row items-start justify-evenly mr-[3px] w-[83%] md:w-full">
-                                          <Img
-                                            className="h-px rounded-[50%] w-[43%]"
-                                            src="images/img_vector1302.svg"
-                                            alt="vector1304"
-                                          />
-                                          <Img
-                                            className="h-0.5 rounded-[50%] w-1/2"
-                                            src="images/img_vector1305.svg"
-                                            alt="vector1305"
-                                          />
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div className="absolute bottom-[7%] flex flex-col items-end justify-start right-[7%] w-[57%]">
-                                      <Img
-                                        className="h-px rounded-[50%] w-[16%]"
-                                        src="images/img_vector1303.svg"
-                                        alt="vector1343"
-                                      />
-                                      <div className="flex flex-row gap-[11px] items-start justify-between w-full">
-                                        <Img
-                                          className="h-1 rounded-[50%]"
-                                          src="images/img_vector1306.svg"
-                                          alt="vector1306"
-                                        />
-                                        <Img
-                                          className="h-[3px] rounded-[50%]"
-                                          src="images/img_vector1302.svg"
-                                          alt="vector1344"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <Img
-                                  className="absolute bottom-[40%] h-[26px] right-[15%] rounded-[13px]"
-                                  src="images/img_car.svg"
-                                  alt="refresh"
-                                />
-                              </div>
-                              <div className="absolute flex flex-row gap-[18px] items-start justify-between right-[8%] top-[33%] w-[34%]">
-                                <Img
-                                  className="h-4 rounded-[50%]"
-                                  src="images/img_signal.svg"
-                                  alt="settings"
-                                />
-                                <Img
-                                  className="h-9 mt-1 rounded-[13px]"
-                                  src="images/img_checkmark.svg"
-                                  alt="user"
-                                />
-                              </div>
-                            </div>
-                            <div className="absolute h-[11px] right-[35%] top-[39%] w-[10%]">
-                              <Img
-                                className="h-[11px] m-auto rounded-[50%] w-full"
-                                src="images/img_call_gray_900.svg"
-                                alt="call"
-                              />
-                              <Img
-                                className="absolute h-px right-[32%] rounded-[50%] top-[27%] w-px"
-                                src="images/img_vector1303.svg"
-                                alt="vector1310"
-                              />
-                            </div>
-                          </div>
-                          <Img
-                            className="absolute h-2 right-[44%] rounded-[50%] top-[37%] w-[6%]"
-                            src="images/img_call.svg"
-                            alt="user_One"
-                          />
-                          <Img
-                            className="absolute h-[13px] right-[31%] rounded-[50%] top-[42%] w-[12%]"
-                            src="images/img_fire.svg"
-                            alt="television"
-                          />
-                          <div className="absolute bottom-[29%] h-[13px] left-[9%] w-[11%]">
-                            <Img
-                              className="h-[13px] m-auto rounded-[50%] w-full"
-                              src="images/img_thumbsup_gray_900.svg"
-                              alt="thumbsup"
-                            />
-                            <Img
-                              className="absolute h-px inset-y-[0] left-[10%] my-auto rounded-[50%] w-[58%]"
-                              src="images/img_vector1314.svg"
-                              alt="vector1314"
-                            />
-                          </div>
-                        </div>
-                        <div className="absolute bottom-1/4 flex flex-col justify-start left-[8%] w-[35%]">
-                          <div className="flex flex-row items-end justify-end ml-2.5 md:ml-[0] w-[85%] md:w-full">
-                            <Img
-                              className="h-[7px] mt-[18px] rounded-[1px]"
-                              src="images/img_vector1315.svg"
-                              alt="vector1315"
-                            />
-                            <Img
-                              className="h-[9px] ml-[17px] my-[7px] rounded-[3px]"
-                              src="images/img_signal_gray_900.svg"
-                              alt="settings_One"
-                            />
-                            <Img
-                              className="h-[13px] mb-1 ml-0.5 mt-[7px] rounded-sm"
-                              src="images/img_vector1318.svg"
-                              alt="vector1318"
-                            />
-                            <Img
-                              className="h-[25px] ml-1.5 rounded-[3px]"
-                              src="images/img_checkmark_gray_900.svg"
-                              alt="settings_Two"
-                            />
-                            <Img
-                              className="h-[11px] my-[7px] rounded"
-                              src="images/img_vector1320.svg"
-                              alt="contrast"
-                            />
-                          </div>
-                          <Img
-                            className="h-[3px] rounded-[50%] w-[28%]"
-                            src="images/img_vector1303.svg"
-                            alt="vector1316"
-                          />
-                        </div>
-                      </div>
-                      <Img
-                        className="absolute bottom-[27%] h-2 left-[37%] rounded-sm"
-                        src="images/img_vector1321.svg"
-                        alt="vector1321"
-                      />
-                    </div>
-                    <div className="absolute bottom-1/4 flex flex-row items-end justify-center left-[35%] w-[14%]">
-                      <Img
-                        className="h-px mb-1 mt-6 rounded-[50%] w-3/5"
-                        src="images/img_vector1322.svg"
-                        alt="vector1322"
-                      />
-                      <Img
-                        className="h-[29px] rounded"
-                        src="images/img_car_gray_900.svg"
-                        alt="settings_Three"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute bottom-[24%] flex flex-col items-start justify-start right-[36%] w-[17%]">
-                    <div className="flex flex-col gap-[5px] items-center justify-start md:ml-[0] ml-[17px] w-[44%] md:w-full">
-                      <Img
-                        className="h-px rounded-[50%] w-[22%]"
-                        src="images/img_vector1302.svg"
-                        alt="vector1325"
-                      />
-                      <Img
-                        className="h-px rounded-[50%] w-full"
-                        src="images/img_vector1322.svg"
-                        alt="vector1326"
-                      />
-                    </div>
-                    <div className="flex flex-row gap-[15px] items-start justify-between mt-1 w-[91%] md:w-full">
-                      <Img
-                        className="h-px rounded-[50%]"
-                        src="images/img_vector1315.svg"
-                        alt="vector1324"
-                      />
-                      <Img
-                        className="h-[7px] rounded-[50%]"
-                        src="images/img_play.svg"
-                        alt="contrast_One"
-                      />
-                    </div>
-                    <Img
-                      className="h-[5px] md:ml-[0] ml-[19px] rounded-[1px]"
-                      src="images/img_vector1315.svg"
-                      alt="vector1328"
-                    />
-                  </div>
-                </div>
-                <div className="absolute flex flex-col md:gap-10 gap-[120px] justify-start right-[7%] top-[5%] w-[41%]">
-                  <Img
-                    className="h-[26px] md:h-auto md:ml-[0] ml-[51px] rounded-[50%] w-[26px]"
-                    src="images/img_speakerfilledaudiotool.png"
-                    alt="speakerfilledau"
-                  />
-                  <div className="flex flex-row items-start justify-start mr-[5px] w-[93%] md:w-full">
-                    <div className="flex flex-col justify-start w-[74%]">
-                      <div className="flex flex-row items-start justify-end md:ml-[0] ml-[22px] w-[56%] md:w-full">
-                        <div className="flex flex-col items-end justify-start mt-[7px] w-[59%]">
-                          <Img
-                            className="h-2 rounded-[50%] w-2"
-                            src="images/img_question.svg"
-                            alt="settings_Four"
-                          />
-                          <div className="flex flex-col items-start justify-start w-full">
-                            <Img
-                              className="h-px rounded-[50%] w-[71%]"
-                              src="images/img_vector1331.svg"
-                              alt="vector1331"
-                            />
-                            <Img
-                              className="h-[3px] md:ml-[0] ml-[3px] rounded-[50%] w-[83%]"
-                              src="images/img_vector1332.svg"
-                              alt="vector1332"
-                            />
-                          </div>
-                        </div>
-                        <Line className="bg-gray-900 h-6 rounded-sm w-[5px]" />
-                        <Img
-                          className="h-0.5 mt-3 rounded-[50%] w-[3px]"
-                          src="images/img_vector1334.svg"
-                          alt="vector1334"
-                        />
-                      </div>
-                      <div className="flex flex-row gap-2.5 items-start justify-start mr-[7px] mt-0.5 w-[85%] md:w-full">
-                        <Img
-                          className="h-0.5 rounded-[1px]"
-                          src="images/img_vector1329.svg"
-                          alt="vector1329"
-                        />
-                        <Img
-                          className="h-1.5 rounded-[50%] w-[7px]"
-                          src="images/img_eye.svg"
-                          alt="eye"
-                        />
-                      </div>
-                    </div>
-                    <Img
-                      className="h-1.5 ml-1 mt-[11px] rounded-[50%] w-1.5"
-                      src="images/img_vector1336.svg"
-                      alt="user_Two"
-                    />
-                    <Line className="bg-gray-900 h-7 ml-1 rounded-[1px] w-[3px]" />
-                  </div>
-                </div>
-                <Line className="absolute bg-gray-900 h-[29px] left-[16%] rounded-[1px] top-[37%] w-[3px]" />
-                <div
-                  className="absolute bg-cover bg-no-repeat flex flex-col h-16 items-start justify-start left-[12%] p-[7px] rounded-[24px] top-1/4 w-[26%]"
-                  style={{ backgroundImage: "url('images/img_group1735.svg')" }}
-                >
-                  <Img
-                    className="h-[25px] my-[11px] rounded-[50%] w-[78%]"
-                    src="images/img_home.svg"
-                    alt="refresh_One"
-                  />
-                </div>
-                <div className="absolute bottom-[45%] flex flex-col items-end justify-start left-[28%] w-[8%]">
-                  <Img
-                    className="h-0.5 rounded-[50%] w-full"
-                    src="images/img_vector1341.svg"
-                    alt="vector1341"
-                  />
-                  <Img
-                    className="h-[3px] rounded-[50%] w-1/2"
-                    src="images/img_vector1341.svg"
-                    alt="vector1342"
-                  />
-                </div>
-              </div>
-              <div className="flex md:flex-1 flex-col gap-1 items-start justify-start w-auto md:w-full">
-                <div className="flex md:flex-col flex-row gap-1 items-start justify-start w-auto md:w-full">
-                  <Text
-                    className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.79px] w-auto"
-                    size="txtInterMedium36"
-                  >
-                    토끼와 호랑이
-                  </Text>
-                  <div className="flex flex-col h-[54px] md:h-auto items-center justify-start max-w-[644px] md:pl-10 sm:pl-5 pl-[620px] pt-3 w-full">
-                    <Text
-                      className="rotate-[-90deg] text-2xl md:text-[22px] text-center text-gray-900 sm:text-xl tracking-[-0.46px] w-1.5"
-                      size="txtInterMedium24Gray900"
-                    >
-                      ···
-                    </Text>
-                  </div>
-                </div>
-                <Text
-                  className="text-base text-gray-400 tracking-[-0.18px] w-[131px]"
-                  size="txtInterMedium16Gray400"
-                >
-                  작성일 2023.10.06
-                </Text>
-                <div className="flex flex-row gap-[11px] items-center justify-start w-auto">
-                  <Img
-                    className="h-[31px] md:h-auto object-cover w-[33px]"
-                    src="images/img_image804.png"
-                    alt="image804"
-                  />
-                  <a
-                    href="https://naver.com"
-                    className="font-medium text-base text-gray-600 tracking-[-0.18px] underline w-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Text>
-                      <>가나다라마바사아자차카 &gt;</>
-                    </Text>
-                  </a>
-                </div>
-                <Page30Header className="flex flex-row gap-[27px] items-center justify-start py-2.5 w-auto" />
-                <Text
-                  className="leading-[150.00%] max-w-[932px] md:max-w-full text-base text-gray-600 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray600"
-                >
-                  책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명책설명
-                </Text>
-              </div>
-            </div>
-          </div>
-          <div className="flex sm:flex-col flex-row md:gap-10 gap-[798px] items-center justify-between w-full">
-            <div className="bg-amber-A100 flex flex-1 flex-row gap-2.5 h-12 md:h-auto items-center justify-center py-2.5 rounded-[5px] w-full">
+        <Page29Column className="flex flex-col items-center justify-start w-full" />
+        <div className="flex flex-col gap-[22px] h-[1705px] md:h-auto items-center justify-start max-w-[1182px] mx-auto md:px-5 py-5 w-full">
+          <Page29Columnspeakerfilledau className="flex flex-col items-center justify-start w-full" />
+          <div className="flex md:flex-col flex-row gap-[45px] items-center justify-start w-full">
+            <div className="bg-yellow-100 border border-amber-A100 border-solid flex flex-row gap-2.5 h-[60px] md:h-auto items-center justify-center py-2.5 rounded-[5px] w-[300px]">
               <Img
-                className="h-[25px] md:h-auto object-cover w-[25px]"
-                src="images/img_play11.png"
-                alt="playEleven"
+                className="h-8 md:h-auto object-cover w-8"
+                src="images/img_videoplay31.png"
+                alt="videoplayThirtyOne"
               />
               <Text
-                className="text-base text-black-900 text-center tracking-[-0.18px] w-[46px]"
-                size="txtInterMedium16"
+                className="text-base text-center text-gray-900_01 tracking-[-0.18px] w-auto"
+                size="txtInterSemiBold16"
               >
                 책 읽기
               </Text>
             </div>
-            <Button
-              className="cursor-pointer flex-1 font-medium h-12 text-base text-center tracking-[-0.18px] w-full"
-              shape="round"
-              color="gray_200_01"
-              size="md"
-              variant="fill"
-            >
-              내 목소리로 녹음하기
-            </Button>
+            <div className="bg-white-A700 flex flex-1 flex-col h-[60px] md:h-auto items-center justify-start w-full">
+              <div className="flex flex-col h-[60px] md:h-auto items-center justify-center w-[300px]">
+                <Button
+                  className="border border-gray-200 border-solid cursor-pointer font-medium min-w-[300px] text-base text-center tracking-[-0.18px]"
+                  shape="round"
+                  color="gray_100"
+                  size="xl"
+                  variant="fill"
+                >
+                  내 목소리로 녹음하기
+                </Button>
+              </div>
+            </div>
           </div>
-          <div className="bg-white-A700 h-12 w-full"></div>
           <div className="flex flex-col h-[211px] md:h-auto items-center justify-start w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.30px] w-full"
-              size="txtInterMedium16Gray900"
+              size="txtInterMedium16"
             >
               이 동화를 녹음한 사람
             </Text>
@@ -442,20 +95,20 @@ const Page30 = () => {
                 className="md:flex-1 sm:flex-col flex-row gap-8 grid sm:grid-cols-1 md:grid-cols-3 grid-cols-6 w-[72%] md:w-full"
                 orientation="horizontal"
               >
-                {page30ColumnseventyeightPropList.map((props, index) => (
-                  <React.Fragment key={`Page30Columnseventyeight${index}`}>
-                    <Page30Columnseventyeight
+                {page30ColumnfiftyninePropList.map((props, index) => (
+                  <React.Fragment key={`Page30Columnfiftynine${index}`}>
+                    <Page30Columnfiftynine
                       className="flex flex-col gap-3 items-center justify-start w-auto"
                       {...props}
                     />
                   </React.Fragment>
                 ))}
               </List>
-              <Page30Columnseventyeight
+              <Page30Columnfiftynine
                 className="flex flex-col gap-3 items-center justify-start w-auto"
                 backgroundimage="images/img__gray_900.svg"
               />
-              <Page30Columnseventyeight
+              <Page30Columnfiftynine
                 className="flex flex-col gap-3 items-center justify-start w-auto"
                 userimage="images/img_image607_114x114.png"
               />
@@ -468,11 +121,11 @@ const Page30 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__49x40.png"
-                    alt="EightyOne"
+                    alt="SixtyTwo"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -490,11 +143,11 @@ const Page30 = () => {
                 <Img
                   className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                   src="images/img__3.png"
-                  alt="EightyTwo"
+                  alt="SixtyThree"
                 />
                 <Text
                   className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                  size="txtInterMedium16Gray900_1"
+                  size="txtInterMedium16Gray900"
                 >
                   <span className="text-gray-900 font-inter font-medium">
                     <>
@@ -515,11 +168,11 @@ const Page30 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__4.png"
-                    alt="EightyThree"
+                    alt="SixtyFour"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -536,11 +189,11 @@ const Page30 = () => {
                   <Img
                     className="h-[49px] md:h-auto object-cover w-10 sm:w-full"
                     src="images/img__5.png"
-                    alt="EightyFour"
+                    alt="SixtyFive"
                   />
                   <Text
                     className="leading-[150.00%] text-base text-center text-gray-900 tracking-[-0.18px]"
-                    size="txtInterMedium16Gray900_1"
+                    size="txtInterMedium16Gray900"
                   >
                     <span className="text-gray-900 font-inter font-medium">
                       <>
@@ -556,7 +209,7 @@ const Page30 = () => {
               </List>
             </div>
           </div>
-          <div className="bg-gray-100 flex flex-col gap-5 h-[536px] md:h-auto items-center justify-start sm:px-5 px-[35px] py-5 w-full">
+          <div className="bg-gray-100_01 flex flex-col gap-5 h-[536px] md:h-auto items-center justify-start sm:px-5 px-[35px] py-5 w-full">
             <Text
               className="text-base text-gray-900 tracking-[-0.30px] w-full"
               size="txtInterBold16"

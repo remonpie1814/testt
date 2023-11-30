@@ -12,7 +12,7 @@ const Footer1 = (props) => {
               <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
                 <Text
                   className="text-base text-black-900 tracking-[-0.30px]"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Black900_1"
                 >
                   고객센터
                 </Text>
@@ -20,7 +20,7 @@ const Footer1 = (props) => {
               <div className="flex flex-col items-start justify-start p-[5px]">
                 <Text
                   className="md:ml-[0] ml-[5px] text-base text-black-900 text-center tracking-[-0.30px]"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Black900_1"
                 >
                   공지사항
                 </Text>
@@ -29,14 +29,14 @@ const Footer1 = (props) => {
             <div className="flex flex-col gap-2.5 items-start justify-center md:px-10 sm:px-5 px-[60px] py-2.5 w-full">
               <Text
                 className="text-base text-black-900 tracking-[-0.30px] w-auto"
-                size="txtInterMedium16"
+                size="txtInterMedium16Black900_1"
               >
                 사업자 정보
               </Text>
               <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
                 <Text
                   className="text-base text-black-900 tracking-[-0.30px] w-auto"
-                  size="txtInterMedium16"
+                  size="txtInterMedium16Black900_1"
                 >
                   이용약관
                 </Text>

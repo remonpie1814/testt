@@ -9,27 +9,27 @@ const Page28Columnlanguage = (props) => {
         <div className="flex flex-row sm:gap-10 gap-[130px] items-start justify-start sm:px-5 px-[30px] w-auto sm:w-full">
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
             {props?.language}
           </Text>
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
-            {props?.popular}
+            {props?.onehundredsixteen}
           </Text>
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
-            {props?.newrelease}
+            {props?.onehundredseventeen}
           </Text>
           <Text
             className="text-base text-center text-gray-900 tracking-[-0.30px] w-auto"
-            size="txtInterMedium16Gray900"
+            size="txtInterMedium16"
           >
-            {props?.follow}
+            {props?.onehundredeighteen}
           </Text>
         </div>
       </div>
@@ -39,9 +39,9 @@ const Page28Columnlanguage = (props) => {
 
 Page28Columnlanguage.defaultProps = {
   language: "전체 ",
-  popular: "인기",
-  newrelease: "신작",
-  follow: "팔로우",
+  onehundredsixteen: "인기",
+  onehundredseventeen: "신작",
+  onehundredeighteen: "팔로우",
 };
 
 export default Page28Columnlanguage;
