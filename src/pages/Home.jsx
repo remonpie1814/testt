@@ -107,10 +107,10 @@ const Home = () => {
           <Link to="/page32">Page32</Link>
         </li>
         <li>
-          <Link to="/page34">Page34</Link>
+          <Link to="/page35">Page35</Link>
         </li>
         <li>
-          <Link to="/page35">Page35</Link>
+          <Link to="/page36">Page36</Link>
         </li>
       </ul>
     </div>

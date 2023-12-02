@@ -134,7 +134,7 @@ const Columnfourhundredninetytwo = (props) => {
             size="3xl"
             variant="fill"
           >
-            {props?.prop}
+            {props?.logoutbutton}
           </Button>
         </div>
       </div>
@@ -153,7 +153,7 @@ Columnfourhundredninetytwo.defaultProps = {
   fourhundredninetyeight: "공지사항",
   fourhundredninetynine: "고객센터",
   fivehundred: "계정정보",
-  prop: "로그아웃",
+  logoutbutton: "로그아웃",
 };
 
 export default Columnfourhundredninetytwo;

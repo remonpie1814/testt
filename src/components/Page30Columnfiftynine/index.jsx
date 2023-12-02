@@ -12,11 +12,11 @@ const Page30Columnfiftynine = (props) => {
             alt="image607"
             src={props?.userimage}
           />
-          {!!props?.backgroundimage ? (
+          {!!props?.userimagegray ? (
             <Img
               className="absolute h-[114px] inset-[0] justify-center m-auto w-[114px]"
               alt="FiftyNine"
-              src={props?.backgroundimage}
+              src={props?.userimagegray}
             />
           ) : null}
         </div>
@@ -24,7 +24,7 @@ const Page30Columnfiftynine = (props) => {
           className="text-base text-center text-gray-900 tracking-[-0.18px] w-auto"
           size="txtInterMedium16Gray900"
         >
-          {props?.username}
+          {props?.usertext}
         </Text>
       </div>
     </>
@@ -33,7 +33,7 @@ const Page30Columnfiftynine = (props) => {
 
 Page30Columnfiftynine.defaultProps = {
   userimage: "images/img_image804.png",
-  username: "초록이",
+  usertext: "초록이",
 };
 
 export default Page30Columnfiftynine;

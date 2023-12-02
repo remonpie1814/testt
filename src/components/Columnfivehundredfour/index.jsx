@@ -2,7 +2,7 @@ import React from "react";
 
 import { Img, Text } from "components";
 
-const Columnfivehundredthree = (props) => {
+const Columnfivehundredfour = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -11,7 +11,7 @@ const Columnfivehundredthree = (props) => {
             className="mb-0.5 text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px]"
             size="txtInterMedium22Gray900_1"
           >
-            {props?.five}
+            {props?.recordingtime}
           </Text>
         </div>
         <div className="flex md:flex-col flex-row md:gap-10 gap-[100px] h-full items-center justify-center py-[7px] w-full">
@@ -26,7 +26,7 @@ const Columnfivehundredthree = (props) => {
                 className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-auto"
                 size="txtInterMedium22Gray900_1"
               >
-                {props?.buttontext}
+                {props?.effectsound}
               </Text>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Columnfivehundredthree = (props) => {
                   className="text-base text-center text-gray-900 w-auto"
                   size="txtInterMedium16"
                 >
-                  {props?.fivehundredfour}
+                  {props?.fivehundredfive}
                 </Text>
               </div>
               <div className="flex flex-col items-center justify-start">
@@ -57,7 +57,7 @@ const Columnfivehundredthree = (props) => {
                   className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px]"
                   size="txtInterBold22"
                 >
-                  {props?.usercount}
+                  {props?.recordingprogress}
                 </Text>
               </div>
               <div className="flex flex-col items-center justify-center w-auto">
@@ -70,7 +70,7 @@ const Columnfivehundredthree = (props) => {
                   className="text-base text-center text-gray-900 w-auto"
                   size="txtInterMedium16"
                 >
-                  {props?.fivehundredfive}
+                  {props?.fivehundredsix}
                 </Text>
               </div>
             </div>
@@ -81,12 +81,12 @@ const Columnfivehundredthree = (props) => {
   );
 };
 
-Columnfivehundredthree.defaultProps = {
-  five: "음성 녹음은 한 쪽당 최대 5분까지 할 수 있습니다.",
-  buttontext: "효과음 넣기",
-  fivehundredfour: "이전",
-  usercount: "25 / 30",
-  fivehundredfive: "다음",
+Columnfivehundredfour.defaultProps = {
+  recordingtime: "음성 녹음은 한 쪽당 최대 5분까지 할 수 있습니다.",
+  effectsound: "효과음 넣기",
+  fivehundredfive: "이전",
+  recordingprogress: "25 / 30",
+  fivehundredsix: "다음",
 };
 
-export default Columnfivehundredthree;
+export default Columnfivehundredfour;
