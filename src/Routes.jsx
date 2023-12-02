@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
+const Page36 = React.lazy(() => import("pages/Page36"));
 const Page35 = React.lazy(() => import("pages/Page35"));
-const Page34 = React.lazy(() => import("pages/Page34"));
 const Page32 = React.lazy(() => import("pages/Page32"));
 const Page31 = React.lazy(() => import("pages/Page31"));
 const Page22 = React.lazy(() => import("pages/Page22"));
@@ -75,8 +75,8 @@ const ProjectRoutes = () => {
           <Route path="/page22" element={<Page22 />} />
           <Route path="/page31" element={<Page31 />} />
           <Route path="/page32" element={<Page32 />} />
-          <Route path="/page34" element={<Page34 />} />
           <Route path="/page35" element={<Page35 />} />
+          <Route path="/page36" element={<Page36 />} />
         </Routes>
       </Router>
     </React.Suspense>

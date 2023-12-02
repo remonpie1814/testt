@@ -24,7 +24,7 @@ const Rowrectangleten2 = (props) => {
               className="leading-[150.00%] md:max-w-full max-w-xs text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.24px]"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.username}
+              {props?.userdescription}
             </Text>
             <Img
               className="h-[18px] md:h-auto object-cover w-[18px]"
@@ -50,7 +50,7 @@ const Rowrectangleten2 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumber}
+              {props?.userlevel}
             </Text>
             <Img
               className="h-6 md:h-auto object-cover w-6"
@@ -61,7 +61,7 @@ const Rowrectangleten2 = (props) => {
               className="text-gray-900 text-sm tracking-[-0.15px] w-auto"
               size="txtInterMedium14Gray900_1"
             >
-              {props?.userlevelnumber2}
+              {props?.userlevelnumber}
             </Text>
           </div>
           <div className="flex flex-row items-start justify-between pl-0.5 w-full">
@@ -86,7 +86,7 @@ const Rowrectangleten2 = (props) => {
               size="sm"
               variant="fill"
             >
-              {props?.prop}
+              {props?.useraction}
             </Button>
           </div>
         </div>
@@ -96,18 +96,18 @@ const Rowrectangleten2 = (props) => {
 };
 
 Rowrectangleten2.defaultProps = {
-  username: (
+  userdescription: (
     <>
       신데렐라는 어려서 부모님을 발로 차<br />
       싸커 발로 차 싸커
     </>
   ),
   userpoints: "10p",
+  userlevel: "5",
   userlevelnumber: "5",
-  userlevelnumber2: "5",
   usernickname: "유미엄마",
   userjoindate: "2023. 10. 08",
-  prop: "삭제",
+  useraction: "삭제",
 };
 
 export default Rowrectangleten2;

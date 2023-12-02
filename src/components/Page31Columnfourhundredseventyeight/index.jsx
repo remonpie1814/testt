@@ -17,7 +17,7 @@ const Page31Columnfourhundredseventyeight = (props) => {
             size="txtInterMedium16Gray900"
             onClick={props?.onClick}
           >
-            {props?.pagedeletetext}
+            {props?.fourhundredseventyeight}
           </Text>
           <Img
             className="h-[33px] md:h-auto object-cover w-[30px]"
@@ -28,7 +28,7 @@ const Page31Columnfourhundredseventyeight = (props) => {
             className="text-base text-gray-900 w-auto"
             size="txtInterMedium16Gray900"
           >
-            {props?.pageaddtext}
+            {props?.fourhundredeighty}
           </Text>
         </div>
         <div className="flex flex-row gap-5 h-9 md:h-auto items-center justify-center px-5 w-full">
@@ -42,19 +42,19 @@ const Page31Columnfourhundredseventyeight = (props) => {
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.pagenumbertext}
+              {props?.one}
             </Text>
             <Text
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.pagenumberdividertext}
+              {props?.fourhundredeightyone}
             </Text>
             <Text
               className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px] w-auto"
               size="txtInterMedium22Gray900_1"
             >
-              {props?.pagenumbertotaltext}
+              {props?.eight}
             </Text>
           </div>
           <Img
@@ -69,11 +69,11 @@ const Page31Columnfourhundredseventyeight = (props) => {
 };
 
 Page31Columnfourhundredseventyeight.defaultProps = {
-  pagedeletetext: "페이지 삭제",
-  pageaddtext: "페이지 추가",
-  pagenumbertext: "1",
-  pagenumberdividertext: "/",
-  pagenumbertotaltext: "8",
+  fourhundredseventyeight: "페이지 삭제",
+  fourhundredeighty: "페이지 추가",
+  one: "1",
+  fourhundredeightyone: "/",
+  eight: "8",
 };
 
 export default Page31Columnfourhundredseventyeight;

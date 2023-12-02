@@ -36,10 +36,10 @@
 --orange_200:#e5cd86; 
 --gray_400_05:#c0c0c0; 
 --gray_400_06:#c0c0c0; 
---black_900_99:#00000099; 
 --indigo_200:#97b5cc; 
---indigo_A700:#0500ff; 
+--black_900_99:#00000099; 
 --gray_400_01:#bbb4bf; 
+--indigo_A700:#0500ff; 
 --gray_400_02:#c1c1c1; 
 --gray_100_01:#f5f5f5; 
 --gray_400_03:#b9b9b9; 
@@ -84,6 +84,6 @@
 --white_A700_44:#ffffff44; 
 --gray_600_7f:#7575757f; 
 --black_900_75:#00000075; 
---orange_50_01:#fff7e1; 
 --orange_50:#fff8d3; 
+--orange_50_01:#fff7e1; 
 }

@@ -8,9 +8,9 @@ import Rowrectangleten2 from "components/Rowrectangleten2";
 const Page14 = () => {
   const rowrectangleten2PropList = [
     {},
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
-    { username: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
+    { userdescription: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
+    { userdescription: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
+    { userdescription: "신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커" },
   ];
 
   return (
@@ -62,22 +62,22 @@ const Page14 = () => {
                     <Rowrectangleten2 className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full" />
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      userdescription="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
                   <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      userdescription="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                     <Rowrectangleten2
                       className="flex sm:flex-1 sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                      username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                      userdescription="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                     />
                   </div>
                   <Rowrectangleten2
                     className="flex sm:flex-col flex-row gap-5 items-center justify-start px-5 py-[15px] w-[550px] sm:w-full"
-                    username="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
+                    userdescription="신데렐라는 어려서 부모님을 발로 차 싸커 발로 차 싸커"
                   />
                 </div>
               </div>

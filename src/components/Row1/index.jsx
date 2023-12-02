@@ -10,7 +10,7 @@ const Row1 = (props) => {
           <Img
             className="h-[30px] w-[260px]"
             src="images/img__black_900_30x260.svg"
-            alt="FiveHundredOne"
+            alt="FiveHundredTwo"
           />
           <div className="flex flex-1 flex-col items-center justify-center w-full">
             <Text

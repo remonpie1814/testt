@@ -40,9 +40,7 @@ const PageDrawer = (props) => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center w-auto">
-                <Rowthree className="flex flex-row gap-[30px] items-start justify-center w-auto" />
-              </div>
+              <Rowthree className="flex flex-col items-center justify-center w-auto" />
             </div>
           </div>
         </div>

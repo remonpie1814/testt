@@ -13,7 +13,7 @@ const Page30 = () => {
     {},
     {},
     {},
-    { username: "멍멍" },
+    { usertext: "멍멍" },
   ];
   const page29ColumntwoPropList = [
     {},
@@ -106,7 +106,7 @@ const Page30 = () => {
               </List>
               <Page30Columnfiftynine
                 className="flex flex-col gap-3 items-center justify-start w-auto"
-                backgroundimage="images/img__gray_900.svg"
+                userimagegray="images/img__gray_900.svg"
               />
               <Page30Columnfiftynine
                 className="flex flex-col gap-3 items-center justify-start w-auto"

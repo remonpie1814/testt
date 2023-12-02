@@ -42,7 +42,7 @@ const Page25 = () => {
                     <Img
                       className="h-9"
                       src="images/img_group241.png"
-                      alt="group1863"
+                      alt="group1967"
                     />
                   </Button>
                 </div>

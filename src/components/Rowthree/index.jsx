@@ -24,7 +24,7 @@ const Rowthree = (props) => {
             className="text-[22px] text-center text-gray-900 sm:text-lg md:text-xl tracking-[-0.42px]"
             size="txtInterBold22"
           >
-            {props?.p2530}
+            {props?.pagenumber}
           </Text>
         </div>
         <div className="flex flex-col items-center justify-center w-auto">
@@ -45,6 +45,6 @@ const Rowthree = (props) => {
   );
 };
 
-Rowthree.defaultProps = { three: "이전", p2530: "25 / 30", four: "다음" };
+Rowthree.defaultProps = { three: "이전", pagenumber: "25 / 30", four: "다음" };
 
 export default Rowthree;
